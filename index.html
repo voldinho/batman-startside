@@ -15,7 +15,13 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
 .heroGrid{display:grid;grid-template-columns:2fr 1fr;gap:16px;margin-bottom:20px}.hero,.sidecard,.newsCard{background:rgba(20,25,33,.88);backdrop-filter:blur(10px);border:1px solid rgba(120,140,165,.28);border-radius:18px;overflow:hidden}.hero{min-height:450px;position:relative}.hero img{width:100%;height:450px;object-fit:cover;display:block}.heroOverlay{position:absolute;inset:auto 0 0 0;padding:80px 22px 22px;background:linear-gradient(transparent,rgba(0,0,0,.9))}.heroTitle{font-size:32px;font-weight:800;line-height:1.08}.source{font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;color:#d9e0ea;margin-bottom:7px}.sideStack{display:grid;grid-template-rows:1fr 1fr;gap:16px}.sidecard a,.hero a,.newsCard a{color:inherit;text-decoration:none}.sidecard img{width:100%;height:145px;object-fit:cover}.sidebody,.cardbody{padding:12px}.sidetitle{font-size:18px;font-weight:750;line-height:1.15}
 .sectionTitle{font-size:22px;margin:22px 0 12px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.newsCard img,.fallback{width:100%;height:170px;object-fit:cover}.fallback{display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#293242,#171c25);font-size:42px}.cardtitle{font-size:18px;font-weight:750;line-height:1.2}.cardtime{font-size:11px;color:var(--muted);margin-top:7px}.hidden{display:none!important}
 @media(max-width:900px){.heroGrid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.weather{align-items:flex-start;flex-direction:column}}@media(max-width:600px){.cards{grid-template-columns:1fr}.wrap{padding:14px}.heroTitle{font-size:25px}}
-</style></head>
+</style>
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="theme-color" content="#101218">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Batman Startside">
+</head>
 <body><main class="wrap">
 <header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
 <form class="search" action="https://www.google.com/search"><input name="q" autofocus placeholder="Søk med Google…"><button>Søk</button></form>
@@ -64,4 +70,10 @@ const withImages=items.filter(x=>x.image), top=(withImages.length>=3?withImages:
 load();
 function filter(cat){document.querySelectorAll('.newsCard').forEach(c=>c.classList.toggle('hidden',cat!=='all'&&c.dataset.cat!==cat))}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter(b.dataset.cat)});
-</script></body></html>
+</script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+}
+</script>
+</body></html>
