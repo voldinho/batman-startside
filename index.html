@@ -66,6 +66,7 @@ body::before{
 }
 </style>
 
+<!-- EV Startside v7.6: live-data cache fix -->
 </head>
 <body><main class="wrap">
 <header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
@@ -141,7 +142,7 @@ async function weather(){
 let items=[];
 async function loadNews(){
   try{
-    const r=await fetch('./news.json?t='+Date.now(),{cache:'no-store'});
+    const r=await fetch('./news.json?fresh='+Date.now(),{cache:'no-store',headers:{'Cache-Control':'no-cache'}});
     const d=await r.json();
     items=(d.items||[]).slice().sort((a,b)=>new Date(b.pubDate||0)-new Date(a.pubDate||0));
 
@@ -222,7 +223,7 @@ setInterval(refreshLiveData,10*60*1000);
 </script>
 <script>
 if ('serviceWorker' in navigator) {
-  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js'));
+  window.addEventListener('load', () => navigator.serviceWorker.register('./sw.js',{updateViaCache:'none'}).then(r=>r.update()));
 }
 </script>
 
