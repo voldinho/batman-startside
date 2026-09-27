@@ -2,7 +2,7 @@
 <html lang="no">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Batman Startside v4</title>
+<title>Batman v4</title>
 <style>
 :root{--bg:#101218;--card:#1b2029;--card2:#222936;--line:#303847;--text:#f6f7fb;--muted:#9ea8b7}
 *{box-sizing:border-box}body{margin:0;background:#0b0e13 url('batman-gotham-bg.png') center top/cover fixed no-repeat;color:var(--text);font-family:Segoe UI,Arial,sans-serif}
@@ -20,7 +20,7 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
 <meta name="theme-color" content="#101218">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Batman Startside">
+<meta name="apple-mobile-web-app-title" content="Batman">
 
 <style>
 .financeDash{background:rgba(20,25,33,.90);backdrop-filter:blur(10px);border:1px solid rgba(120,140,165,.28);border-radius:18px;padding:18px;margin:0 0 20px}
@@ -71,9 +71,47 @@ body::before{
 .siteAppIcon{width:48px;height:48px;object-fit:cover;border-radius:12px;vertical-align:middle;margin-right:10px;box-shadow:0 4px 18px rgba(0,0,0,.35)}
 @media(max-width:600px){.siteAppIcon{width:42px;height:42px;border-radius:10px}}
 </style>
+
+<style id="v8-dashboard">
+:root{--panel:rgba(12,18,26,.88);--line:#334151;--muted:#aeb9c8}
+body{min-height:100vh;background:transparent!important}
+body::before{
+ content:"";position:fixed;inset:-22px;z-index:-3;
+ background:url("ev-background.jpg") center/cover no-repeat;
+ filter:blur(7px);transform:scale(1.035);opacity:.62
+}
+body::after{
+ content:"";position:fixed;inset:0;z-index:-2;
+ background:linear-gradient(180deg,rgba(3,7,11,.50),rgba(3,7,11,.80) 55%,rgba(3,7,11,.92));
+ pointer-events:none
+}
+.siteAppIcon{width:64px!important;height:64px!important;border-radius:16px!important}
+header,.header{background:transparent!important}
+.search,.searchbar,.search-wrap{max-width:1000px;margin-left:auto;margin-right:auto}
+input[type="search"],input[type="text"]{background:rgba(9,15,22,.86)!important;color:#fff!important;border:1px solid #526477!important}
+.quicklinks,.links,.shortcuts{display:flex!important;flex-wrap:wrap!important;gap:10px!important}
+.quicklinks a,.links a,.shortcuts a{background:rgba(12,18,26,.86)!important;backdrop-filter:blur(12px)}
+/* Turn the main content area into the requested 3-column dashboard where supported. */
+main,.main{max-width:1800px!important;margin:0 auto!important}
+.dashboard-v8-note{display:none}
+.weather,.weatherCard,.weather-card,.crypto,.cryptoCard,.crypto-card,.news,.newsSection,.news-section{
+ background:var(--panel)!important;backdrop-filter:blur(16px);border-color:var(--line)!important
+}
+@media(min-width:1000px){
+ .dashboard,.content-grid,.widgets,.main-grid{
+   display:grid!important;grid-template-columns:minmax(0,1.45fr) minmax(300px,.8fr) minmax(280px,.65fr)!important;
+   gap:18px!important;align-items:start!important
+ }
+}
+@media(max-width:999px){
+ body::before{filter:blur(5px);opacity:.48}
+ .siteAppIcon{width:50px!important;height:50px!important}
+}
+</style>
+
 </head>
 <body><main class="wrap">
-<header><div><h1><img src="icon-192.png" alt="EV" class="siteAppIcon"> Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
+<header><div><h1><img src="icon-192.png" alt="EV" class="siteAppIcon"> Batman</h1><div class="muted">Din feed. Dine kilder. Gotham trenger deg.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
 <form class="search" action="https://www.google.com/search"><input name="q" autofocus placeholder="Søk med Google…"><button>Søk</button></form>
 <nav class="quick">
 <a href="https://chatgpt.com">ChatGPT</a><a href="https://www.finn.no">FINN</a><a href="https://www.youtube.com">YouTube</a><a href="https://makerworld.com">🧰 MakerWorld</a><a href="https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill">🎮 Elkjøp Outlet</a>
@@ -284,4 +322,20 @@ if ('serviceWorker' in navigator) {
 window.addEventListener('pageshow',()=>{ if(typeof weather==='function') weather(); });
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && typeof weather==='function') weather(); });
 </script>
+
+<script id="v8-clock">
+(function(){
+ function tick(){
+   const now=new Date();
+   const dateText=now.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long'});
+   const timeText=now.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});
+   const dateEl=document.querySelector('#date,.date,.todayDate,[data-date]');
+   const timeEl=document.querySelector('#clock,.clock,.time,[data-clock]');
+   if(dateEl) dateEl.textContent=dateText;
+   if(timeEl) timeEl.textContent=timeText;
+ }
+ tick(); setInterval(tick,1000);
+})();
+</script>
+
 </body></html>
