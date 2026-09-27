@@ -44,6 +44,9 @@ body::before,body::after{background-image:none!important}
 #newsUpdated{font-size:12px;color:var(--muted,#9da7b5)}
 .newsTime{opacity:.72;font-size:12px;margin-top:5px}
 </style>
+<style>
+.newsEmpty{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;color:#aeb8c7;background:#121922;border:1px solid #2b3746;border-radius:18px}
+</style>
 </head>
 <body><main class="wrap">
 <header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
@@ -66,9 +69,7 @@ body::before,body::after{background-image:none!important}
     <div class="quote"><span>◆ Ethereum</span><b id="ethPrice">—</b><small id="ethChange">—</small><div class="spark"><i id="ethBar"></i></div></div>
     <div class="quote"><span>◎ Solana</span><b id="solPrice">—</b><small id="solChange">—</small><div class="spark"><i id="solBar"></i></div></div>
   </div>
-  <div class="marketLinks">
-    <a href="https://www.vg.no/dinepenger" target="_blank" rel="noopener"><b>Dine Penger</b><span>Privatøkonomi, sparing og investering →</span></a>
-  </div>
+  
 </section>
 
 
@@ -113,11 +114,21 @@ async function loadNews(){
     const d=await r.json();
     items=(d.items||[]).slice().sort((a,b)=>new Date(b.pubDate||0)-new Date(a.pubDate||0));
 
-    // Add useful direct links after real articles.
+    const real=items.filter(x=>x.pubDate);
+    if(!real.length){
+      hero.innerHTML='<div class="newsEmpty">Ingen artikler i news.json ennå. GitHub Action må hente nyhetene først.</div>';
+      sideStack.innerHTML='';
+      cards.innerHTML='';
+      const stamp=document.getElementById('newsUpdated');
+      if(stamp) stamp.textContent='Venter på ferske nyheter fra GitHub Actions';
+      return;
+    }
+
+    // Add useful direct links only after real articles exist.
     sourcePages.forEach(s=>items.push({source:s[0],cat:s[1],link:s[2],title:s[3],image:'',pubDate:''}));
 
-    // Top 3: newest real articles, max 2 from same source, images preferred only as tie-breaker.
-    const real=items.filter(x=>x.pubDate);
+    // Top 3: newest real articles, max 2 from same source.
+
     const top=[], counts={};
     for(const x of real){
       if((counts[x.source]||0)>=2) continue;
@@ -197,7 +208,7 @@ if ('serviceWorker' in navigator) {
       if(typeof loadNews==='function') await loadNews();
       if(typeof weather==='function') await weather();
       if(typeof loadCrypto==='function') await loadCrypto();
-      stamp();
+
     } finally {
       if(b){b.disabled=false;b.textContent='↻ Oppdater nå';}
     }
@@ -205,7 +216,7 @@ if ('serviceWorker' in navigator) {
   document.addEventListener('DOMContentLoaded',()=>{
     const b=document.getElementById('newsRefreshBtn');
     if(b)b.addEventListener('click',hardRefreshNews);
-    setTimeout(stamp,1800);
+    
   });
   window.addEventListener('pageshow',()=>setTimeout(hardRefreshNews,250));
   document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible') hardRefreshNews();});
