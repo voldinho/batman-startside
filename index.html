@@ -232,10 +232,18 @@ async function weather(){
     let place=pos.name;
     if(!place){
       try{
-        const gr=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${pos.lat}&lon=${pos.lon}&zoom=10&accept-language=no`,{cache:'no-store'});
+        const gr=await fetch(`https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${pos.lat}&longitude=${pos.lon}&localityLanguage=no`,{cache:'no-store'});
         const gd=await gr.json();
-        place=gd.address?.city || gd.address?.town || gd.address?.village || gd.address?.municipality || 'Din posisjon';
-      }catch(e){place='Din posisjon';}
+        place=gd.city || gd.locality || gd.principalSubdivision || '';
+      }catch(e){}
+      if(!place){
+        try{
+          const gr2=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${pos.lat}&lon=${pos.lon}&zoom=10&accept-language=no`,{cache:'no-store'});
+          const gd2=await gr2.json();
+          place=gd2.address?.city || gd2.address?.town || gd2.address?.village || gd2.address?.municipality || '';
+        }catch(e){}
+      }
+      if(!place) place=pos.name || 'Sted utilgjengelig';
     }
     const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${pos.lat}&longitude=${pos.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=3`,{cache:'no-store'});
     const d=await r.json(), c=d.current, day=d.daily;
