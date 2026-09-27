@@ -52,7 +52,7 @@ body::before,body::after{background-image:none!important}
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="EV">
+<meta name="apple-mobile-web-app-title" content="Batman">
 <meta name="theme-color" content="#070b10">
 <style>
 html{background:#070b10}
@@ -67,9 +67,13 @@ body::before{
 </style>
 
 <!-- EV Startside v7.6: live-data cache fix -->
+<style>
+.siteAppIcon{width:48px;height:48px;object-fit:cover;border-radius:12px;vertical-align:middle;margin-right:10px;box-shadow:0 4px 18px rgba(0,0,0,.35)}
+@media(max-width:600px){.siteAppIcon{width:42px;height:42px;border-radius:10px}}
+</style>
 </head>
 <body><main class="wrap">
-<header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
+<header><div><h1><img src="icon-192.png" alt="EV" class="siteAppIcon"> Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
 <form class="search" action="https://www.google.com/search"><input name="q" autofocus placeholder="Søk med Google…"><button>Søk</button></form>
 <nav class="quick">
 <a href="https://chatgpt.com">ChatGPT</a><a href="https://www.finn.no">FINN</a><a href="https://www.youtube.com">YouTube</a><a href="https://makerworld.com">🧰 MakerWorld</a><a href="https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill">🎮 Elkjøp Outlet</a>
@@ -123,9 +127,9 @@ async function weather(){
     let place=pos.name;
     if(!place){
       try{
-        const gr=await fetch(`https://geocoding-api.open-meteo.com/v1/reverse?latitude=${pos.lat}&longitude=${pos.lon}&count=1&language=no&format=json`,{cache:'no-store'});
+        const gr=await fetch(`https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${pos.lat}&lon=${pos.lon}&zoom=10&accept-language=no`,{cache:'no-store'});
         const gd=await gr.json();
-        place=gd.results?.[0]?.name || gd.results?.[0]?.admin1 || 'Din posisjon';
+        place=gd.address?.city || gd.address?.town || gd.address?.village || gd.address?.municipality || 'Din posisjon';
       }catch(e){place='Din posisjon';}
     }
     const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${pos.lat}&longitude=${pos.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=3`,{cache:'no-store'});
@@ -139,6 +143,25 @@ async function weather(){
     document.querySelector('.place').textContent='📍 Vær utilgjengelig';
   }
 }
+
+const sourcePages=[
+ ['Sandnesposten','local','https://www.sandnesposten.no','Lokale nyheter fra Sandnes'],
+ ['Tidens Krav','local','https://www.tk.no','Siste nytt fra Tidens Krav'],
+ ['VG','news','https://www.vg.no','Siste nytt fra VG'],
+ ['Tek.no','games','https://www.tek.no','Teknologi fra Tek.no'],
+ ['Gamer.no','games','https://www.gamer.no','Spillnyheter fra Gamer.no'],
+ ['Dine Penger','money','https://www.vg.no/dinepenger','Personlig økonomi fra Dine Penger'],
+ ['Elkjøp Outlet','games','https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill','Gaming og spill på Elkjøp Outlet']
+];
+function safe(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+function visual(i,h='card'){
+ const image=i.image?`<img src="${i.image}" loading="lazy">`:`<div class="fallback">📰</div>`;
+ const when=i.pubDate?new Date(i.pubDate).toLocaleString('no-NO',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}):'';
+ if(h==='hero') return `<a href="${i.link}" target="_blank" rel="noopener">${image}<div class="heroOverlay"><div class="source">${safe(i.source)}${when?' · '+when:''}</div><div class="heroTitle">${safe(i.title)}</div></div></a>`;
+ if(h==='side') return `<a href="${i.link}" target="_blank" rel="noopener">${image}<div class="sidebody"><div class="source">${safe(i.source)}</div><div class="sidetitle">${safe(i.title)}</div><div class="cardtime">${when}</div></div></a>`;
+ return `<article class="newsCard" data-cat="${i.cat}"><a href="${i.link}" target="_blank" rel="noopener">${image}<div class="cardbody"><div class="source">${safe(i.source)}</div><div class="cardtitle">${safe(i.title)}</div><div class="cardtime">${when}</div></div></a></article>`;
+}
+
 let items=[];
 async function loadNews(){
   try{
@@ -181,10 +204,11 @@ async function loadNews(){
     }
   }catch(e){
     const stamp=document.getElementById('newsUpdated');
-    if(stamp) stamp.textContent='Kunne ikke hente news.json akkurat nå';
+    if(stamp) stamp.textContent='Kunne ikke vise nyheter akkurat nå'; console.error('Nyhetsfeil',e);
   }
 }
 loadNews();
+weather();
 
 function filter(cat){document.querySelectorAll('.newsCard').forEach(c=>c.classList.toggle('hidden',cat!=='all'&&c.dataset.cat!==cat))}
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter(b.dataset.cat);});

@@ -1,4 +1,4 @@
-const CACHE='ev-startside-v76-static';
+const CACHE='ev-startside-v78-static';
 const STATIC=[
   './manifest.webmanifest',
   './apple-touch-icon.png',
