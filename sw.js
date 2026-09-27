@@ -1,5 +1,5 @@
-const CACHE='batman-startside-v6';
-const CORE=['./','./index.html','./batman-gotham-bg.png','./manifest.webmanifest'];
+const CACHE='batman-startside-v62';
+const CORE=['./','./index.html','./manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE))));
 self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
 self.addEventListener('fetch',e=>{
