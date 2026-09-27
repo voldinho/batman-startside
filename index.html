@@ -192,7 +192,14 @@ html,body{background-color:#05090e!important;background-image:none!important}
 }
 </style>
 
-</head>
+<style id="v87">
+#pageBackground{position:fixed!important;inset:0!important;z-index:-10!important;background:url("./ev-background.jpg") center/cover no-repeat!important;filter:none!important;transform:none!important;opacity:1!important}
+#pageShade{display:none!important} body{background:transparent!important}
+.datetime{min-width:250px!important;flex:0 0 auto!important;overflow:visible!important}
+.datetime #date{font-size:14px!important;line-height:1.2!important;white-space:nowrap!important}
+.datetime #clock{font-size:25px!important;line-height:1.15!important;white-space:nowrap!important}
+@media(max-width:700px){.datetime{min-width:145px!important}.datetime #date{font-size:9px!important}.datetime #clock{font-size:18px!important}}
+</style></head>
 <body><div id="pageBackground"></div><div id="pageShade"></div>
 <main class="wrap v81">
   <header class="topbar">
@@ -248,7 +255,7 @@ html,body{background-color:#05090e!important;background-image:none!important}
   </section>
 </main>
 <script>
-function legacyTick(){const d=new Date();clock.textContent=d.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});date.textContent=d.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}legacyTick();setInterval(legacyTick,1000);
+
 const wt=c=>c===0?'Klart':c<=3?'Delvis skyet':c<=48?'Tåke':c<=57?'Yr':c<=67?'Regn':c<=77?'Snø':c<=82?'Regnbyger':c<=86?'Snøbyger':'Torden';
 const wi=c=>c===0?'☀️':c<=3?'⛅':c<=48?'🌫️':c<=67?'🌧️':c<=77?'🌨️':c<=82?'🌦️':c<=86?'🌨️':'⛈️';
 async function weather(){
@@ -432,20 +439,7 @@ window.addEventListener('pageshow',()=>{ if(typeof weather==='function') weather
 document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && typeof weather==='function') weather(); });
 </script>
 
-<script id="v8-clock">
-(function(){
- function tick(){
-   const now=new Date();
-   const dateText=now.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long'});
-   const timeText=now.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});
-   const dateEl=document.querySelector('#date,.date,.todayDate,[data-date]');
-   const timeEl=document.querySelector('#clock,.clock,.time,[data-clock]');
-   if(dateEl) dateEl.textContent=dateText;
-   if(timeEl) timeEl.textContent=timeText;
- }
- tick(); setInterval(tick,1000);
-})();
-</script>
+
 
 
 <script id="v82-more-news">
@@ -462,4 +456,22 @@ document.addEventListener('DOMContentLoaded',()=>{
 });
 </script>
 
+
+<script id="single-clock-v88">
+(function(){
+  const dateEl=document.getElementById('date');
+  const clockEl=document.getElementById('clock');
+  function renderClock(){
+    const now=new Date();
+    if(dateEl) dateEl.textContent=now.toLocaleDateString('no-NO',{
+      weekday:'long',day:'numeric',month:'long',year:'numeric'
+    });
+    if(clockEl) clockEl.textContent=now.toLocaleTimeString('no-NO',{
+      hour:'2-digit',minute:'2-digit'
+    });
+  }
+  renderClock();
+  window.setInterval(renderClock,30000);
+})();
+</script>
 </body></html>
