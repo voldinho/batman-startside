@@ -139,8 +139,27 @@ h1{font-size:64px;line-height:1;margin:0 0 10px;font-weight:800}.tagline{font-si
 @media(max-width:700px){.wrap.v81{padding:18px 14px 30px}.topbar{align-items:flex-start}.brand{gap:12px}.brand .siteAppIcon{width:62px;height:62px;border-radius:15px}h1{font-size:36px}.tagline{font-size:14px}.datetime #date{font-size:12px}.datetime #clock{font-size:23px}.search{margin:24px 0 18px}.search input,.search button{height:56px}.search button{padding:0 20px}.quick{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.quick a{white-space:nowrap;padding:12px 14px}.dashboard{grid-template-columns:1fr}.newsPanel{grid-column:auto}.panel{padding:14px}.hero img,.hero .fallback,.newsCard img,.newsCard .fallback{width:96px!important;height:60px!important}.heroTitle,.cardtitle{font-size:15px!important}.weatherPanel,.cryptoPanel{min-height:0}}
 </style>
 
+
+<style id="v82-fixes">
+/* Final background authority: use a real fixed element rather than pseudo-element conflicts. */
+#pageBackground{
+ position:fixed;inset:-24px;z-index:-10;
+ background-image:url("./ev-background.jpg")!important;
+ background-position:center 20%!important;background-size:cover!important;background-repeat:no-repeat!important;
+ filter:blur(5px);transform:scale(1.04);opacity:.88;pointer-events:none
+}
+#pageShade{position:fixed;inset:0;z-index:-9;background:linear-gradient(180deg,rgba(2,7,12,.38),rgba(2,7,12,.65) 58%,rgba(2,7,12,.82));pointer-events:none}
+body::before,body::after{content:none!important}
+html,body{background-color:#05090e!important;background-image:none!important}
+.newsCard:nth-of-type(n+6){display:none!important}
+.newsPanel.newsExpanded .newsCard:nth-of-type(n+6){display:block!important}
+.moreNewsBtn{width:100%;margin-top:10px;padding:12px;border:1px solid rgba(120,145,170,.34);border-radius:12px;background:rgba(18,29,41,.72);color:#eef3f8;font-weight:700;cursor:pointer;display:flex;justify-content:center;align-items:center;gap:10px}
+.moreNewsBtn b{font-size:22px;line-height:1;transition:transform .2s ease}
+.newsPanel.newsExpanded .moreNewsBtn b{transform:rotate(180deg)}
+</style>
+
 </head>
-<body>
+<body><div id="pageBackground"></div><div id="pageShade"></div>
 <main class="wrap v81">
   <header class="topbar">
     <div class="brand">
@@ -170,6 +189,9 @@ h1{font-size:64px;line-height:1;margin:0 0 10px;font-weight:800}.tagline{font-si
       <div id="newsUpdated" class="updated">Nyheter oppdateres …</div>
       <div id="heroGrid" class="heroGrid"><div id="hero" class="hero"></div><div id="sideStack" class="sideStack"></div></div>
       <div id="cards" class="cards"></div>
+<button id="moreNewsBtn" class="moreNewsBtn" type="button" aria-expanded="false">
+  <span>Flere nyheter</span><b>⌄</b>
+</button>
     </section>
 
     <section class="panel weatherPanel">
@@ -180,7 +202,7 @@ h1{font-size:64px;line-height:1;margin:0 0 10px;font-weight:800}.tagline{font-si
     </section>
 
     <section id="financeDashboard" class="panel cryptoPanel">
-      <div class="panelHead"><h2>₿ Krypto</h2><button class="miniRefresh" type="button" onclick="loadCrypto()">↻</button></div>
+      <div class="panelHead"><h2>₿ Krypto</h2></div>
       <div id="marketUpdated" class="updated"></div>
       <div class="cryptoList">
         <div class="coin"><div><strong>₿ Bitcoin</strong><small>BTC</small></div><div><b id="btcPrice">—</b><small id="btcChange">—</small></div></div>
@@ -223,7 +245,7 @@ async function weather(){
     document.querySelector('.cond').textContent=(codes[c.weather_code]||'🌡️ Vær')+` · Føles ${Math.round(c.apparent_temperature)}° · Vind ${Math.round(c.wind_speed_10m)} km/t`;
     document.querySelector('.forecast').innerHTML=day.time.map((x,i)=>`<div class="day"><b>${i===0?'I dag':i===1?'I morgen':'Om 2 dager'}</b><span>${Math.round(day.temperature_2m_max[i])}° / ${Math.round(day.temperature_2m_min[i])}°</span><small>💧 ${day.precipitation_probability_max[i]??0}%</small></div>`).join('');
   }catch(e){
-    document.querySelector('.place').textContent='📍 Vær utilgjengelig';
+    document.querySelector('.place').textContent='📍 Sted utilgjengelig';
   }
 }
 
@@ -381,6 +403,21 @@ document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==
  }
  tick(); setInterval(tick,1000);
 })();
+</script>
+
+
+<script id="v82-more-news">
+document.addEventListener('DOMContentLoaded',()=>{
+ const panel=document.querySelector('.newsPanel');
+ const btn=document.getElementById('moreNewsBtn');
+ if(btn&&panel){
+   btn.addEventListener('click',()=>{
+     const open=panel.classList.toggle('newsExpanded');
+     btn.setAttribute('aria-expanded',String(open));
+     btn.querySelector('span').textContent=open?'Vis færre nyheter':'Flere nyheter';
+   });
+ }
+});
 </script>
 
 </body></html>

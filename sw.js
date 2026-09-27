@@ -1,4 +1,4 @@
-const CACHE='batman-startside-v81-static';
+const CACHE='batman-startside-v84-static';
 const STATIC=[
   './manifest.webmanifest',
   './apple-touch-icon.png',
