@@ -158,6 +158,40 @@ html,body{background-color:#05090e!important;background-image:none!important}
 .newsPanel.newsExpanded .moreNewsBtn b{transform:rotate(180deg)}
 </style>
 
+
+<style id="v86-visual-fix">
+#pageBackground{
+  opacity:1!important;
+  filter:blur(2.5px)!important;
+  background-position:center 18%!important;
+  transform:scale(1.02)!important;
+}
+#pageShade{
+  background:linear-gradient(
+    180deg,
+    rgba(2,7,12,.12) 0%,
+    rgba(2,7,12,.28) 48%,
+    rgba(2,7,12,.48) 100%
+  )!important;
+}
+.datetime{min-width:210px!important;overflow:visible!important}
+.datetime #date{
+  font-size:15px!important;
+  line-height:1.25!important;
+  white-space:nowrap!important;
+}
+.datetime #clock{
+  font-size:27px!important;
+  line-height:1.15!important;
+  white-space:nowrap!important;
+}
+@media(max-width:700px){
+  .datetime{min-width:128px!important}
+  .datetime #date{font-size:10.5px!important}
+  .datetime #clock{font-size:20px!important}
+}
+</style>
+
 </head>
 <body><div id="pageBackground"></div><div id="pageShade"></div>
 <main class="wrap v81">
