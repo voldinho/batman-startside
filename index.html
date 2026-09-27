@@ -28,6 +28,7 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
 .cryptoGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:16px 0}.quote{background:rgba(36,43,54,.78);border-radius:14px;padding:14px}.quote span,.quote b,.quote small{display:block}.quote b{font-size:24px;margin:6px 0}.quote small{color:var(--muted)}
 .marketLinks{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.marketLinks a{background:rgba(36,43,54,.78);border-radius:12px;padding:12px;color:var(--text);text-decoration:none}.marketLinks b,.marketLinks span{display:block}.marketLinks span{color:var(--muted);font-size:12px;margin-top:5px}.marketNote{font-size:11px;margin-top:12px}
 @media(max-width:750px){.cryptoGrid,.marketLinks{grid-template-columns:1fr}.marketHead{align-items:flex-start;flex-direction:column}}
+.spark{height:5px;background:rgba(255,255,255,.08);border-radius:99px;margin-top:9px;overflow:hidden}.spark i{display:block;height:100%;width:4%;background:currentColor;border-radius:99px}
 </style>
 </head>
 <body><main class="wrap">
@@ -41,15 +42,15 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
 <div class="tabs"><button class="tab active" data-cat="all">Alt</button><button class="tab" data-cat="news">Nyheter</button><button class="tab" data-cat="local">Lokalt</button><button class="tab" data-cat="sport">Sport</button><button class="tab" data-cat="money">Økonomi</button><button class="tab" data-cat="games">Tek / Gaming</button></div>
 
 
-<section id="financeDashboard" class="financeDash" style="display:none">
+<section id="financeDashboard" class="financeDash">
   <div class="marketHead">
-    <div><h2>💰 Finans</h2><div class="muted">Krypto i NOK • Oslo Børs • oppdateres når siden åpnes/oppdateres</div></div>
+    <div><h2>📈 Marked akkurat nå</h2><div class="muted">Krypto i NOK • Oslo Børs • oppdateres automatisk</div></div>
     <div id="marketUpdated" class="muted"></div>
   </div>
   <div class="cryptoGrid">
-    <div class="quote"><span>₿ Bitcoin</span><b id="btcPrice">—</b><small id="btcChange">—</small></div>
-    <div class="quote"><span>◆ Ethereum</span><b id="ethPrice">—</b><small id="ethChange">—</small></div>
-    <div class="quote"><span>◎ Solana</span><b id="solPrice">—</b><small id="solChange">—</small></div>
+    <div class="quote"><span>₿ Bitcoin</span><b id="btcPrice">—</b><small id="btcChange">—</small><div class="spark"><i id="btcBar"></i></div></div>
+    <div class="quote"><span>◆ Ethereum</span><b id="ethPrice">—</b><small id="ethChange">—</small><div class="spark"><i id="ethBar"></i></div></div>
+    <div class="quote"><span>◎ Solana</span><b id="solPrice">—</b><small id="solChange">—</small><div class="spark"><i id="solBar"></i></div></div>
   </div>
   <div class="marketLinks">
     <a href="https://live.euronext.com/nb/markets/oslo" target="_blank" rel="noopener"><b>Oslo Børs / OSEBX</b><span>Offisiell markedsside hos Euronext →</span></a>
@@ -97,7 +98,7 @@ sourcePages.forEach(s=>items.push({source:s[0],cat:s[1],link:s[2],title:s[3],ima
 const withImages=items.filter(x=>x.image), top=(withImages.length>=3?withImages:items).slice(0,3);hero.innerHTML=visual(top[0]||items[0],'hero');sideStack.innerHTML=(top.slice(1,3)).map(x=>`<div class="sidecard">${visual(x,'side')}</div>`).join('');const used=new Set(top.map(x=>x.link));cards.innerHTML=items.filter(x=>!used.has(x.link)).map(x=>visual(x)).join('');}
 load();
 function filter(cat){document.querySelectorAll('.newsCard').forEach(c=>c.classList.toggle('hidden',cat!=='all'&&c.dataset.cat!==cat))}
-document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter(b.dataset.cat); document.getElementById('financeDashboard').style.display=(b.dataset.cat==='money')?'block':'none';});
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');filter(b.dataset.cat);});
 </script>
 <script>
 
@@ -110,6 +111,7 @@ async function loadCrypto(){
       document.getElementById(id+'Price').textContent=fmt(obj.nok);
       const c=obj.nok_24h_change;
       document.getElementById(id+'Change').textContent=(c>=0?'+':'')+c.toFixed(2)+' % siste 24 t';
+      const bar=document.getElementById(id+'Bar'); if(bar){bar.style.width=Math.min(100,Math.max(4,Math.abs(c)*8))+'%';}
     };
     set('btc',d.bitcoin); set('eth',d.ethereum); set('sol',d.solana);
     marketUpdated.textContent='Oppdatert '+new Date().toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});
