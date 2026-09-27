@@ -88,24 +88,36 @@ body::before,body::after{background-image:none!important}
 function tick(){const d=new Date();clock.textContent=d.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});date.textContent=d.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}tick();setInterval(tick,1000);
 const wt=c=>c===0?'Klart':c<=3?'Delvis skyet':c<=48?'Tåke':c<=57?'Yr':c<=67?'Regn':c<=77?'Snø':c<=82?'Regnbyger':c<=86?'Snøbyger':'Torden';
 const wi=c=>c===0?'☀️':c<=3?'⛅':c<=48?'🌫️':c<=67?'🌧️':c<=77?'🌨️':c<=82?'🌦️':c<=86?'🌨️':'⛈️';
-async function weather(){try{const u='https://api.open-meteo.com/v1/forecast?latitude=58.8524&longitude=5.7352&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=Europe%2FOslo&forecast_days=5';const d=await(await fetch(u)).json();wtemp.textContent=Math.round(d.current.temperature_2m)+'°';wicon.textContent=wi(d.current.weather_code);wdesc.textContent=wt(d.current.weather_code)+' · Føles '+Math.round(d.current.apparent_temperature)+'° · Vind '+Math.round(d.current.wind_speed_10m)+' km/t';forecast.innerHTML=d.daily.time.map((x,i)=>`<div class="fday"><b>${new Date(x+'T12:00').toLocaleDateString('no-NO',{weekday:'short'})}</b><div style="font-size:22px">${wi(d.daily.weather_code[i])}</div>${Math.round(d.daily.temperature_2m_max[i])}° / ${Math.round(d.daily.temperature_2m_min[i])}°<div>💧${d.daily.precipitation_probability_max[i]??0}%</div></div>`).join('')}catch(e){wdesc.textContent='Værdata utilgjengelig akkurat nå'}}weather();
-
-const sourcePages=[
-['Sandnesposten','local','https://www.sandnesposten.no','Lokale nyheter fra Sandnes'],
-['Tidens Krav','local','https://www.tk.no','Siste nytt fra Tidens Krav'],
-['VG','news','https://www.vg.no','Siste nytt fra VG'],
-['Tek.no','games','https://www.tek.no','Teknologi fra Tek.no'],
-['Gamer.no','games','https://www.gamer.no','Spillnyheter fra Gamer.no'],
-['Dine Penger','money','https://www.vg.no/dinepenger','Personlig økonomi fra Dine Penger'],
-['Elkjøp Outlet','games','https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill','Gaming og spill på Elkjøp Outlet']
-];
-function safe(s){return (s||'').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
-function visual(i,h='card'){
-  const image=i.image?`<img src="${i.image}" loading="lazy" onerror="this.outerHTML='<div class=&quot;fallback&quot;>📰</div>'">`:`<div class="fallback">📰</div>`;
-  const when=i.pubDate?new Date(i.pubDate).toLocaleString('no-NO',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'}):'';
-  if(h==='hero')return `<a href="${i.link}" target="_blank" rel="noopener">${image}<div class="heroOverlay"><div class="source">${safe(i.source)}${when?' · '+when:''}</div><div class="heroTitle">${safe(i.title)}</div></div></a>`;
-  if(h==='side')return `<a href="${i.link}" target="_blank" rel="noopener">${image}<div class="sidebody"><div class="source">${safe(i.source)}</div><div class="sidetitle">${safe(i.title)}</div><div class="cardtime">${when}</div></div></a>`;
-  return `<article class="newsCard" data-cat="${i.cat}"><a href="${i.link}" target="_blank" rel="noopener">${image}<div class="cardbody"><div class="source">${safe(i.source)}</div><div class="cardtitle">${safe(i.title)}</div><div class="cardtime">${when}</div></div></a></article>`
+async function weather(){
+  const fallback={lat:58.8524,lon:5.7352,name:'Sandnes'};
+  const getPosition=()=>new Promise(resolve=>{
+    if(!navigator.geolocation){resolve(fallback);return;}
+    navigator.geolocation.getCurrentPosition(
+      p=>resolve({lat:p.coords.latitude,lon:p.coords.longitude,name:''}),
+      ()=>resolve(fallback),
+      {enableHighAccuracy:false,timeout:7000,maximumAge:10*60*1000}
+    );
+  });
+  try{
+    const pos=await getPosition();
+    let place=pos.name;
+    if(!place){
+      try{
+        const gr=await fetch(`https://geocoding-api.open-meteo.com/v1/reverse?latitude=${pos.lat}&longitude=${pos.lon}&count=1&language=no&format=json`,{cache:'no-store'});
+        const gd=await gr.json();
+        place=gd.results?.[0]?.name || gd.results?.[0]?.admin1 || 'Din posisjon';
+      }catch(e){place='Din posisjon';}
+    }
+    const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${pos.lat}&longitude=${pos.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=3`,{cache:'no-store'});
+    const d=await r.json(), c=d.current, day=d.daily;
+    const codes={0:'☀️ Klart',1:'🌤️ Mest klart',2:'⛅ Delvis skyet',3:'☁️ Overskyet',45:'🌫️ Tåke',48:'🌫️ Tåke',51:'🌦️ Yr',53:'🌦️ Yr',55:'🌧️ Yr',61:'🌧️ Regn',63:'🌧️ Regn',65:'🌧️ Kraftig regn',71:'🌨️ Snø',73:'🌨️ Snø',75:'❄️ Kraftig snø',80:'🌦️ Regnbyger',81:'🌧️ Regnbyger',82:'⛈️ Kraftige byger',95:'⛈️ Torden'};
+    document.querySelector('.place').textContent='📍 '+place;
+    document.querySelector('.temp').textContent=Math.round(c.temperature_2m)+'°';
+    document.querySelector('.cond').textContent=(codes[c.weather_code]||'🌡️ Vær')+` · Føles ${Math.round(c.apparent_temperature)}° · Vind ${Math.round(c.wind_speed_10m)} km/t`;
+    document.querySelector('.forecast').innerHTML=day.time.map((x,i)=>`<div class="day"><b>${i===0?'I dag':i===1?'I morgen':'Om 2 dager'}</b><span>${Math.round(day.temperature_2m_max[i])}° / ${Math.round(day.temperature_2m_min[i])}°</span><small>💧 ${day.precipitation_probability_max[i]??0}%</small></div>`).join('');
+  }catch(e){
+    document.querySelector('.place').textContent='📍 Vær utilgjengelig';
+  }
 }
 let items=[];
 async function loadNews(){
@@ -224,4 +236,8 @@ if ('serviceWorker' in navigator) {
 })();
 </script>
 
+<script>
+window.addEventListener('pageshow',()=>{ if(typeof weather==='function') weather(); });
+document.addEventListener('visibilitychange',()=>{ if(document.visibilityState==='visible' && typeof weather==='function') weather(); });
+</script>
 </body></html>
