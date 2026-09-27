@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Batman Startside – Live",
+  "version": "1.0.0",
+  "description": "Åpner alltid den nyeste Batman-startsiden fra GitHub Pages i nye faner.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  }
+}
