@@ -109,45 +109,90 @@ main,.main{max-width:1800px!important;margin:0 auto!important}
 }
 </style>
 
+
+<style id="v81-final">
+:root{--panel:rgba(8,15,23,.86);--line:rgba(120,145,170,.36);--text:#f7f8fb;--muted:#aeb9c8}
+*{box-sizing:border-box}
+html{background:#05090e}
+body{margin:0;color:var(--text);font-family:Segoe UI,Arial,sans-serif;background:transparent!important;min-height:100vh}
+body::before{content:"";position:fixed;inset:-20px;z-index:-2;background:url("ev-background.jpg") center 24%/cover no-repeat;filter:blur(6px);transform:scale(1.035);opacity:.78}
+body::after{content:"";position:fixed;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(3,8,13,.38),rgba(3,8,13,.70) 58%,rgba(3,8,13,.88));pointer-events:none}
+.wrap.v81{max-width:1740px;margin:auto;padding:30px 32px 42px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{display:flex;align-items:center;gap:20px}.siteAppIcon{width:116px;height:116px;border-radius:24px;object-fit:cover;box-shadow:0 10px 35px rgba(0,0,0,.45)}
+h1{font-size:64px;line-height:1;margin:0 0 10px;font-weight:800}.tagline{font-size:22px;color:#b8c4d3}
+.datetime{text-align:right}.datetime #date{font-size:17px;font-weight:650}.datetime #clock{font-size:32px;font-weight:750;margin-top:4px}
+.search{display:flex;align-items:center;gap:10px;max-width:1040px;margin:34px auto 30px;position:relative}
+.searchIcon{position:absolute;left:20px;color:#9fb0c4;font-size:28px;z-index:2}.search input{flex:1;height:66px;padding:0 20px 0 58px;border:1px solid #53667a;border-radius:15px;background:rgba(7,14,22,.86);color:#fff;font-size:20px;outline:none;backdrop-filter:blur(15px)}.search button{height:66px;padding:0 31px;border:1px solid #344456;border-radius:15px;background:rgba(31,42,56,.94);color:#fff;font-size:18px;font-weight:700}
+.quick{display:flex;gap:10px;flex-wrap:wrap;margin:0 0 26px}.quick a{padding:15px 18px;border:1px solid var(--line);border-radius:13px;background:rgba(8,15,23,.82);color:#fff;text-decoration:none;font-weight:600;backdrop-filter:blur(14px)}
+.dashboard{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(320px,.92fr) minmax(290px,.72fr);gap:16px;align-items:start}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:18px;backdrop-filter:blur(18px);box-shadow:0 16px 40px rgba(0,0,0,.18)}
+.panelHead{display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid rgba(130,150,170,.2);padding-bottom:12px;margin-bottom:10px}.panelHead h2{font-size:23px;margin:0}.updated,.place{font-size:12px;color:var(--muted)}
+#newsRefreshBtn,.miniRefresh{border:1px solid var(--line);background:rgba(20,31,43,.8);color:#fff;border-radius:12px;padding:9px 13px;cursor:pointer}
+.newsPanel .updated{margin-bottom:8px}.heroGrid{display:block!important;margin:0!important}.hero{min-height:0!important;background:none!important;border:0!important}.sideStack{display:none!important}
+.hero a{display:flex!important;align-items:center;gap:14px;padding:10px 0;border-bottom:1px solid rgba(130,150,170,.22);position:relative}.hero img,.hero .fallback{width:125px!important;height:72px!important;border-radius:10px;object-fit:cover;flex:0 0 auto}.heroOverlay{position:static!important;padding:0!important;background:none!important}.heroTitle{font-size:17px!important;line-height:1.18!important}.source{font-size:11px!important;margin:0 0 5px!important}
+.cards{display:block!important}.newsCard{border:0!important;border-bottom:1px solid rgba(130,150,170,.22)!important;border-radius:0!important;background:none!important}.newsCard a{display:flex!important;align-items:center;gap:14px;padding:9px 0}.newsCard img,.newsCard .fallback{width:125px!important;height:68px!important;border-radius:9px;object-fit:cover;flex:0 0 auto}.cardbody{padding:0!important}.cardtitle{font-size:16px!important}.cardtime{font-size:11px!important}.newsCard:nth-of-type(n+6){display:none}
+.weatherPanel{min-height:355px}.weatherNow{display:flex;align-items:center;justify-content:center;gap:18px;margin:30px 0 6px}.weatherBigIcon{font-size:64px}.temp{font-size:68px;font-weight:300}.cond{text-align:center;color:#d8e0e9;line-height:1.6;min-height:52px}
+.forecast{display:grid!important;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:20px;overflow:visible!important}.forecast .day{background:rgba(18,29,41,.7);border-radius:12px;padding:11px 6px;text-align:center;display:flex;flex-direction:column;gap:6px;font-size:12px}.forecast .day span{font-weight:700}.forecast .day small{color:var(--muted)}
+.cryptoPanel{min-height:355px}.cryptoList{margin-top:12px}.coin{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 2px;border-bottom:1px solid rgba(130,150,170,.2)}.coin>div{display:flex;flex-direction:column}.coin>div:last-child{text-align:right}.coin strong{font-size:16px}.coin b{font-size:15px}.coin small{color:var(--muted);margin-top:3px;font-size:11px}.cryptoPanel>i{display:none}
+@media(max-width:1100px){.dashboard{grid-template-columns:1fr 1fr}.newsPanel{grid-column:1/-1}.brand .siteAppIcon{width:86px;height:86px}h1{font-size:48px}}
+@media(max-width:700px){.wrap.v81{padding:18px 14px 30px}.topbar{align-items:flex-start}.brand{gap:12px}.brand .siteAppIcon{width:62px;height:62px;border-radius:15px}h1{font-size:36px}.tagline{font-size:14px}.datetime #date{font-size:12px}.datetime #clock{font-size:23px}.search{margin:24px 0 18px}.search input,.search button{height:56px}.search button{padding:0 20px}.quick{flex-wrap:nowrap;overflow-x:auto;padding-bottom:5px}.quick a{white-space:nowrap;padding:12px 14px}.dashboard{grid-template-columns:1fr}.newsPanel{grid-column:auto}.panel{padding:14px}.hero img,.hero .fallback,.newsCard img,.newsCard .fallback{width:96px!important;height:60px!important}.heroTitle,.cardtitle{font-size:15px!important}.weatherPanel,.cryptoPanel{min-height:0}}
+</style>
+
 </head>
-<body><main class="wrap">
-<header><div><h1><img src="icon-192.png" alt="EV" class="siteAppIcon"> Batman</h1><div class="muted">Din feed. Dine kilder. Gotham trenger deg.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
-<form class="search" action="https://www.google.com/search"><input name="q" autofocus placeholder="Søk med Google…"><button>Søk</button></form>
-<nav class="quick">
-<a href="https://chatgpt.com">ChatGPT</a><a href="https://www.finn.no">FINN</a><a href="https://www.youtube.com">YouTube</a><a href="https://makerworld.com">🧰 MakerWorld</a><a href="https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill">🎮 Elkjøp Outlet</a>
-<a href="https://www.nrk.no">NRK</a><a href="https://www.sandnesposten.no">Sandnesposten</a><a href="https://www.tv2.no">TV 2</a><a href="https://www.nettavisen.no">Nettavisen</a><a href="https://www.vg.no">VG</a><a href="https://www.dagbladet.no">Dagbladet</a><a href="https://e24.no">E24</a><a href="https://www.vg.no/dinepenger">Dine Penger</a>
-</nav>
-<section class="weather"><div class="weatherMain"><div id="wicon" class="wicon">🌤️</div><div><div class="muted">Sandnes</div><div id="wtemp" class="wtemp">—°</div><div id="wdesc" class="muted">Henter vær…</div></div></div><div id="forecast" class="forecast"></div></section>
-<div class="tabs"><button class="tab active" data-cat="all">Alt</button><button class="tab" data-cat="news">Nyheter</button><button class="tab" data-cat="local">Lokalt</button><button class="tab" data-cat="sport">Sport</button><button class="tab" data-cat="money">Økonomi</button><button class="tab" data-cat="games">Tek / Gaming</button></div>
+<body>
+<main class="wrap v81">
+  <header class="topbar">
+    <div class="brand">
+      <img src="icon-192.png" alt="EV" class="siteAppIcon">
+      <div><h1>Batman</h1><div class="tagline">Din feed. Dine kilder. Gotham trenger deg.</div></div>
+    </div>
+    <div class="datetime"><div id="date"></div><div id="clock"></div></div>
+  </header>
 
+  <form class="search" action="https://www.google.com/search">
+    <span class="searchIcon">⌕</span><input name="q" placeholder="Søk med Google…" autocomplete="off"><button>Søk</button>
+  </form>
 
-<section id="financeDashboard" class="financeDash">
-  <div class="marketHead">
-    <div><h2>📈 Marked akkurat nå</h2><div class="muted">Bitcoin • Ethereum • Solana • priser i NOK</div></div>
-    <div id="marketUpdated" class="muted"></div>
-  </div>
-  <div class="cryptoGrid">
-    <div class="quote"><span>₿ Bitcoin</span><b id="btcPrice">—</b><small id="btcChange">—</small><div class="spark"><i id="btcBar"></i></div></div>
-    <div class="quote"><span>◆ Ethereum</span><b id="ethPrice">—</b><small id="ethChange">—</small><div class="spark"><i id="ethBar"></i></div></div>
-    <div class="quote"><span>◎ Solana</span><b id="solPrice">—</b><small id="solChange">—</small><div class="spark"><i id="solBar"></i></div></div>
-  </div>
-  
-</section>
+  <nav class="quick">
+    <a href="https://chatgpt.com">ChatGPT</a><a href="https://www.finn.no">📘 FINN</a>
+    <a href="https://www.youtube.com">▶️ YouTube</a><a href="https://makerworld.com">🧰 MakerWorld</a>
+    <a href="https://www.elkjop.no/outlet/gaming?1%7Cattributes.31158%5B%5D=Spill">🎮 Elkjøp Outlet</a>
+    <a href="https://www.nrk.no">NRK</a><a href="https://www.sandnesposten.no">Sandnesposten</a>
+    <a href="https://www.tv2.no">TV 2</a><a href="https://www.nettavisen.no">Nettavisen</a>
+    <a href="https://www.vg.no">VG</a><a href="https://www.dagbladet.no">Dagbladet</a>
+    <a href="https://e24.no">E24</a><a href="https://www.vg.no/dinepenger">Dine Penger</a>
+  </nav>
 
+  <section class="dashboard">
+    <section class="panel newsPanel">
+      <div class="panelHead"><h2>▤ Nyheter</h2><button id="newsRefreshBtn" type="button">↻ Oppdater nå</button></div>
+      <div id="newsUpdated" class="updated">Nyheter oppdateres …</div>
+      <div id="heroGrid" class="heroGrid"><div id="hero" class="hero"></div><div id="sideStack" class="sideStack"></div></div>
+      <div id="cards" class="cards"></div>
+    </section>
 
+    <section class="panel weatherPanel">
+      <div class="panelHead"><h2>☁ Vær</h2><div class="place">📍 Henter posisjon…</div></div>
+      <div class="weatherNow"><div id="wicon" class="weatherBigIcon">🌤️</div><div class="temp">—°</div></div>
+      <div class="cond">Henter vær…</div>
+      <div id="forecast" class="forecast"></div>
+    </section>
 
-
-
-<div class="newsRefreshRow">
-  <span id="newsUpdated">Nyheter oppdateres …</span>
-  <button id="newsRefreshBtn" type="button">↻ Oppdater nå</button>
-</div>
-
-<section id="heroGrid" class="heroGrid"><div id="hero" class="hero"></div><div id="sideStack" class="sideStack"></div></section>
-<h2 class="sectionTitle">Siste saker</h2><section id="cards" class="cards"></section>
+    <section id="financeDashboard" class="panel cryptoPanel">
+      <div class="panelHead"><h2>₿ Krypto</h2><button class="miniRefresh" type="button" onclick="loadCrypto()">↻</button></div>
+      <div id="marketUpdated" class="updated"></div>
+      <div class="cryptoList">
+        <div class="coin"><div><strong>₿ Bitcoin</strong><small>BTC</small></div><div><b id="btcPrice">—</b><small id="btcChange">—</small></div></div>
+        <div class="coin"><div><strong>◆ Ethereum</strong><small>ETH</small></div><div><b id="ethPrice">—</b><small id="ethChange">—</small></div></div>
+        <div class="coin"><div><strong>◎ Solana</strong><small>SOL</small></div><div><b id="solPrice">—</b><small id="solChange">—</small></div></div>
+      </div>
+      <i id="btcBar"></i><i id="ethBar"></i><i id="solBar"></i>
+    </section>
+  </section>
 </main>
 <script>
-function tick(){const d=new Date();clock.textContent=d.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});date.textContent=d.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}tick();setInterval(tick,1000);
+function legacyTick(){const d=new Date();clock.textContent=d.toLocaleTimeString('no-NO',{hour:'2-digit',minute:'2-digit'});date.textContent=d.toLocaleDateString('no-NO',{weekday:'long',day:'numeric',month:'long',year:'numeric'})}legacyTick();setInterval(legacyTick,1000);
 const wt=c=>c===0?'Klart':c<=3?'Delvis skyet':c<=48?'Tåke':c<=57?'Yr':c<=67?'Regn':c<=77?'Snø':c<=82?'Regnbyger':c<=86?'Snøbyger':'Torden';
 const wi=c=>c===0?'☀️':c<=3?'⛅':c<=48?'🌫️':c<=67?'🌧️':c<=77?'🌨️':c<=82?'🌦️':c<=86?'🌨️':'⛈️';
 async function weather(){
@@ -173,7 +218,7 @@ async function weather(){
     const r=await fetch(`https://api.open-meteo.com/v1/forecast?latitude=${pos.lat}&longitude=${pos.lon}&current=temperature_2m,apparent_temperature,weather_code,wind_speed_10m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=auto&forecast_days=3`,{cache:'no-store'});
     const d=await r.json(), c=d.current, day=d.daily;
     const codes={0:'☀️ Klart',1:'🌤️ Mest klart',2:'⛅ Delvis skyet',3:'☁️ Overskyet',45:'🌫️ Tåke',48:'🌫️ Tåke',51:'🌦️ Yr',53:'🌦️ Yr',55:'🌧️ Yr',61:'🌧️ Regn',63:'🌧️ Regn',65:'🌧️ Kraftig regn',71:'🌨️ Snø',73:'🌨️ Snø',75:'❄️ Kraftig snø',80:'🌦️ Regnbyger',81:'🌧️ Regnbyger',82:'⛈️ Kraftige byger',95:'⛈️ Torden'};
-    document.querySelector('.place').textContent='📍 '+place;
+    document.querySelector('.place').textContent='📍 '+place; document.getElementById('wicon').textContent=wi(c.weather_code);
     document.querySelector('.temp').textContent=Math.round(c.temperature_2m)+'°';
     document.querySelector('.cond').textContent=(codes[c.weather_code]||'🌡️ Vær')+` · Føles ${Math.round(c.apparent_temperature)}° · Vind ${Math.round(c.wind_speed_10m)} km/t`;
     document.querySelector('.forecast').innerHTML=day.time.map((x,i)=>`<div class="day"><b>${i===0?'I dag':i===1?'I morgen':'Om 2 dager'}</b><span>${Math.round(day.temperature_2m_max[i])}° / ${Math.round(day.temperature_2m_min[i])}°</span><small>💧 ${day.precipitation_probability_max[i]??0}%</small></div>`).join('');
