@@ -30,6 +30,14 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
 @media(max-width:750px){.cryptoGrid,.marketLinks{grid-template-columns:1fr}.marketHead{align-items:flex-start;flex-direction:column}}
 .spark{height:5px;background:rgba(255,255,255,.08);border-radius:99px;margin-top:9px;overflow:hidden}.spark i{display:block;height:100%;width:4%;background:currentColor;border-radius:99px}
 </style>
+
+<style>
+.osloMarket{background:rgba(20,25,33,.90);backdrop-filter:blur(10px);border:1px solid rgba(120,140,165,.28);border-radius:18px;padding:18px;margin:0 0 20px}
+.osloMarket h2{margin:0 0 4px}.marketFull{color:var(--text);text-decoration:none;background:rgba(36,43,54,.78);padding:9px 12px;border-radius:10px;white-space:nowrap}
+.tvChart{height:390px;margin-top:15px;border-radius:14px;overflow:hidden}.tvMovers{height:470px;margin-top:14px;border-radius:14px;overflow:hidden}
+.marketFoot{font-size:11px;margin-top:10px}.tradingview-widget-copyright{font-size:10px!important;text-align:right;padding-top:3px}.tradingview-widget-copyright a{color:#9ea8b7;text-decoration:none}
+@media(max-width:750px){.tvChart{height:360px}.tvMovers{height:520px}.marketFull{white-space:normal}}
+</style>
 </head>
 <body><main class="wrap">
 <header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
@@ -58,6 +66,71 @@ h1{margin:0;font-size:34px}.muted{color:var(--muted)}#clock{font-size:30px;font-
     <a href="https://www.vg.no/dinepenger" target="_blank" rel="noopener"><b>Dine Penger</b><span>Privatøkonomi, sparing og investering →</span></a>
   </div>
   <div class="muted marketNote">Euronext viser offisielle Oslo Børs-data. Direkte topp-10-kurser krever en markedsdatakilde/API; derfor lenker denne versjonen til Euronext fremfor å vise usikre tall.</div>
+</section>
+
+
+<section class="osloMarket">
+  <div class="marketHead">
+    <div>
+      <h2>🇳🇴 Oslo Børs</h2>
+      <div class="muted">OSEBX + dagens mest aktive, vinnere og tapere</div>
+    </div>
+    <a class="marketFull" href="https://live.euronext.com/nb/markets/oslo/equities/top-performers" target="_blank" rel="noopener">Se hele Oslo Børs →</a>
+  </div>
+
+  <div class="tvChart">
+    <div class="tradingview-widget-container" style="height:100%;width:100%">
+      <div class="tradingview-widget-container__widget" style="height:calc(100% - 24px);width:100%"></div>
+      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/OSL-OSEBX/" rel="noopener nofollow" target="_blank">OSEBX</a> by TradingView</div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+      {
+        "symbols": [["OSEBX","OSL:OSEBX|1D"]],
+        "chartOnly": false,
+        "width": "100%",
+        "height": "100%",
+        "locale": "en",
+        "colorTheme": "dark",
+        "autosize": true,
+        "showVolume": false,
+        "showMA": false,
+        "hideDateRanges": false,
+        "hideMarketStatus": false,
+        "hideSymbolLogo": false,
+        "scalePosition": "right",
+        "scaleMode": "Normal",
+        "fontFamily": "Segoe UI, Arial, sans-serif",
+        "fontSize": "10",
+        "noTimeScale": false,
+        "valuesTracking": "1",
+        "changeMode": "price-and-percent",
+        "chartType": "area",
+        "lineWidth": 2,
+        "lineType": 0,
+        "dateRanges": ["1d|1","5d|5","1m|30","3m|60","12m|1D"]
+      }
+      </script>
+    </div>
+  </div>
+
+  <div class="tvMovers">
+    <div class="tradingview-widget-container" style="height:100%;width:100%">
+      <div class="tradingview-widget-container__widget" style="height:calc(100% - 24px);width:100%"></div>
+      <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-norway/" rel="noopener nofollow" target="_blank">Norwegian stocks</a> by TradingView</div>
+      <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-stock-market.js" async>
+      {
+        "exchanges": [],
+        "isTransparent": true,
+        "showSymbolLogo": true,
+        "colorTheme": "dark",
+        "width": "100%",
+        "height": "100%",
+        "locale": "en",
+        "market": "norway"
+      }
+      </script>
+    </div>
+  </div>
+  <div class="marketFoot muted">Markedsdata kan være forsinket. Bruk Euronext-lenken for den offisielle Oslo Børs-oversikten.</div>
 </section>
 
 <section id="heroGrid" class="heroGrid"><div id="hero" class="hero"></div><div id="sideStack" class="sideStack"></div></section>
