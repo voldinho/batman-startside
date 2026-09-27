@@ -47,6 +47,25 @@ body::before,body::after{background-image:none!important}
 <style>
 .newsEmpty{min-height:220px;display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;color:#aeb8c7;background:#121922;border:1px solid #2b3746;border-radius:18px}
 </style>
+
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="EV">
+<meta name="theme-color" content="#070b10">
+<style>
+html{background:#070b10}
+body{background-color:transparent!important;position:relative}
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    linear-gradient(rgba(4,8,13,.78),rgba(4,8,13,.90)),
+    url("ev-background.jpg") center 18%/cover no-repeat;
+  pointer-events:none;
+}
+</style>
+
 </head>
 <body><main class="wrap">
 <header><div><h1>🦇 Batman Startside</h1><div class="muted">Din feed. Dine kilder. Ingen sponsede kort.</div></div><div><div id="clock"></div><div id="date" class="muted"></div></div></header>
