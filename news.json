@@ -1,13 +1,45 @@
 {
-  "updated_at": "2026-09-30T18:25:37.038955+00:00",
+  "updated_at": "2026-09-30T18:51:18.821677+00:00",
   "items": [
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Italia forlenger grensekontrollen mot Spania",
+      "link": "https://www.nettavisen.no/nyheter/italia-forlenger-grensekontrollen-mot-spania/s/80-95-122742",
+      "pubDate": "2026-09-30T18:39:22+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148821/nettav/2026/9/26/12/Tusenvis+forskte++ta+seg+over+grensen+fra+Marokko+til+den+spanske+eksklaven+Ceuta+i+slutten+av+jul.bin"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Italia forlenger grensekontrollen mot Spania",
+      "link": "https://www.nrk.no/nyheter/italia-forlenger-grensekontrollen-mot-spania-1.18041506",
+      "pubDate": "2026-09-30T18:34:33+00:00",
+      "image": ""
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "81-åring samlet inn over sju millioner til syk kone – så kom den sjokkerende avsløringen",
+      "link": "https://www.nettavisen.no/nyheter/david-81-fikk-sju-millioner-til-kreftsyk-kone-via-innsamlingssiden-gofundme-na-mister-han-alt/s/80-95-119991",
+      "pubDate": "2026-09-30T18:28:15+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148821/nettav/2026/9/30/6/Donald+Johnson+GoFundMe.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Dyster Ukraina-melding: – Veldig ille",
+      "link": "https://www.nettavisen.no/nyheter/ukrainas-f-16-flate-rammes-av-en-vedlikeholdskrise-i-vesten-veldig-ille/s/80-95-122196",
+      "pubDate": "2026-09-30T18:26:24+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148821/nettav/2026/9/30/15/Ukraina+F-16.jpg"
+    },
     {
       "source": "Nettavisen Sport",
       "cat": "sport",
       "title": "Hevder Manchester City-stjerner har panikk",
       "link": "https://www.nettavisen.no/sport/hevder-manchester-city-stjerner-har-panikk/s/80-95-121476",
       "pubDate": "2026-09-30T18:18:56+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621747/nettav/2026/9/30/11/NTB_d5okVop7E3k.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209930/nettav/2026/9/30/11/NTB_d5okVop7E3k.jpg"
     },
     {
       "source": "TV 2",
@@ -26,12 +58,20 @@
       "image": "https://www.dagbladet.no/images/85225917.webp?imageId=85225917&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
     },
     {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Stenger E18 på grunn av elg",
+      "link": "https://www.nrk.no/vestfoldogtelemark/stenger-e18-pa-grunn-av-elg-1.18041483",
+      "pubDate": "2026-09-30T18:10:54+00:00",
+      "image": ""
+    },
+    {
       "source": "Nettavisen",
       "cat": "news",
       "title": "Lurte forskere: – Spionerte for Kina",
       "link": "https://www.nettavisen.no/nyheter/lurte-forskere-spionerte-for-kina/s/80-95-122634",
       "pubDate": "2026-09-30T18:06:25+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636434/nettav/2026/9/30/17/Dan+Jarvis.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/17/Dan+Jarvis.jpg"
     },
     {
       "source": "E24",
@@ -58,20 +98,28 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19277546&panoy=7.94&panoh=84.12&panow=100&panox=0&heighty=7.94&heightx=0&heightw=100&heighth=84.12&width=480"
     },
     {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Nordmenn er skeptiske",
+      "link": "https://www.elbil24.no/nyheter/skepsisen-oker-men-flere-kjoper-disse-bilene/85214232",
+      "pubDate": "2026-09-30T17:51:35+00:00",
+      "image": "https://www.dagbladet.no/images/85215104.webp?imageId=85215104&x=0.00&y=10.20&cropw=100.00&croph=84.87&heightx=57.35&heighty=14.07&heightw=27.68&heighth=79.55&width=1058&height=478&format=jpg"
+    },
+    {
       "source": "Nettavisen Sport",
       "cat": "sport",
-      "title": "– Ronaldo har forlatt Portugal-troppen",
+      "title": "Ronaldo bekrefter: Forlot landslagssamling",
       "link": "https://www.nettavisen.no/sport/ronaldo-har-forlatt-portugal-troppen/s/80-95-122658",
       "pubDate": "2026-09-30T17:49:56+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621747/nettav/2026/9/30/17/26-09-25_Cristiano_Ronaldo-3.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209931/nettav/2026/9/30/17/26-09-25_Cristiano_Ronaldo-3.jpg"
     },
     {
       "source": "TV 2 Sport",
       "cat": "sport",
-      "title": "Portugal-bombe: Ronaldo forlater samlingen",
+      "title": "Portugal-bombe: Ronaldo bekrefter at han forlater samlingen",
       "link": "https://www.tv2.no/a/19277565",
       "pubDate": "2026-09-30T17:46:06+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19277583&panow=100&panoh=84.51&panoy=7.75&panox=0&heightw=100&heighth=84.51&heighty=7.75&heightx=0&width=480"
+      "image": "https://www.cdn.tv2.no/images/?imageId=19277583&panoy=7.75&panox=0&panow=100&panoh=84.51&heighty=7.75&heightx=0&heightw=100&heighth=84.51&width=480"
     },
     {
       "source": "TV 2 Sport",
@@ -87,15 +135,15 @@
       "title": "Jul i butikkene: – Altfor tidlig",
       "link": "https://www.nettavisen.no/nyheter/jul-i-butikkene-altfor-tidlig/v/80-95-122091",
       "pubDate": "2026-09-30T17:40:17+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636434/nettav/2026/9/30/13/Juleskum.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/13/Juleskum.jpg"
     },
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Forlater Portugal-troppen",
+      "title": "- Med tiden vil jeg fortelle sannheten",
       "link": "https://www.dagbladet.no/sport/spansk-storavis-ronaldo-forlater-portugal-troppen/85226557",
       "pubDate": "2026-09-30T17:40:02+00:00",
-      "image": "https://www.dagbladet.no/images/85226573.webp?imageId=85226573&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85226705.webp?imageId=85226705&width=1058&height=478&format=jpg"
     },
     {
       "source": "NRK",
@@ -116,10 +164,10 @@
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Ute av kontroll",
+      "title": "Det var barne­skirenn",
       "link": "https://www.dagbladet.no/meninger/ute-av-kontroll/85225972",
       "pubDate": "2026-09-30T17:34:22+00:00",
-      "image": "https://www.dagbladet.no/images/85223227.webp?imageId=85223227&x=0.00&y=14.17&cropw=100.00&croph=71.67&heightx=30.89&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85226732.webp?imageId=85226732&width=1058&height=478&format=jpg"
     },
     {
       "source": "E24",
@@ -135,7 +183,7 @@
       "title": "Var passasjer på terrorflyet: – Forferdelig",
       "link": "https://www.nettavisen.no/nyheter/var-passasjer-pa-terrorflyet-forferdelig/v/80-95-122604",
       "pubDate": "2026-09-30T17:20:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636434/nettav/2026/9/30/17/Passasjer+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/17/Passasjer+bredde.jpg"
     },
     {
       "source": "E24",
@@ -151,7 +199,7 @@
       "title": "Burnham takker City-eierne tross skandalen",
       "link": "https://www.nettavisen.no/sport/statsminister-andy-burnham-takker-city-eierne-tross-skandalen/s/80-95-122577",
       "pubDate": "2026-09-30T17:15:45+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621748/nettav/2026/9/30/16/Burnham+City-eiere.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209931/nettav/2026/9/30/16/Burnham+City-eiere.jpg"
     },
     {
       "source": "Dagbladet",
@@ -167,7 +215,7 @@
       "title": "Slutt på fransk-britisk migrantavtale",
       "link": "https://www.nettavisen.no/nyheter/slutt-pa-fransk-britisk-migrantavtale/s/80-95-122589",
       "pubDate": "2026-09-30T17:01:32+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636434/nettav/2026/9/30/16/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/16/+NTB.bin"
     },
     {
       "source": "Dagbladet",
@@ -184,14 +232,6 @@
       "link": "https://www.tv2.no/a/19277457",
       "pubDate": "2026-09-30T16:47:07+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19277469&panoy=0&panox=0&panow=100&panoh=100&heightw=100&heighth=100&heightx=0&heighty=0&width=480"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Presser ligaen: - Uakseptabelt",
-      "link": "https://www.dagbladet.no/sport/avis-krever-avklaring-for-sesongslutt/85226375",
-      "pubDate": "2026-09-30T16:44:47+00:00",
-      "image": "https://www.dagbladet.no/images/85226416.webp?imageId=85226416&width=1058&height=478&format=jpg"
     },
     {
       "source": "Dagbladet",
@@ -231,7 +271,7 @@
       "title": "Hyller Trump: – Vi kan takke ham",
       "link": "https://www.nettavisen.no/nyheter/erik-solheim-hyller-donald-trump-joe-biden-hadde-ikke-klart-det/s/80-95-121737",
       "pubDate": "2026-09-30T16:34:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636435/nettav/2026/9/30/16/image_1C6772EE-6383-4E9B-822C-700CE6BCAEA1_1790758745.jpeg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/16/image_1C6772EE-6383-4E9B-822C-700CE6BCAEA1_1790758745.jpeg"
     },
     {
       "source": "Nettavisen Sport",
@@ -239,7 +279,7 @@
       "title": "Infantinos fødeland trekker støtten",
       "link": "https://www.nettavisen.no/sport/infantinos-fodeland-trekker-stotten/s/80-95-122538",
       "pubDate": "2026-09-30T16:26:55+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621748/nettav/2026/9/30/16/Gianni+Infantino+har+ikke+lenger+sttte+fra+fotballforbundet+i+fdelandet+Sveits.+Foto%3A+Beata+Zawrze"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209931/nettav/2026/9/30/16/Gianni+Infantino+har+ikke+lenger+sttte+fra+fotballforbundet+i+fdelandet+Sveits.+Foto%3A+Beata+Zawrze"
     },
     {
       "source": "Nettavisen",
@@ -247,7 +287,7 @@
       "title": "Det drøyer med nytt regjeringsoppdrag i Sverige – talmannen trenger mer tid",
       "link": "https://www.nettavisen.no/nyheter/det-droyer-med-nytt-regjeringsoppdrag-i-sverige-talmannen-trenger-mer-tid/s/80-95-122523",
       "pubDate": "2026-09-30T16:25:25+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636435/nettav/2026/9/30/16/Socialdemokraternas+leder+Magdalena+Andersson+kunne+juble+p+valgnatten%2C+men+de+siste+dagene+har+hun.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/16/Socialdemokraternas+leder+Magdalena+Andersson+kunne+juble+p+valgnatten%2C+men+de+siste+dagene+har+hun.bin"
     },
     {
       "source": "E24",
@@ -279,7 +319,7 @@
       "title": "Ler av Riise-episode: – Misforståelse",
       "link": "https://www.nettavisen.no/sport/craig-bellamy-ler-av-riise-episode-misforstaelse/v/80-95-122484",
       "pubDate": "2026-09-30T16:11:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621748/nettav/2026/9/30/16/bellingham+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209932/nettav/2026/9/30/16/bellingham+bredde.jpg"
     },
     {
       "source": "Nettavisen",
@@ -287,7 +327,7 @@
       "title": "Russland truer europeiske våpenfabrikker",
       "link": "https://www.nettavisen.no/nyheter/russland-truer-europeiske-vapenfabrikker/s/80-95-122481",
       "pubDate": "2026-09-30T16:08:25+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636435/nettav/2026/9/30/16/cueres_scp-mangler_navn_EzYZ-WbWpfs.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148822/nettav/2026/9/30/16/cueres_scp-mangler_navn_EzYZ-WbWpfs.jpg"
     },
     {
       "source": "Nettavisen",
@@ -295,7 +335,7 @@
       "title": "Andy Burnham: Sterke indikasjoner på at Iran var involvert i hendelsen ved Fairford flybase",
       "link": "https://www.nettavisen.no/nyheter/andy-burnham-sterke-indikasjoner-pa-at-iran-var-involvert-i-hendelsen-ved-fairford-flybase/s/80-95-122472",
       "pubDate": "2026-09-30T16:05:18+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636435/nettav/2026/9/30/16/Fairford.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148823/nettav/2026/9/30/16/Fairford.jpg"
     },
     {
       "source": "NRK",
@@ -311,7 +351,7 @@
       "title": "Her er Ødegaard på trening",
       "link": "https://www.nettavisen.no/sport/her-er-odegaard-pa-trening/v/80-95-122451",
       "pubDate": "2026-09-30T15:59:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621748/nettav/2026/9/30/15/Sequence+67.00_00_02_05.Still001.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209932/nettav/2026/9/30/15/Sequence+67.00_00_02_05.Still001.jpg"
     },
     {
       "source": "TV 2",
@@ -327,7 +367,7 @@
       "title": "Naturvernforbundet om tillatelse til dumping av gruveavfall i Førdefjorden: – Grovt brudd på Høyesteretts dom",
       "link": "https://www.nettavisen.no/nyheter/regjeringen-gir-gront-lys-til-dumping-av-gruveavfall-i-fordefjorden-i-tre-ar-fremover/s/80-95-122457",
       "pubDate": "2026-09-30T15:55:36+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636435/nettav/2026/9/30/16/cueres_scp-mangler_navn_MxYtwSnijiE.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148823/nettav/2026/9/30/16/cueres_scp-mangler_navn_MxYtwSnijiE.jpg"
     },
     {
       "source": "NRK",
@@ -367,7 +407,7 @@
       "title": "Ny Ødegaard-beskjed før kampen mot Wales",
       "link": "https://www.nettavisen.no/sport/ny-odegaard-beskjed-for-kampen-mot-wales/s/80-95-121374",
       "pubDate": "2026-09-30T15:06:39+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621749/nettav/2026/9/30/11/%C3%B8degaard+skade.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209932/nettav/2026/9/30/11/%C3%B8degaard+skade.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -407,7 +447,7 @@
       "title": "Historisk henrettelse satt på vent",
       "link": "https://www.nettavisen.no/nyheter/christa-pikes-henrettelse-satt-pa-vent/s/80-95-122376",
       "pubDate": "2026-09-30T14:45:49+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636436/nettav/2026/9/30/14/NTB_uL_BiQ89oqg.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148823/nettav/2026/9/30/14/NTB_uL_BiQ89oqg.jpg"
     },
     {
       "source": "Dagbladet",
@@ -431,15 +471,7 @@
       "title": "På innsiden av terrorflyet",
       "link": "https://www.nettavisen.no/nyheter/pa-innsiden-av-flydubai-flyet-etter-knivstikken-av-piloten/v/80-95-122358",
       "pubDate": "2026-09-30T14:29:43+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636436/nettav/2026/9/30/14/Terrorfly+bredde.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Henrettes onsdag: – Ikke redd for å dø",
-      "link": "https://www.nettavisen.no/nyheter/christa-pike-for-henrettelsen-ikke-redd-for-a-do/s/80-95-122331",
-      "pubDate": "2026-09-30T14:27:53+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636436/nettav/2026/9/30/14/NTB_uL_BiQ89oqg.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794148823/nettav/2026/9/30/14/Terrorfly+bredde.jpg"
     },
     {
       "source": "NRK",
@@ -456,14 +488,6 @@
       "link": "https://e24.no/naeringsliv/i/zOvnlr/industritopp-avviser-rolleblanding-etter-rapport-lekkasje?utm_medium=rss",
       "pubDate": "2026-09-30T14:13:10+00:00",
       "image": "https://akamai.vgc.no/v2/images/12213fd7-99ba-3e7a-a73c-a4085e9ce5b8?format=auto&w=1000&s=686102c6be586de1306e5abe14f3635d940538c0"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Reagerte på Kina-utspill: – Ikke vår venn",
-      "link": "https://www.nettavisen.no/nyheter/solheim-i-epstein-horing-kina-er-mye-fredeligere-enn-usa/s/80-95-121647",
-      "pubDate": "2026-09-30T14:10:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636436/nettav/2026/9/30/13/DSC00238_1.jpg"
     },
     {
       "source": "NRK",
@@ -511,15 +535,7 @@
       "title": "Bellamy om City-kaoset: – Ville vært her hele dagen",
       "link": "https://www.nettavisen.no/sport/bellamy-om-city-kaoset-ville-vart-her-hele-dagen/s/80-95-121641",
       "pubDate": "2026-09-30T13:47:38+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621749/nettav/2026/9/30/13/5_95_1414291+cueres_scp+mangler_navn_QyqCcrqkaCk.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Årets varmeste dag i Bergen: 26,2 grader",
-      "link": "https://www.nettavisen.no/nyheter/arets-varmeste-dag-i-bergen-26-1-grader-malt-i-ettermiddag/s/80-95-122241",
-      "pubDate": "2026-09-30T13:39:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792636437/nettav/2026/9/30/14/cueres_scp-mangler_navn_Rrpo9G7qHLs.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209933/nettav/2026/9/30/13/5_95_1414291+cueres_scp+mangler_navn_QyqCcrqkaCk.jpg"
     },
     {
       "source": "NRK",
@@ -591,7 +607,7 @@
       "title": "Pep Guardiola svarer etter Manchester City-dommen",
       "link": "https://www.nettavisen.no/sport/pep-guardiola-svarer-etter-manchester-city-dommen/s/80-95-121848",
       "pubDate": "2026-09-30T12:24:27+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621750/nettav/2026/9/30/12/NTB_qaqWd7DnMpg+%281%29.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209933/nettav/2026/9/30/12/NTB_qaqWd7DnMpg+%281%29.jpg"
     },
     {
       "source": "Dagbladet",
@@ -615,7 +631,7 @@
       "title": "Ny beskjed om Alexander Sørloth",
       "link": "https://www.nettavisen.no/sport/ny-beskjed-om-alexander-sorloth/s/80-95-121611",
       "pubDate": "2026-09-30T11:51:07+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621750/nettav/2026/9/30/11/Hjulmand+S%C3%B8rloth.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209934/nettav/2026/9/30/11/Hjulmand+S%C3%B8rloth.jpg"
     },
     {
       "source": "NRK",
@@ -671,7 +687,7 @@
       "title": "Kontroversielle Mohamed Abdi Kahn med Norge-innlegg",
       "link": "https://www.nettavisen.no/sport/kahns-innlegg-om-norge-provoserer-danskene/s/80-95-121302",
       "pubDate": "2026-09-30T11:31:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621750/nettav/2026/9/30/11/Kahn.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209934/nettav/2026/9/30/11/Kahn.jpg"
     },
     {
       "source": "NRK",
@@ -711,7 +727,7 @@
       "title": "BBC avslører funn i Manchester City-rapport",
       "link": "https://www.nettavisen.no/sport/bbc-avslorer-funn-i-manchester-city-rapport/s/80-95-121200",
       "pubDate": "2026-09-30T10:32:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790792621751/nettav/2026/9/30/10/NTB_EzSaDNbqCg4.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790794209935/nettav/2026/9/30/10/NTB_EzSaDNbqCg4.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -784,22 +800,6 @@
       "link": "https://www.tv2.no/a/19275046",
       "pubDate": "2026-09-30T09:37:35+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19275347&panow=100&panoh=62.47&panoy=15.92&panox=0&heightx=0&heightw=100&heighth=62.47&heighty=15.92&width=480"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Både losen og kapteinen dømt etter Tjörn-dødsulykken",
-      "link": "https://www.tv2.no/a/19275556",
-      "pubDate": "2026-09-30T09:35:23+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19275563&panoy=7.75&panox=0&panow=100&panoh=84.04&heighty=7.75&heightx=0&heightw=100&heighth=84.04&width=480"
-    },
-    {
-      "source": "TV 2 Sport",
-      "cat": "sport",
-      "title": "Bildet vekker håp: Her er Ødegaard på flyet",
-      "link": "https://www.tv2.no/a/19275117",
-      "pubDate": "2026-09-30T09:28:21+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19275462&panoy=33.8&panox=0&panow=99.91&panoh=22.01&heighty=27.32&heightw=99.91&heighth=49.79&heightx=0&width=480"
     }
   ],
   "sources": {
