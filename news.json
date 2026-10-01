@@ -1,6 +1,70 @@
 {
-  "updated_at": "2026-10-01T11:05:04.058656+00:00",
+  "updated_at": "2026-10-01T11:29:14.026195+00:00",
   "items": [
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Buss måtte bråbremse – flere passasjerer skal være skadet",
+      "link": "https://www.nrk.no/trondelag/buss-matte-brabremse-_-flere-passasjerer-skal-vaere-skadet-1.18042205",
+      "pubDate": "2026-10-01T11:23:23+00:00",
+      "image": ""
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Abba-Björns selskap kjøper musikken til Sia",
+      "link": "https://www.nrk.no/nyheter/abba-bjorns-selskap-kjoper-musikken-til-sia-1.18042294",
+      "pubDate": "2026-10-01T11:14:41+00:00",
+      "image": ""
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Sjekk denne, Westerlin!",
+      "link": "https://www.dagbladet.no/bok/sjekk-denne-westerlin/85212874",
+      "pubDate": "2026-10-01T11:13:08+00:00",
+      "image": "https://www.dagbladet.no/images/85212910.webp?imageId=85212910&x=0.00&y=17.33&cropw=100.00&croph=34.13&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Gladnyhet om Ødegaard: – Tror det skal gå bra",
+      "link": "https://www.tv2.no/a/19279610",
+      "pubDate": "2026-10-01T11:12:36+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19279625&panox=0&panow=100&panoh=71.67&panoy=5.28&heighty=0&heightx=42.99&heightw=41.43&heighth=100&width=480"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Ektepar siktet for å ha skutt svigersønnen",
+      "link": "https://www.nettavisen.no/nyheter/ektepar-siktet-for-a-ha-skutt-svigersonnen/s/80-95-124215",
+      "pubDate": "2026-10-01T11:10:59+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992255/nettav/2026/10/1/10/jonathan+mckinsey+linkdin.jpg"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Lærar i Møre og Romsdal dømt til fengsel",
+      "link": "https://www.nrk.no/mr/laerar-i-more-og-romsdal-domt-til-fengsel-1.18042225",
+      "pubDate": "2026-10-01T11:10:34+00:00",
+      "image": ""
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Per Egil (82) ble ranet: – Sjokkerende",
+      "link": "https://www.nettavisen.no/nyheter/gullsmed-ranet-med-kniv-pa-frogner-i-oslo-sjokkerende/s/80-95-124458",
+      "pubDate": "2026-10-01T11:09:57+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992255/nettav/2026/10/1/11/Per+Egil+Rui+gullbutikk.jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Overmannet angriperen: – Tok kvelertak på ham",
+      "link": "https://www.tv2.no/a/19278441",
+      "pubDate": "2026-10-01T11:06:33+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19277552&width=480"
+    },
     {
       "source": "NRK",
       "cat": "news",
@@ -15,15 +79,15 @@
       "title": "Ronaldo-venn med påstand: – Han ble forrådt av Jesus",
       "link": "https://www.nettavisen.no/sport/ronaldo-venn-med-pastand-han-ble-forradt-av-jesus/s/80-95-123870",
       "pubDate": "2026-10-01T10:57:48+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510197/nettav/2026/10/1/9/NTB_EMC5a60Aci8.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992517/nettav/2026/10/1/9/NTB_EMC5a60Aci8.jpg"
     },
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Sjokksum: - Ble høyere enn forventet",
+      "title": "Røper sjokksum: - Jævlig dyrt",
       "link": "https://www.dagbladet.no/kjendis/sjokksum-ble-hoyere-enn-forventet/85224570",
       "pubDate": "2026-10-01T10:57:23+00:00",
-      "image": "https://www.dagbladet.no/images/85224093.webp?imageId=85224093&x=0.00&y=19.13&cropw=100.00&croph=29.38&heightx=2.50&heighty=10.14&heightw=88.00&heighth=87.14&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85224310.webp?imageId=85224310&width=1058&height=478&format=jpg"
     },
     {
       "source": "Dagbladet",
@@ -39,7 +103,7 @@
       "title": "Vekker reaksjoner: – Aldri sett lignende",
       "link": "https://www.nettavisen.no/sport/manchester-city-sjef-ferran-soriano-vekker-reaksjoner-aldri-sett-lignende/v/80-95-123564",
       "pubDate": "2026-10-01T10:44:29+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510197/nettav/2026/10/1/7/Soriano+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992517/nettav/2026/10/1/7/Soriano+bredde.jpg"
     },
     {
       "source": "E24",
@@ -63,7 +127,7 @@
       "title": "«Større gullsmedran» på Frogner – politiet jakter to personer",
       "link": "https://www.nettavisen.no/nyheter/storre-gullsmedran-pa-frogner-politiet-jakter-to-personer/s/80-95-124230",
       "pubDate": "2026-10-01T10:18:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589383/nettav/2026/10/1/10/Sladd.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992255/nettav/2026/10/1/10/Sladd.jpg"
     },
     {
       "source": "Nettavisen",
@@ -71,7 +135,7 @@
       "title": "Nye Nav-regler trer i kraft: Nå kan uføretrygdede tjene mer",
       "link": "https://www.nettavisen.no/nyheter/nye-nav-regler-fra-1-oktober-uforetrygdede-kan-tjene-mer-ved-siden-av-trygden/s/80-95-123867",
       "pubDate": "2026-10-01T10:17:57+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589383/nettav/2026/10/1/9/Nav+logo.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992256/nettav/2026/10/1/9/Nav+logo.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -167,7 +231,7 @@
       "title": "Sjakklegende Garry Kasparov advart om at han er i livsfare",
       "link": "https://www.nettavisen.no/sport/sjakklegende-garry-kasparov-advart-om-at-han-er-i-livsfare/s/80-95-124089",
       "pubDate": "2026-10-01T09:17:35+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510198/nettav/2026/10/1/9/NTB_cfFp557_1zQ.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992517/nettav/2026/10/1/9/NTB_cfFp557_1zQ.jpg"
     },
     {
       "source": "Nettavisen",
@@ -175,7 +239,7 @@
       "title": "Anniken Huitfeldt i Epstein-høring: - Det vi jeg benekte",
       "link": "https://www.nettavisen.no/nyheter/anniken-huitfeldt-i-epstein-horing-ja-det-vi-jeg-benekte/s/80-95-123462",
       "pubDate": "2026-10-01T09:16:04+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589384/nettav/2026/10/1/9/DSC00443.JPG"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992256/nettav/2026/10/1/9/DSC00443.JPG"
     },
     {
       "source": "Nettavisen",
@@ -183,7 +247,7 @@
       "title": "Vil kaste SV-ledelsen: – Vi blir spist levende av Rødt",
       "link": "https://www.nettavisen.no/nyheter/vil-kaste-sv-ledelsen-vi-blir-spist-levende-av-rodt/s/80-95-123612",
       "pubDate": "2026-10-01T09:13:01+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589384/nettav/2026/9/23/7/cueres_scp-mangler_navn_BQbrQHL-TXc.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992256/nettav/2026/9/23/7/cueres_scp-mangler_navn_BQbrQHL-TXc.jpg"
     },
     {
       "source": "Nettavisen",
@@ -191,7 +255,7 @@
       "title": "Gullsmed-ran i Oslo – gjerningspersoner på frifot",
       "link": "https://www.nettavisen.no/nyheter/gullsmed-ran-i-oslo-gjerningspersoner-pa-frifot/s/30-95-23109",
       "pubDate": "2026-10-01T09:11:08+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1790852589384/nettav/2026/10/01/3d133fde-2bb8-465c-bdc2-12eee888a7cf"
+      "image": "http://g.api.no/obscura/API/image/r1/cmx/tr_1920x1332_l_f/1790853992257/nettav/2026/10/01/3d133fde-2bb8-465c-bdc2-12eee888a7cf"
     },
     {
       "source": "Nettavisen",
@@ -199,7 +263,7 @@
       "title": "Tesla på topp av mest populære",
       "link": "https://www.nettavisen.no/nyheter/tesla-pa-topp-av-mest-populare/s/80-95-123927",
       "pubDate": "2026-10-01T09:10:59+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/8/18831601.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992257/nettav/2026/10/1/8/18831601.jpg"
     },
     {
       "source": "NRK",
@@ -223,7 +287,7 @@
       "title": "Advarer: – Gavepakke til Putin",
       "link": "https://www.nettavisen.no/nyheter/nikolai-astrup-advarer-gavepakke-til-putin/v/80-95-123990",
       "pubDate": "2026-10-01T09:01:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/9/DSC00431.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992257/nettav/2026/10/1/9/DSC00431.jpg"
     },
     {
       "source": "Dagbladet",
@@ -271,7 +335,7 @@
       "title": "Ut mot «ukultur»-påstand: – Men det finnes råtne epler",
       "link": "https://www.nettavisen.no/nyheter/nikolai-astrup-ut-mot-ukultur-det-finnes-ratne-epler/s/80-95-123480",
       "pubDate": "2026-10-01T08:48:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/9/DSC00432_2.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992257/nettav/2026/10/1/9/DSC00432_2.jpg"
     },
     {
       "source": "NRK",
@@ -287,7 +351,7 @@
       "title": "EU skal vedta lov om asylsentre i tredjeland",
       "link": "https://www.nettavisen.no/nyheter/eu-skal-vedta-lov-om-asylsentre-i-tredjeland/s/80-95-123834",
       "pubDate": "2026-10-01T08:38:37+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/8/NTB_EU_AI_ACT_KI_E_S.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992257/nettav/2026/10/1/8/NTB_EU_AI_ACT_KI_E_S.jpg"
     },
     {
       "source": "Nettavisen",
@@ -295,7 +359,7 @@
       "title": "Togstreiken skal utvides: –  Går som planlagt",
       "link": "https://www.nettavisen.no/nyheter/togstreiken-skal-utvides-gar-som-planlagt/s/80-95-123810",
       "pubDate": "2026-10-01T08:27:51+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/8/eECHPwz-mWw.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992258/nettav/2026/10/1/8/eECHPwz-mWw.jpg"
     },
     {
       "source": "Dagbladet",
@@ -335,7 +399,7 @@
       "title": "Full forvirring i Epstein-høringen",
       "link": "https://www.nettavisen.no/nyheter/full-forvirring-i-epstein-horingen/v/80-95-123720",
       "pubDate": "2026-10-01T07:58:40+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589385/nettav/2026/10/1/7/Astrup+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992258/nettav/2026/10/1/7/Astrup+bredde.jpg"
     },
     {
       "source": "E24",
@@ -359,23 +423,7 @@
       "title": "Fant feil på 17 kjøretøy: – Direkte trafikkfarlig",
       "link": "https://www.nettavisen.no/nyheter/storkontroll-pa-svinesund-fant-grove-feil-pa-vogntog/s/80-95-123429",
       "pubDate": "2026-10-01T07:43:01+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589386/nettav/2026/10/1/7/12_95_3424297206x1284347x3424297207.bin"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Tatt i promillekontroll ved Danskebåten",
-      "link": "https://www.nettavisen.no/nyheter/tatt-i-promillekontroll-ved-danskebaten/s/80-95-123624",
-      "pubDate": "2026-10-01T07:42:32+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589386/nettav/2026/10/1/7/Promillekontroll.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Økning av unge med paracet-overdose",
-      "link": "https://www.nettavisen.no/nyheter/okning-av-unge-med-paracet-overdose/s/80-95-123582",
-      "pubDate": "2026-10-01T07:40:37+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852589386/nettav/2026/9/11/8/cueres_scp-mangler_navn_nmRD-PsTVEo.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992258/nettav/2026/10/1/7/12_95_3424297206x1284347x3424297207.bin"
     },
     {
       "source": "NRK",
@@ -463,7 +511,7 @@
       "title": "Prisene stuper etter Ronaldo-beskjed",
       "link": "https://www.nettavisen.no/sport/prisene-stuper-etter-cristiano-ronaldo-nyhet/s/80-95-123399",
       "pubDate": "2026-10-01T06:37:54+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510198/nettav/2026/10/1/6/Ronaldo+Norge.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992518/nettav/2026/10/1/6/Ronaldo+Norge.jpg"
     },
     {
       "source": "NRK",
@@ -519,7 +567,7 @@
       "title": "Ødegaard med i troppen mot Wales",
       "link": "https://www.nettavisen.no/sport/odegaard-med-i-troppen-mot-wales/s/80-95-123309",
       "pubDate": "2026-10-01T05:39:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510198/nettav/2026/10/1/5/NTB_1xZXe81SAzE.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992518/nettav/2026/10/1/5/NTB_1xZXe81SAzE.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -575,7 +623,7 @@
       "title": "Ekspertene uenige om Haaland: – Ville vært «jackpot»",
       "link": "https://www.nettavisen.no/sport/mener-haaland-ma-benkes-for-norge-mot-wales/s/80-95-122637",
       "pubDate": "2026-10-01T04:55:23+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510198/nettav/2026/9/30/18/BB260927VG181.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992518/nettav/2026/9/30/18/BB260927VG181.jpg"
     },
     {
       "source": "NRK",
@@ -591,7 +639,7 @@
       "title": "Torsdagens Premier League-rykter",
       "link": "https://www.nettavisen.no/sport/torsdagens-premier-league-rykter/s/80-95-123189",
       "pubDate": "2026-10-01T04:36:46+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510199/nettav/2026/10/1/4/NTB_t14M-md4a_Q.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992518/nettav/2026/10/1/4/NTB_t14M-md4a_Q.jpg"
     },
     {
       "source": "E24",
@@ -663,15 +711,7 @@
       "title": "Hopplegenden rammet: Helikopter tatt i frekt tyveri",
       "link": "https://www.nettavisen.no/sport/hopplegenden-rammet-helikopter-tatt-i-frekt-tyveri/s/80-95-117647",
       "pubDate": "2026-10-01T03:02:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510199/nettav/2026/9/29/9/morgenstern.jpg"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Kvinne overlevde henrettelsesforsøk i Tennessee",
-      "link": "https://www.nrk.no/nyheter/kvinne-overlevde-henrettelsesforsok-i-tennessee-1.18041672",
-      "pubDate": "2026-10-01T02:59:23+00:00",
-      "image": "https://gfx.nrk.no/lHNM8VUliGsmHHpJHhCbogCrCQbxhlsFe2uEqAD_yu-Q.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992518/nettav/2026/9/29/9/morgenstern.jpg"
     },
     {
       "source": "TV 2",
@@ -680,22 +720,6 @@
       "link": "https://www.tv2.no/a/19278191",
       "pubDate": "2026-10-01T02:50:18+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19278195&panow=100&panoh=84.51&panoy=7.75&panox=0&heightw=100&heightx=0&heighth=84.51&heighty=7.75&width=480"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Tre kraftverk satt ut av spill etter eksplosjon",
-      "link": "https://www.nrk.no/nyheter/tre-kraftverk-satt-ut-av-spill-etter-eksplosjon-1.18041660",
-      "pubDate": "2026-10-01T02:35:18+00:00",
-      "image": ""
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Elon Musk får lederrolle i Pentagon-prosjekt",
-      "link": "https://www.nrk.no/nyheter/elon-musk-far-lederrolle-i-pentagon-prosjekt-1.18041638",
-      "pubDate": "2026-10-01T02:33:24+00:00",
-      "image": "https://gfx.nrk.no/YdB2BxqOfdfe5HXcGVnrZgo3E3x55kPn2fhmGHXZjrIA.jpg"
     },
     {
       "source": "Dagbladet",
@@ -719,7 +743,7 @@
       "title": "City-skandalen: Visste om det i flere måneder",
       "link": "https://www.nettavisen.no/sport/city-skandalen-visste-om-det-i-flere-maneder/s/80-95-119057",
       "pubDate": "2026-09-30T21:29:18+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510199/nettav/2026/9/30/8/NTB_ygrWKPA8ab4.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992519/nettav/2026/9/30/8/NTB_ygrWKPA8ab4.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -727,7 +751,7 @@
       "title": "Portugisisk avis: Ronaldo gir seg på landslaget",
       "link": "https://www.nettavisen.no/sport/portugisisk-avis-ronaldo-gir-seg-pa-landslaget/s/80-95-122967",
       "pubDate": "2026-09-30T20:56:21+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510200/nettav/2026/9/30/20/Cristiano+Ronaldo+%282%29.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992519/nettav/2026/9/30/20/Cristiano+Ronaldo+%282%29.jpg"
     },
     {
       "source": "TV 2",
@@ -759,7 +783,7 @@
       "title": "Erling Braut Haaland saksøker Norwegian",
       "link": "https://www.nettavisen.no/sport/haaland-saksoker-norwegian/s/80-95-122928",
       "pubDate": "2026-09-30T20:24:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510200/nettav/2026/9/30/20/Kopi+av+Bildecollage+%2828%29.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790853992519/nettav/2026/9/30/20/Kopi+av+Bildecollage+%2828%29.jpg"
     },
     {
       "source": "TV 2",
@@ -770,36 +794,12 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19277972&panoy=7.75&panox=0&panow=100&panoh=84.05&heighty=7.75&heightw=100&heightx=0&heighth=84.05&width=480"
     },
     {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "- Det er respektløst",
-      "link": "https://borsen.dagbladet.no/nyheter/sjefokonomenes-foleri-krangel-det-er-respektlost/85226194",
-      "pubDate": "2026-09-30T20:15:30+00:00",
-      "image": "https://www.dagbladet.no/images/85226812.webp?imageId=85226812&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
       "source": "TV 2",
       "cat": "news",
       "title": "Krever endring etter flere dødsfall: – Hver ulykke er én for mye",
       "link": "https://www.tv2.no/a/19276909",
       "pubDate": "2026-09-30T19:39:47+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19276313&panoy=0&panox=0&panow=100&panoh=100&heightx=0&heighty=0&heightw=100&heighth=100&width=480"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Klokkeklar Nyland-beskjed: – Det er kjemperart",
-      "link": "https://www.nettavisen.no/sport/klokkeklar-nyland-beskjed-det-er-kjemperart/s/80-95-122424",
-      "pubDate": "2026-09-30T19:09:54+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790852510200/nettav/2026/9/30/15/DSC03741.jpg"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Slo tre rekorder på samme dag",
-      "link": "https://www.tv2.no/a/19276337",
-      "pubDate": "2026-09-30T18:59:48+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19277605&panox=0&panow=99.64&panoh=100&panoy=0&heighty=0&heightx=0&heightw=99.64&heighth=100&width=480"
     }
   ],
   "sources": {
