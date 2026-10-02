@@ -1,13 +1,77 @@
 {
-  "updated_at": "2026-10-02T05:54:57.393851+00:00",
+  "updated_at": "2026-10-02T06:25:03.192184+00:00",
   "items": [
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Enormt snøskred har krevd 15 liv i Nepal",
+      "link": "https://www.nrk.no/nyheter/enormt-snoskred-har-krevd-15-liv-i-nepal-1.18043110",
+      "pubDate": "2026-10-02T06:24:18+00:00",
+      "image": ""
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Brutal Aursnes-dom: – Selvfølgelig er det min feil",
+      "link": "https://www.tv2.no/a/19282838",
+      "pubDate": "2026-10-02T06:14:56+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19282950&panox=0&panow=100&panoy=0&panoh=71.67&heighth=100&heighty=0&heightx=26.75&heightw=41.43&width=480"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Dramatisk aksjon til sjøs: Filippinene jaget kinesisk forskningsskip på flukt",
+      "link": "https://www.nettavisen.no/nyheter/dramatisk-aksjon-til-sjos-filippinene-jaget-kinesisk-forskningsskip-pa-flukt/s/80-95-126654",
+      "pubDate": "2026-10-02T06:13:00+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236336/nettav/2026/10/2/6/Foto+fra+Den+filippinske+kystvakten.jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Tidligere FN-ambassadør ukjent med råd til Støre",
+      "link": "https://www.tv2.no/a/19279391",
+      "pubDate": "2026-10-02T06:09:18+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19276905&panoh=100&panoy=0&panox=0&panow=100&heighth=100&heighty=0&heightw=100&heightx=0&width=480"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Eksplosjonsfare: Flere evakuert",
+      "link": "https://www.dagbladet.no/nyheter/eksplosjonsfare-11-evakuert/85232807",
+      "pubDate": "2026-10-02T06:03:19+00:00",
+      "image": "https://www.dagbladet.no/images/85232815.webp?imageId=85232815&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Døde på sin egen bursdag",
+      "link": "https://www.dagbladet.no/kjendis/dode-pa-sin-egen-bursdag/85232748",
+      "pubDate": "2026-10-02T06:02:59+00:00",
+      "image": "https://www.dagbladet.no/images/85232698.webp?imageId=85232698&x=8.86&y=1.99&cropw=84.00&croph=68.25&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "15 døde etter enormt snøskred i Nepal",
+      "link": "https://www.nettavisen.no/nyheter/enormt-snoskred-har-krevd-15-liv-i-nepal/s/80-95-126651",
+      "pubDate": "2026-10-02T06:02:21+00:00",
+      "image": ""
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "– Det er oppsiktsvekkende!",
+      "link": "https://www.tv2.no/a/19283141",
+      "pubDate": "2026-10-02T05:53:44+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19282507&panow=100&panoh=71.67&panoy=25.28&panox=0&heighty=0&heightx=13.06&heightw=41.43&heighth=100&width=480"
+    },
     {
       "source": "Nettavisen",
       "cat": "news",
       "title": "Brann i Porsgrunn",
       "link": "https://www.nettavisen.no/nyheter/brann-pa-skandaletomten-i-porsgrunn/v/80-95-126609",
       "pubDate": "2026-10-02T05:33:54+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440960/nettav/2026/10/2/5/Skjermbilde+2026-10-02+kl.+07.31.43.png"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236336/nettav/2026/10/2/5/Skjermbilde+2026-10-02+kl.+07.31.43.png"
     },
     {
       "source": "TV 2",
@@ -23,7 +87,7 @@
       "title": "Oljefondet storkjøper i børsnotering knyttet til tyrkisk fondsskandale",
       "link": "https://www.nettavisen.no/okonomi/oljefondet-storkjoper-i-borsnotering-knyttet-til-tyrkisk-fondsskandale/s/80-95-126537",
       "pubDate": "2026-10-02T05:20:59+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440961/nettav/2026/9/7/9/Oljefond-sjef+Nicolai+Tangen+anbefaler++redusere+andelen+statsobligasjoner+i+Oljefondet.+Det+vil+g"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236336/nettav/2026/9/7/9/Oljefond-sjef+Nicolai+Tangen+anbefaler++redusere+andelen+statsobligasjoner+i+Oljefondet.+Det+vil+g"
     },
     {
       "source": "Dagbladet",
@@ -55,7 +119,7 @@
       "title": "Trump fyrer løs: – En freak",
       "link": "https://www.nettavisen.no/nyheter/donald-trump-fyrer-los-en-freak/v/80-95-126534",
       "pubDate": "2026-10-02T05:06:36+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440961/nettav/2026/10/2/5/Trump+fyrer+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236336/nettav/2026/10/2/5/Trump+fyrer+bredde.jpg"
     },
     {
       "source": "Nettavisen",
@@ -87,7 +151,7 @@
       "title": "Refser Høyre: – Helt ubegripelig",
       "link": "https://www.nettavisen.no/nyheter/carl-i-hagen-refser-hoyre-helt-ubegripelig/s/80-95-124644",
       "pubDate": "2026-10-02T04:56:37+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440961/nettav/2026/10/1/11/NTB_YFd4rlvjxPA.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236336/nettav/2026/10/1/11/NTB_YFd4rlvjxPA.jpg"
     },
     {
       "source": "Dagbladet",
@@ -103,7 +167,7 @@
       "title": "Frp, Sp og KrF med stortingsforslag om kutt i drivstoffavgiftene",
       "link": "https://www.nettavisen.no/nyheter/frp-sp-og-krf-med-stortingsforslag-om-kutt-i-drivstoffavgiftene/s/80-95-126501",
       "pubDate": "2026-10-02T04:43:21+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440962/nettav/2026/10/2/4/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236337/nettav/2026/10/2/4/+NTB.bin"
     },
     {
       "source": "Nettavisen Sport",
@@ -111,7 +175,7 @@
       "title": "Fredagens Premier League-rykter",
       "link": "https://www.nettavisen.no/sport/fredagens-premier-league-rykter/s/80-95-126465",
       "pubDate": "2026-10-02T04:42:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314938/nettav/2026/10/2/4/NTB_asblOaUl048.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130437/nettav/2026/10/2/4/NTB_asblOaUl048.jpg"
     },
     {
       "source": "NRK",
@@ -127,7 +191,7 @@
       "title": "Regjeringen blar opp en kvart milliard til grønne hurtigbåter",
       "link": "https://www.nettavisen.no/nyheter/regjeringen-vil-fa-fart-pa-gronne-hurtigbater-blar-opp-en-kvart-milliard/s/80-95-126489",
       "pubDate": "2026-10-02T04:38:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440962/nettav/2026/10/2/4/Utslippsfrie+ferjer+har+vrt+en+kjempestor+klimasuksess+i+Norge.+Grnne+hurtigbter+er+mer+krevend"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236337/nettav/2026/10/2/4/Utslippsfrie+ferjer+har+vrt+en+kjempestor+klimasuksess+i+Norge.+Grnne+hurtigbter+er+mer+krevend"
     },
     {
       "source": "NRK",
@@ -143,7 +207,7 @@
       "title": "Skole truffet av Putins drone",
       "link": "https://www.nettavisen.no/nyheter/ukrainsk-skole-truffet-av-vladimir-putins-drone/v/80-95-126474",
       "pubDate": "2026-10-02T04:27:31+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440962/nettav/2026/10/2/4/Skole+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236337/nettav/2026/10/2/4/Skole+bredde.jpg"
     },
     {
       "source": "Nettavisen",
@@ -151,7 +215,7 @@
       "title": "Støre om trontalen: – Det siste ordet er mitt",
       "link": "https://www.nettavisen.no/nyheter/store-om-trontalen-det-siste-ordet-er-mitt/s/80-95-126459",
       "pubDate": "2026-10-02T04:24:48+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440962/nettav/2026/10/2/4/Statsminister+Jonas+Gahr+Stre+hilser+p+kong+Haakon+i+det+ekstraordinre+statsrdet+etter+kong+Hara.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236337/nettav/2026/10/2/4/Statsminister+Jonas+Gahr+Stre+hilser+p+kong+Haakon+i+det+ekstraordinre+statsrdet+etter+kong+Hara.bin"
     },
     {
       "source": "E24",
@@ -175,7 +239,7 @@
       "title": "Hundrevis av leger støtter 18-årsgrense på smarttelefoner",
       "link": "https://www.nettavisen.no/nyheter/hundrevis-av-leger-stotter-18-arsgrense-pa-smarttelefoner/s/80-95-126444",
       "pubDate": "2026-10-02T04:12:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440962/nettav/2026/10/2/4/En+lege+mener+skjermbruk+er+delaktig+i+et+nytt+folkehelseproblem+og+etterlyser+tydeligere+tiltak+fra.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236337/nettav/2026/10/2/4/En+lege+mener+skjermbruk+er+delaktig+i+et+nytt+folkehelseproblem+og+etterlyser+tydeligere+tiltak+fra.bin"
     },
     {
       "source": "TV 2 Sport",
@@ -191,7 +255,7 @@
       "title": "Vraket på direkten: Nyland dukket ikke opp",
       "link": "https://www.nettavisen.no/sport/nyland-dukket-ikke-opp-etter-tapet-mot-wales/s/80-95-125919",
       "pubDate": "2026-10-02T04:03:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314939/nettav/2026/10/1/23/%C3%B8rjan+nyland+norge+walea.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130437/nettav/2026/10/1/23/%C3%B8rjan+nyland+norge+walea.jpg"
     },
     {
       "source": "Nettavisen",
@@ -199,7 +263,7 @@
       "title": "Nattens viktigste nyheter",
       "link": "https://www.nettavisen.no/nyheter/de-viktigste-nyhetene-natt-til-fredag-2-oktober-2026/s/80-95-126432",
       "pubDate": "2026-10-02T03:59:20+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440964/nettav/2026/10/2/3/Illustrasjon+Ambulanse+Gorm+kallestad+NTB_1.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922236338/nettav/2026/10/2/3/Illustrasjon+Ambulanse+Gorm+kallestad+NTB_1.jpg"
     },
     {
       "source": "Nettavisen",
@@ -210,12 +274,12 @@
       "image": ""
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
+      "source": "Nettavisen Sport",
+      "cat": "sport",
       "title": "Stortap i sesongstarten for Lightning uten Lilleberg",
       "link": "https://www.nettavisen.no/sport/stortap-i-sesongstarten-for-lightning-uten-lilleberg/s/80-95-126405",
       "pubDate": "2026-10-02T03:25:24+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920440964/nettav/2026/10/2/3/+AP.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130437/nettav/2026/10/2/3/+AP.bin"
     },
     {
       "source": "NRK",
@@ -258,20 +322,12 @@
       "image": ""
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Russiske droner traff viktig bro i Kyiv",
-      "link": "https://www.nettavisen.no/nyheter/russiske-droner-traff-viktig-bro-i-kyiv/s/80-95-126393",
-      "pubDate": "2026-10-02T02:19:00+00:00",
-      "image": ""
-    },
-    {
       "source": "Nettavisen Sport",
       "cat": "sport",
       "title": "Krise for Schumacher: – Alt raste sammen",
       "link": "https://www.nettavisen.no/sport/cora-schumacher-apner-opp-om-toff-tid-alt-raste-sammen/s/80-95-126372",
       "pubDate": "2026-10-02T02:17:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314940/nettav/2026/10/2/2/GettyImages-467123968.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130438/nettav/2026/10/2/2/GettyImages-467123968.jpg"
     },
     {
       "source": "NRK",
@@ -383,7 +439,7 @@
       "title": "Langer ut mot TV 2-ekspert: – Driver med hester",
       "link": "https://www.nettavisen.no/sport/langer-ut-mot-tv-2-ekspert-driver-med-hester/v/80-95-126222",
       "pubDate": "2026-10-01T22:02:32+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314940/nettav/2026/10/1/22/Solbakken+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130438/nettav/2026/10/1/22/Solbakken+bredde.jpg"
     },
     {
       "source": "Dagbladet",
@@ -415,7 +471,7 @@
       "title": "Solbakken med Nyland-avsløring",
       "link": "https://www.nettavisen.no/sport/solbakken-med-nyland-avsloring/s/80-95-126162",
       "pubDate": "2026-10-01T21:03:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314940/nettav/2026/10/1/20/%C3%98rjan+Nyland+Wales.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130438/nettav/2026/10/1/20/%C3%98rjan+Nyland+Wales.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -439,7 +495,7 @@
       "title": "Børs: Slik spilte Norge mot Wales",
       "link": "https://www.nettavisen.no/sport/bors-slik-spilte-norge-mot-wales/s/80-95-126102",
       "pubDate": "2026-10-01T20:40:06+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314940/nettav/2026/10/1/20/NTB_S6doXOsuh7U.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130438/nettav/2026/10/1/20/NTB_S6doXOsuh7U.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -447,7 +503,7 @@
       "title": "Rekdal med nådeløs dom: – Det går ikke",
       "link": "https://www.nettavisen.no/sport/wales-norge-kjetil-rekdal-med-nadelos-dom-det-gar-ikke/s/80-95-125841",
       "pubDate": "2026-10-01T20:36:03+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314940/nettav/2026/10/1/20/NTB_2MgLvN2USBs.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/10/1/20/NTB_2MgLvN2USBs.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -495,7 +551,7 @@
       "title": "Nyland får kritikk igjen: – Han skal ta den",
       "link": "https://www.nettavisen.no/sport/nyland-i-fokus-igjen-han-skal-ta-den/s/80-95-125910",
       "pubDate": "2026-10-01T19:58:38+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314941/nettav/2026/10/1/19/nyland+norge+wales+ntb.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/10/1/19/nyland+norge+wales+ntb.jpg"
     },
     {
       "source": "NRK",
@@ -519,7 +575,7 @@
       "title": "Wales reagerer på Norge-situasjon",
       "link": "https://www.nettavisen.no/sport/wales-reagerer-pa-norge-situasjon/s/80-95-125838",
       "pubDate": "2026-10-01T19:32:26+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314941/nettav/2026/10/1/19/bobb+%C3%B8degaard+norge+wales+bildbyr%C3%A5n.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/10/1/19/bobb+%C3%B8degaard+norge+wales+bildbyr%C3%A5n.jpg"
     },
     {
       "source": "TV 2",
@@ -543,7 +599,7 @@
       "title": "Nations League kort forklart",
       "link": "https://www.nettavisen.no/sport/nations-league-kort-forklart/v/80-95-123762",
       "pubDate": "2026-10-01T19:16:09+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314941/nettav/2026/9/29/6/.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/9/29/6/.bin"
     },
     {
       "source": "Dagbladet",
@@ -594,20 +650,12 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19281849&panox=0&panoy=7.75&panow=100&panoh=84.51&heighty=7.75&heightx=0&heightw=100&heighth=84.51&width=480"
     },
     {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Eritrea: Bryter diplomatiske forbindelser med Etiopia",
-      "link": "https://www.nrk.no/nyheter/eritrea_-bryter-diplomatiske-forbindelser-med-etiopia-1.18042794",
-      "pubDate": "2026-10-01T17:39:33+00:00",
-      "image": ""
-    },
-    {
       "source": "Nettavisen Sport",
       "cat": "sport",
       "title": "Slik starter Norge mot Wales",
       "link": "https://www.nettavisen.no/sport/flere-endringer-slik-starter-norge-mot-wales/s/80-95-125481",
       "pubDate": "2026-10-01T17:32:47+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314941/nettav/2026/10/1/15/20260924-DSC02136.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/10/1/15/20260924-DSC02136.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -615,7 +663,7 @@
       "title": "Koker i Cardiff: – Merker VM-effekten",
       "link": "https://www.nettavisen.no/sport/koker-blant-norske-supportere-i-cardiff-merker-vm-effekten/v/80-95-125736",
       "pubDate": "2026-10-01T17:30:11+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314941/nettav/2026/10/1/17/Wales+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130439/nettav/2026/10/1/17/Wales+bredde.jpg"
     },
     {
       "source": "Dagbladet",
@@ -655,7 +703,7 @@
       "title": "Nusas elleville forvandling: – Har endret meg selv",
       "link": "https://www.nettavisen.no/sport/antonio-nusas-elleville-forvandling/s/80-95-118787",
       "pubDate": "2026-10-01T16:59:06+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314942/nettav/2026/9/29/13/DSC03456.JPG"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130440/nettav/2026/9/29/13/DSC03456.JPG"
     },
     {
       "source": "TV 2 Sport",
@@ -671,7 +719,7 @@
       "title": "2. divisjonslag rystet Glimt: – Du verden",
       "link": "https://www.nettavisen.no/sport/2-divisjonslag-ryster-glimt-du-verden/s/80-95-125616",
       "pubDate": "2026-10-01T16:44:36+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790920314942/nettav/2026/10/1/16/Kjetil+Knudsen.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1790922130440/nettav/2026/10/1/16/Kjetil+Knudsen.jpg"
     },
     {
       "source": "Dagbladet",
@@ -752,54 +800,6 @@
       "link": "https://e24.no/boers-og-finans/i/AbzQLr/wall-street-stiger-fra-start?utm_medium=rss",
       "pubDate": "2026-10-01T13:30:45+00:00",
       "image": "https://akamai.vgc.no/v2/images/8a917d96-487e-3fd8-a696-cd17d23c5fb2?format=auto&w=1000&s=80aac07c18459143835624d2b9eab9d51b7ffd6e"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Frykter flere alvorlige ulykker",
-      "link": "https://www.tv2.no/a/19280074",
-      "pubDate": "2026-10-01T13:26:35+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19280235&panox=5.99&panow=41.35&panoh=26.33&panoy=31.11&heighty=24.03&heightx=11.54&heightw=20.68&heighth=44.59&width=480"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Oljefondet gjør endringer",
-      "link": "https://e24.no/norsk-oekonomi/i/L3paEq/oljefondet-gjoer-endringer?utm_medium=rss",
-      "pubDate": "2026-10-01T13:14:42+00:00",
-      "image": "https://akamai.vgc.no/v2/images/173fbfcb-2b14-3e1b-9bae-cf49da0608ac?format=auto&w=1000&s=47f36851bda95ef220d51b7c8a148985340f7c9f"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Høiby samtykker til varetekt – peker på «urimelige» vilkår",
-      "link": "https://www.tv2.no/a/19280051",
-      "pubDate": "2026-10-01T13:10:25+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19180339&panoh=67.19&panoy=2.34&panox=0&panow=100&width=480"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Perx-konkursen: Tryg Forsikring har fått 800 krav",
-      "link": "https://e24.no/boers-og-finans/i/w36rnG/perx-konkursen-tryg-forsikring-har-faatt-800-krav?utm_medium=rss",
-      "pubDate": "2026-10-01T12:54:09+00:00",
-      "image": "https://akamai.vgc.no/v2/images/616a2bbe-60f1-3def-94fc-c72de622d782?format=auto&w=1000&s=3780dbeff106e9f6eb7e1430c14bdd378c961205"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "– Aksjene har mer å gå på",
-      "link": "https://e24.no/boers-og-finans/i/7pXvXv/forvalter-leif-eriksroed-denne-sektoren-kan-overraske-i-neste-kvartalsrapportering?utm_medium=rss",
-      "pubDate": "2026-10-01T12:48:53+00:00",
-      "image": "https://akamai.vgc.no/v2/images/65ed4711-58b1-3390-9aec-36f07493cb12?format=auto&w=1000&s=133c6b303fc841132c134979e5250ac1ba3e8196"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Renteuro: – Kan få udisiplinerte politikere til å stramme inn",
-      "link": "https://e24.no/internasjonal-oekonomi/i/gdawo5/renteuro-kan-faa-udisiplinerte-politikere-til-aa-stramme-inn?utm_medium=rss",
-      "pubDate": "2026-10-01T12:48:45+00:00",
-      "image": "https://akamai.vgc.no/v2/images/5e5cc689-fff4-3f9b-bbdf-af454230fd3c?format=auto&w=1000&s=022123fd33f29d342eba86f132e558fbd0b91d60"
     }
   ],
   "sources": {
