@@ -1,6 +1,46 @@
 {
-  "updated_at": "2026-10-05T12:26:47.766541+00:00",
+  "updated_at": "2026-10-05T12:55:58.764251+00:00",
   "items": [
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Høiby varetektsfengslet i fire nye uker",
+      "link": "https://www.nrk.no/nyheter/hoiby-varetektsfengslet-i-fire-nye-uker-1.18045841",
+      "pubDate": "2026-10-05T12:53:53+00:00",
+      "image": ""
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Student omkom i fallulykke i Trøndelag",
+      "link": "https://www.nettavisen.no/nyheter/student-omkom-i-fallulykke-i-trondelag/s/80-95-133470",
+      "pubDate": "2026-10-05T12:49:00+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869600/nettav/2026/10/5/12/NTB_vCtTMDDgNpA.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Agderposten: Inger Brokka de Ruiter åpner for å bli SV-leder",
+      "link": "https://www.nettavisen.no/nyheter/agderposten-inger-brokka-de-ruiter-apner-for-a-bli-sv-leder/s/80-95-133416",
+      "pubDate": "2026-10-05T12:35:33+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869600/nettav/2026/10/5/12/NTB_6bfalLbgJOs.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "LO-lag foreslår makspris på drivstoff",
+      "link": "https://www.nettavisen.no/nyheter/dieselgrep-vil-ha-norgespris/s/80-95-133389",
+      "pubDate": "2026-10-05T12:34:52+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869600/nettav/2026/10/5/12/+NTB.bin"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Opplysninger til TV 2: Siktede har navngitt ofrene",
+      "link": "https://www.tv2.no/a/19292511",
+      "pubDate": "2026-10-05T12:24:33+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19292542&panoy=7.75&panox=0&panow=100&panoh=84.05&heightw=100&heighth=84.05&heighty=7.75&heightx=0&width=480"
+    },
     {
       "source": "Dagbladet",
       "cat": "news",
@@ -15,7 +55,7 @@
       "title": "11 spørsmål og svar om drapene på Ør",
       "link": "https://www.nettavisen.no/nyheter/11-sporsmal-og-svar-om-drapene-pa-or/s/80-95-133326",
       "pubDate": "2026-10-05T12:14:14+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086297/nettav/2026/10/5/12/Drapene_p___r24.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869601/nettav/2026/10/5/12/Drapene_p___r24.jpg"
     },
     {
       "source": "Nettavisen",
@@ -23,12 +63,12 @@
       "title": "Ut mot Frp og Høyre: – Kognitiv brist",
       "link": "https://www.nettavisen.no/nyheter/full-bokstrid-etter-nedslaende-pisa-tall-en-kognitiv-brist/s/80-95-124389",
       "pubDate": "2026-10-05T12:14:02+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086298/nettav/2026/10/3/19/cueres_scp-mangler_navn_d4DHTwTu4CQ.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869601/nettav/2026/10/3/19/cueres_scp-mangler_navn_d4DHTwTu4CQ.jpg"
     },
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Kollegaene i sjokk: - Tragisk",
+      "title": "Kollegaene i sjokk: Merket ingen forandring",
       "link": "https://www.dagbladet.no/nyheter/kollegaene-i-sjokk-tragisk/85244074",
       "pubDate": "2026-10-05T12:11:18+00:00",
       "image": "https://www.dagbladet.no/images/85245621.webp?imageId=85245621&width=1058&height=478&format=jpg"
@@ -40,6 +80,14 @@
       "link": "https://e24.no/boers-og-finans/i/n9aVMm/gaar-mot-stroemmen-i-utbyttefest-trenger-ikke-ett-til?utm_medium=rss",
       "pubDate": "2026-10-05T12:08:19+00:00",
       "image": "https://akamai.vgc.no/v2/images/f8c860a8-3731-3425-b1e7-829828c0e856?format=auto&w=1000&s=04a02db5a86778b6ee111122150b4c3819588471"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Brokka de Ruiter åpner for å bli SV-leder",
+      "link": "https://www.nrk.no/sorlandet/brokka-de-ruiter-apner-for-a-bli-sv-leder-1.18045662",
+      "pubDate": "2026-10-05T12:01:45+00:00",
+      "image": "https://gfx.nrk.no/rO3zVX6HuLw_myZFJCgddAPtAF32x9ejXpPm2kh9alXQ.jpg"
     },
     {
       "source": "Dagbladet",
@@ -55,7 +103,7 @@
       "title": "Trump åpner om pillebruk: – Jeg trenger det!",
       "link": "https://www.nettavisen.no/nyheter/usas-president-donald-trump-apner-om-bruken-av-smertestillende-aspirin-jeg-trenger-det/v/80-95-133170",
       "pubDate": "2026-10-05T11:48:05+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086298/nettav/2026/10/5/11/Trump+breddegrabb.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869601/nettav/2026/10/5/11/Trump+breddegrabb.jpg"
     },
     {
       "source": "Nettavisen",
@@ -87,7 +135,7 @@
       "title": "Advokat etter mislykket henrettelse: – Kan hende hun aldri blir frisk",
       "link": "https://www.nettavisen.no/nyheter/christa-pike-kritisk-skadet-etter-mislykket-henrettelse-i-tennessee/s/80-95-132714",
       "pubDate": "2026-10-05T11:31:44+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086298/nettav/2026/10/5/11/Christa+Pike.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/11/Christa+Pike.jpg"
     },
     {
       "source": "NRK",
@@ -135,7 +183,7 @@
       "title": "Fransk tenåring mistet hånd under skoleopptøyer",
       "link": "https://www.nettavisen.no/nyheter/fransk-tenaring-mistet-hand-under-skoleopptoyer/s/80-95-133101",
       "pubDate": "2026-10-05T11:26:06+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086299/nettav/2026/10/5/11/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/11/+NTB.bin"
     },
     {
       "source": "Dagbladet",
@@ -151,7 +199,7 @@
       "title": "Trafikkulykke på E18: Vogntog og biler involvert",
       "link": "https://www.nettavisen.no/nyheter/trafikkulykke-pa-e18-vogntog-og-flere-biler-involvert/s/80-95-132993",
       "pubDate": "2026-10-05T11:12:30+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086299/nettav/2026/10/5/11/budstikka+bilde_1.jpeg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/11/budstikka+bilde_1.jpeg"
     },
     {
       "source": "NRK",
@@ -175,7 +223,7 @@
       "title": "Suzann Pettersen klar for comeback",
       "link": "https://www.nettavisen.no/sport/suzann-pettersen-klar-for-comeback/s/80-95-132936",
       "pubDate": "2026-10-05T11:07:48+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175114/nettav/2026/10/5/11/NTB_NTiswImhLl8.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855061/nettav/2026/10/5/11/NTB_NTiswImhLl8.jpg"
     },
     {
       "source": "Dagbladet",
@@ -191,7 +239,7 @@
       "title": "Haugesund reagerer etter bråk: – Fullstendig uakseptabelt",
       "link": "https://www.nettavisen.no/sport/haugesund-reagerer-etter-brak-fullstendig-uakseptabelt/s/80-95-132867",
       "pubDate": "2026-10-05T10:52:46+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175114/nettav/2026/10/5/10/Det+ble+brk+mellom+FKH-+og+Stabk-supportere+i+pausen+i+helgens+seriekamp+p+Haugesund+stadion.+Fot"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855061/nettav/2026/10/5/10/Det+ble+brk+mellom+FKH-+og+Stabk-supportere+i+pausen+i+helgens+seriekamp+p+Haugesund+stadion.+Fot"
     },
     {
       "source": "Nettavisen Sport",
@@ -199,7 +247,7 @@
       "title": "Dansk Norge-beskjed: – På grensen til kvalmt",
       "link": "https://www.nettavisen.no/sport/dansk-norge-beskjed-pa-grensen-til-kvalmt/s/80-95-132321",
       "pubDate": "2026-10-05T10:51:03+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175114/nettav/2026/10/5/8/NTB_6E7gete0i8o.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855062/nettav/2026/10/5/8/NTB_6E7gete0i8o.jpg"
     },
     {
       "source": "Nettavisen",
@@ -207,7 +255,7 @@
       "title": "Bistandsadvokat: – De har det tungt",
       "link": "https://www.nettavisen.no/nyheter/bistandsadvokat-etter-halden-dobbeltdrapet-de-har-det-tungt/s/80-95-132726",
       "pubDate": "2026-10-05T10:44:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086299/nettav/2026/10/5/10/IMG_7917.HEIC"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/10/IMG_7917.HEIC"
     },
     {
       "source": "Nettavisen",
@@ -215,7 +263,7 @@
       "title": "Kirsti Bergstø tar gjenvalg som SV-leder: – Lykke til",
       "link": "https://www.nettavisen.no/nyheter/kirsti-bergsto-tar-gjenvalg-som-sv-leder-lykke-til/s/80-95-132774",
       "pubDate": "2026-10-05T10:37:50+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086299/nettav/2026/10/5/10/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/10/+NTB.bin"
     },
     {
       "source": "NRK",
@@ -239,7 +287,7 @@
       "title": "Åpner dørene etter dobbeltdrapet: – Rystet",
       "link": "https://www.nettavisen.no/nyheter/kirken-i-halden-apner-dorene-etter-dobbeltdrapet/s/80-95-132570",
       "pubDate": "2026-10-05T10:21:44+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086299/nettav/2026/10/5/10/IMG_7880.HEIC"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869602/nettav/2026/10/5/10/IMG_7880.HEIC"
     },
     {
       "source": "NRK",
@@ -263,7 +311,7 @@
       "title": "Wiborg etter Hussein-beskjed: – Relativt lite rasisme",
       "link": "https://www.nettavisen.no/nyheter/erlend-wiborg-om-marian-hussein-relativt-lite-rasisme-i-norge/s/80-95-132396",
       "pubDate": "2026-10-05T10:08:57+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086300/nettav/2026/10/5/9/IMG_6961.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869603/nettav/2026/10/5/9/IMG_6961.jpg"
     },
     {
       "source": "Nettavisen",
@@ -271,7 +319,7 @@
       "title": "Ut mot Wiborg: – Arrogant",
       "link": "https://www.nettavisen.no/nyheter/slar-tilbake-mot-erlend-wiborg-sitt-rasisme-utspill/v/80-95-132615",
       "pubDate": "2026-10-05T09:58:24+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086300/nettav/2026/10/5/9/5_95_1755776_Erlend_Wiborg_Frp_HA5vard_Hjorthaug_Vege_Nettavisen.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204869603/nettav/2026/10/5/9/5_95_1755776_Erlend_Wiborg_Frp_HA5vard_Hjorthaug_Vege_Nettavisen.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -284,10 +332,10 @@
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Peker på Oljefondet: - Skandale",
+      "title": "- Må ta ansvar for galskapen han satte i gang",
       "link": "https://www.dagbladet.no/nyheter/dette-er-en-skandale/85237292",
       "pubDate": "2026-10-05T09:54:19+00:00",
-      "image": "https://www.dagbladet.no/images/85243923.webp?imageId=85243923&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85242987.webp?imageId=85242987&width=1058&height=478&format=jpg"
     },
     {
       "source": "E24",
@@ -298,28 +346,12 @@
       "image": "https://akamai.vgc.no/v2/images/e93f98e3-81bc-36b9-b522-e83bc2ababe3?format=auto&w=1000&s=7516053cbd13b07ef78e444708e7c8613679fdad"
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Lars Haltbrekken tar gjenvalg som SV-nestleder",
-      "link": "https://www.nettavisen.no/nyheter/lars-haltbrekken-tar-gjenvalg-som-sv-nestleder/s/80-95-132630",
-      "pubDate": "2026-10-05T09:52:27+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086300/nettav/2026/10/5/9/+NTB.bin"
-    },
-    {
       "source": "NRK",
       "cat": "news",
       "title": "Haltbrekken ønsker gjenvalg som SV-nestleder",
       "link": "https://www.nrk.no/nyheter/haltbrekken-onsker-gjenvalg-som-sv-nestleder-1.18045576",
       "pubDate": "2026-10-05T09:51:35+00:00",
       "image": "https://gfx.nrk.no/uAhz2HgY-5x4FQwbM7PD7gd2pNV71ngoHEDjBxzn4tlw.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Tyskere og amerikaner får nobelprisen i medisin",
-      "link": "https://www.nettavisen.no/nyheter/tyskere-og-amerikaner-far-nobelprisen-i-medisin/s/80-95-132585",
-      "pubDate": "2026-10-05T09:41:08+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086300/nettav/2026/10/5/9/NTB_MY8BZgB5_rI.jpg"
     },
     {
       "source": "Dagbladet",
@@ -344,14 +376,6 @@
       "link": "https://www.tv2.no/a/19291832",
       "pubDate": "2026-10-05T09:37:52+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19291919&panow=100&panoh=100&panoy=0&panox=0&heighty=0&heightx=0&heightw=100&heighth=100&width=480"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Nye detaljer om Halden-drapene: – Begynner å danne oss et bilde av hendelsesforløpet",
-      "link": "https://www.nettavisen.no/nyheter/nye-detaljer-om-halden-drapene-skal-ha-avfyrt-rundt-ti-skudd/s/80-95-131961",
-      "pubDate": "2026-10-05T09:36:38+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203086301/nettav/2026/10/5/9/Siktet_nysladd.jpg"
     },
     {
       "source": "Dagbladet",
@@ -383,7 +407,7 @@
       "title": "Niso med Haaland-varsku: Varsler samtaler",
       "link": "https://www.nettavisen.no/sport/niso-med-haaland-varsku-varsler-samtaler/s/80-95-132477",
       "pubDate": "2026-10-05T09:01:52+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175115/nettav/2026/10/5/9/NTB_j-7TdtmUm4c+%282%29.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855062/nettav/2026/10/5/9/NTB_j-7TdtmUm4c+%282%29.jpg"
     },
     {
       "source": "NRK",
@@ -463,7 +487,7 @@
       "title": "Anspent etter landskamp: Israelske journalister bannlyst",
       "link": "https://www.nettavisen.no/sport/anspent-etter-landskamp-israelske-journalister-bannlyst/s/80-95-132276",
       "pubDate": "2026-10-05T07:59:15+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175115/nettav/2026/10/5/7/NTB_A60EwTnv0vs.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855062/nettav/2026/10/5/7/NTB_A60EwTnv0vs.jpg"
     },
     {
       "source": "NRK",
@@ -559,7 +583,7 @@
       "title": "Solbakkens beskjed til Nyland og Selvik: – Må vise seg fram",
       "link": "https://www.nettavisen.no/sport/solbakkens-beskjed-til-nyland-og-selvik-ma-vise-seg-fram/s/80-95-131658",
       "pubDate": "2026-10-05T06:32:33+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175116/nettav/2026/10/5/0/cueres_scp-mangler_navn__8hpXvO4W4Y.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855062/nettav/2026/10/5/0/cueres_scp-mangler_navn__8hpXvO4W4Y.jpg"
     },
     {
       "source": "NRK",
@@ -567,22 +591,6 @@
       "title": "Skolebuss kjørte av veien",
       "link": "https://www.nrk.no/tromsogfinnmark/skolebuss-kjorte-av-veien-1.18045280",
       "pubDate": "2026-10-05T06:29:52+00:00",
-      "image": ""
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Kan bli nyvalg i Spania",
-      "link": "https://www.nrk.no/nyheter/kan-bli-nyvalg-i-spania-1.18045306",
-      "pubDate": "2026-10-05T06:23:42+00:00",
-      "image": ""
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Kreml: Ukrainske skip i Svartehavet angrepet",
-      "link": "https://www.nrk.no/nyheter/kreml_-ukrainske-skip-i-svartehavet-angrepet-1.18045261",
-      "pubDate": "2026-10-05T06:15:19+00:00",
       "image": ""
     },
     {
@@ -631,7 +639,7 @@
       "title": "FIS skrotet åpning for ekstra ski-VM i 2028",
       "link": "https://www.nettavisen.no/sport/fis-skrotet-apning-for-ekstra-ski-vm-i-2028/s/80-95-131814",
       "pubDate": "2026-10-05T05:07:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175116/nettav/2026/10/5/5/NTB_d69DPiaQDps.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855062/nettav/2026/10/5/5/NTB_d69DPiaQDps.jpg"
     },
     {
       "source": "TV 2",
@@ -647,7 +655,7 @@
       "title": "Solbakken: – Det er helt sykt",
       "link": "https://www.nettavisen.no/sport/stale-solbakken-det-er-helt-sykt/v/80-95-131631",
       "pubDate": "2026-10-05T04:51:08+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175116/nettav/2026/10/4/22/Solbakken+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855063/nettav/2026/10/4/22/Solbakken+bredde.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -655,7 +663,7 @@
       "title": "Solbakken reagerer: – Det er bare helt sykt",
       "link": "https://www.nettavisen.no/sport/solbakken-reagerer-det-er-bare-helt-sykt/s/80-95-131274",
       "pubDate": "2026-10-05T04:43:11+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175117/nettav/2026/10/5/0/st%C3%A5le+solbakken+portugal+ntb.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855063/nettav/2026/10/5/0/st%C3%A5le+solbakken+portugal+ntb.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -663,7 +671,7 @@
       "title": "Mandagens Premier League-rykter",
       "link": "https://www.nettavisen.no/sport/mandagens-premier-league-rykter/s/80-95-131721",
       "pubDate": "2026-10-05T04:35:26+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175117/nettav/2026/10/5/4/NTB_I7_RikmKzos.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855063/nettav/2026/10/5/4/NTB_I7_RikmKzos.jpg"
     },
     {
       "source": "E24",
@@ -695,7 +703,7 @@
       "title": "Jesus grillet om Ronaldo-retur: Portugal vil ha en forklaring",
       "link": "https://www.nettavisen.no/sport/jesus-apner-for-ronaldo-retur-kan-komme-tilbake-nar-han-vil/s/80-95-131607",
       "pubDate": "2026-10-05T03:59:29+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175118/nettav/2026/10/4/21/ROnaldo-retur.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855064/nettav/2026/10/4/21/ROnaldo-retur.jpg"
     },
     {
       "source": "TV 2",
@@ -735,7 +743,7 @@
       "title": "Svarer om Ronaldo-spliden: – Skjønner ikke",
       "link": "https://www.nettavisen.no/sport/jorge-jesus-svarer-om-cristiano-ronaldo-spliden-skjonner-ikke/v/80-95-131640",
       "pubDate": "2026-10-04T23:10:35+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175118/nettav/2026/10/4/23/Jesus+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855064/nettav/2026/10/4/23/Jesus+bredde.jpg"
     },
     {
       "source": "TV 2",
@@ -751,7 +759,7 @@
       "title": "Reagerer på eksperten: – Spesielt å si",
       "link": "https://www.nettavisen.no/sport/jorgen-strand-larsen-reagerer-pa-eksperten-spesielt-a-si/v/80-95-131622",
       "pubDate": "2026-10-04T22:11:26+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175118/nettav/2026/10/4/22/J%C3%B8rgen+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855064/nettav/2026/10/4/22/J%C3%B8rgen+bredde.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -759,7 +767,7 @@
       "title": "Svarer om Haaland og Ødegaard",
       "link": "https://www.nettavisen.no/sport/leo-skiri-ostigard-svarer-om-erling-braut-haaland-og-martin-odegaard/v/80-95-131610",
       "pubDate": "2026-10-04T21:52:03+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175118/nettav/2026/10/4/21/Leo+bredde.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855064/nettav/2026/10/4/21/Leo+bredde.jpg"
     },
     {
       "source": "Dagbladet",
@@ -783,7 +791,7 @@
       "title": "Solbakken bekrefter: Haaland forlater Portugal allerede",
       "link": "https://www.nettavisen.no/sport/solbakken-bekrefter-flere-forlater-portugal-allerede-na/s/80-95-131553",
       "pubDate": "2026-10-04T21:28:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791203175118/nettav/2026/10/4/21/Haaland+reiser.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791204855064/nettav/2026/10/4/21/Haaland+reiser.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -792,14 +800,6 @@
       "link": "https://www.tv2.no/a/19284493",
       "pubDate": "2026-10-04T20:47:57+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19290383&panoy=6.81&panox=25.11&panow=40&panoh=28.73&width=480"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "– Frp må skjerpe seg",
-      "link": "https://www.tv2.no/a/19249449",
-      "pubDate": "2026-10-04T19:55:57+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19249456&panoy=7.95&panox=0&panow=100&panoh=84.09&heighty=7.95&heightw=100&heighth=84.09&heightx=0&width=480"
     }
   ],
   "sources": {
