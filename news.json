@@ -1,6 +1,30 @@
 {
-  "updated_at": "2026-10-13T03:04:09.239491+00:00",
+  "updated_at": "2026-10-13T03:32:26.825551+00:00",
   "items": [
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Trump vurderer å gi Hellas-ambassadør sparken",
+      "link": "https://www.nettavisen.no/nyheter/trump-vurderer-a-gi-hellas-ambassador-sparken/s/80-95-153953",
+      "pubDate": "2026-10-13T03:27:36+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/10/14/cueres_scp-mangler_navn_jy2DTP5cB0M.jpg"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Ti omkom i bussulykke i Bolivia",
+      "link": "https://www.nrk.no/nyheter/ti-omkom-i-bussulykke-i-bolivia-1.18053104",
+      "pubDate": "2026-10-13T03:16:07+00:00",
+      "image": ""
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Trump rykker ut: - Ikke glad",
+      "link": "https://www.dagbladet.no/nyheter/kan-fa-spraken-vi-er-ikke-glade/85279091",
+      "pubDate": "2026-10-13T03:02:39+00:00",
+      "image": "https://www.dagbladet.no/images/85279112.webp?imageId=85279112&width=1058&height=478&format=jpg"
+    },
     {
       "source": "E24",
       "cat": "money",
@@ -15,12 +39,12 @@
       "title": "Orkan og uvær i Mexico: Fem døde og flere savnet",
       "link": "https://www.nettavisen.no/nyheter/orkan-og-uvar-i-mexico-fem-dode-og-flere-savnet/s/80-95-153932",
       "pubDate": "2026-10-13T02:46:03+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480898/nettav/2026/10/13/2/Turister+tar+bilder+av+sjvann+som+velter+inn+over+land+idet+orkanen+Simon+nrmet+seg+Puerto+Vallart.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/2/Turister+tar+bilder+av+sjvann+som+velter+inn+over+land+idet+orkanen+Simon+nrmet+seg+Puerto+Vallart.bin"
     },
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "- Da hadde jeg vært på fødestua",
+      "title": "Venter barn: - Sent for min del",
       "link": "https://www.dagbladet.no/sport/da-hadde-jeg-vaert-pa-fodestua/85278813",
       "pubDate": "2026-10-13T02:40:48+00:00",
       "image": "https://www.dagbladet.no/images/85278891.webp?imageId=85278891&x=10.88&y=7.69&cropw=89.12&croph=63.86&heightx=35.67&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg"
@@ -31,7 +55,7 @@
       "title": "Flyselskaper innstiller saudi-flyginger",
       "link": "https://www.nettavisen.no/nyheter/flyselskaper-innstiller-saudi-flyginger/s/80-95-153920",
       "pubDate": "2026-10-13T02:36:23+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480898/nettav/2026/10/13/2/Stillbilde+fra+et+verifisert+videoopptak+som+viser+ryk+og+brann+etter+angrepet+mot+flyplassen+i+Riy.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/2/Stillbilde+fra+et+verifisert+videoopptak+som+viser+ryk+og+brann+etter+angrepet+mot+flyplassen+i+Riy.bin"
     },
     {
       "source": "Nettavisen",
@@ -55,12 +79,12 @@
       "title": "En død og seks skadet i ulykke på berg-og-dal-bane i USA",
       "link": "https://www.nettavisen.no/nyheter/en-dod-og-seks-skadet-i-ulykke-pa-berg-og-dal-bane-i-usa/s/80-95-153902",
       "pubDate": "2026-10-13T02:12:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480898/nettav/2026/10/13/2/Ulykken+skjedde+i+fornyelsesparken+Six+Flags+Over+Georgia+mandag.+Bildet+viser+en+av+parkens+berg-o"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/2/Ulykken+skjedde+i+fornyelsesparken+Six+Flags+Over+Georgia+mandag.+Bildet+viser+en+av+parkens+berg-o"
     },
     {
       "source": "TV 2",
       "cat": "news",
-      "title": "Boligbrann: – Full fyr i to av leilighetene",
+      "title": "Fire beboere måtte hoppe fra annen etasje",
       "link": "https://www.tv2.no/a/19317410",
       "pubDate": "2026-10-13T02:12:19+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19317418&width=480"
@@ -79,7 +103,7 @@
       "title": "Flere leiligheter i brann i Brønnøy – spredningsfare",
       "link": "https://www.nettavisen.no/nyheter/flere-leiligheter-i-brann-i-bronnoy-spredningsfare/s/80-95-153899",
       "pubDate": "2026-10-13T01:51:30+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480899/nettav/2026/10/13/2/Brann+Br%C3%B8nn%C3%B8y+2+jpg.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/2/Brann+Br%C3%B8nn%C3%B8y+2+jpg.jpg"
     },
     {
       "source": "Dagbladet",
@@ -92,8 +116,8 @@
     {
       "source": "NRK",
       "cat": "news",
-      "title": "Tre til legevakt etter boligbrann i Brønnøy",
-      "link": "https://www.nrk.no/nyheter/tre-til-legevakt-etter-boligbrann-i-bronnoy-1.18053100",
+      "title": "Fire leiligheter totalskadet etter boligbrann i Brønnøy",
+      "link": "https://www.nrk.no/nyheter/fire-leiligheter-totalskadet-etter-boligbrann-i-bronnoy-1.18053100",
       "pubDate": "2026-10-13T01:24:43+00:00",
       "image": "https://gfx.nrk.no/FU5U9loP-K7P3eQvk2l4XAA1lMCmbXleLYA6yCbe3UIw.jpg"
     },
@@ -119,7 +143,7 @@
       "title": "Nytt jordskjelv i Panama",
       "link": "https://www.nettavisen.no/nyheter/nytt-jordskjelv-i-panama/s/80-95-153890",
       "pubDate": "2026-10-13T00:32:32+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480899/nettav/2026/10/13/0/+AP.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/0/+AP.bin"
     },
     {
       "source": "NRK",
@@ -135,7 +159,7 @@
       "title": "Nye detaljer: «Falsk alarm»",
       "link": "https://www.dagbladet.no/nyheter/dramatisk-nodsamtale-hun-er-ikke-dod/85279040",
       "pubDate": "2026-10-13T00:16:09+00:00",
-      "image": "https://www.dagbladet.no/images/85253518.webp?imageId=85253518&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85239022.webp?imageId=85239022&width=1058&height=478&format=jpg"
     },
     {
       "source": "Nettavisen",
@@ -143,7 +167,7 @@
       "title": "Fagforbundet vil redde Posten med krisepakke på en halv milliard",
       "link": "https://www.nettavisen.no/nyheter/fagforbundet-vil-redde-posten-med-krisepakke-pa-en-halv-milliard/s/80-95-153881",
       "pubDate": "2026-10-13T00:14:16+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480899/nettav/2026/10/13/0/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/13/0/+NTB.bin"
     },
     {
       "source": "Nettavisen",
@@ -175,7 +199,7 @@
       "title": "Zelenskyj: To drept i angrep mot boligblokk i Kyiv",
       "link": "https://www.nettavisen.no/nyheter/zelenskyj-to-drept-i-angrep-mot-boligblokk-i-kyiv/s/80-95-153869",
       "pubDate": "2026-10-12T22:52:23+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480899/nettav/2026/10/12/22/En+utbrent+bil+str+foran+en+boligblokk+som+ble+skadet+i+et+russisk+droneangrep+mot+Kyiv+mandag.+Fot"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258782/nettav/2026/10/12/22/En+utbrent+bil+str+foran+en+boligblokk+som+ble+skadet+i+et+russisk+droneangrep+mot+Kyiv+mandag.+Fot"
     },
     {
       "source": "Nettavisen",
@@ -199,7 +223,7 @@
       "title": "Bayern München-bussen på plass i Stavanger",
       "link": "https://www.nettavisen.no/sport/bayern-m-nchen-bussen-pa-plass-i-stavanger/g/80-95-153854",
       "pubDate": "2026-10-12T21:57:20+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559846/nettav/2026/10/12/21/a-60ee5c95-2bde-4d87-97ac-5cf4c8ce8057.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254921/nettav/2026/10/12/21/a-60ee5c95-2bde-4d87-97ac-5cf4c8ce8057.jpg"
     },
     {
       "source": "Nettavisen",
@@ -207,7 +231,7 @@
       "title": "Trussel mot Ahus: «Jeg skal få sprengt dere i lufta»",
       "link": "https://www.nettavisen.no/nyheter/trussel-mot-ahus-jeg-skal-fa-sprengt-dere-i-lufta/s/80-95-141815",
       "pubDate": "2026-10-12T21:35:17+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480899/nettav/2026/10/8/7/Ahus_drone__2_av_2_.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258783/nettav/2026/10/8/7/Ahus_drone__2_av_2_.jpg"
     },
     {
       "source": "Dagbladet",
@@ -239,7 +263,7 @@
       "title": "Sweeney-stormen: Svarte med ny reklame",
       "link": "https://www.nettavisen.no/sport/sydney-sweeney-stormen-svarte-med-ny-reklame/s/80-95-150878",
       "pubDate": "2026-10-12T21:10:39+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559846/nettav/2026/10/12/6/Sydney+Sweeney.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254922/nettav/2026/10/12/6/Sydney+Sweeney.jpg"
     },
     {
       "source": "Dagbladet",
@@ -255,7 +279,7 @@
       "title": "Drømmemål da Lampards menn herjet i første hjemmeseier",
       "link": "https://www.nettavisen.no/sport/drommemal-da-lampard-herjet-i-sin-forste-hjemmeseier/s/80-95-153800",
       "pubDate": "2026-10-12T20:53:30+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559846/nettav/2026/10/12/20/cueres_scp-mangler_navn_cTfTfrYRpOk.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254922/nettav/2026/10/12/20/cueres_scp-mangler_navn_cTfTfrYRpOk.jpg"
     },
     {
       "source": "Nettavisen",
@@ -271,7 +295,7 @@
       "title": "Ap-rådgiver dømt for hallikvirksomhet",
       "link": "https://www.nettavisen.no/nyheter/ap-radgiver-domt-for-hallikvirksomhet/s/80-95-153785",
       "pubDate": "2026-10-12T20:41:48+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480900/nettav/2026/10/12/20/NTB_ZSnc4ZWwYEQ.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258783/nettav/2026/10/12/20/NTB_ZSnc4ZWwYEQ.jpg"
     },
     {
       "source": "Dagbladet",
@@ -343,7 +367,7 @@
       "title": "Frp-bråk i Tromsø: Hele valgkomiteen trekker seg",
       "link": "https://www.nettavisen.no/nyheter/kaos-i-tromso-frp-valgkomiteen-trekker-seg/s/80-95-153704",
       "pubDate": "2026-10-12T19:57:54+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860480900/nettav/2026/10/12/12/bj%C3%B8rn+gunnar+j%C3%B8rgensen+kristoffer+kanestr%C3%B8m.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862258783/nettav/2026/10/12/12/bj%C3%B8rn+gunnar+j%C3%B8rgensen+kristoffer+kanestr%C3%B8m.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -351,15 +375,7 @@
       "title": "Klar City-beskjed: Vil bli tatt av skjermen",
       "link": "https://www.nettavisen.no/sport/gary-neville-vil-fjernes-fra-manchester-city-kamper-pa-sky-sports/s/80-95-153287",
       "pubDate": "2026-10-12T19:56:36+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559847/nettav/2026/10/12/14/NTB_KIgDVYxPBE8.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Mann funnet livløs i vannet – døde",
-      "link": "https://www.nettavisen.no/nyheter/mann-funnet-livlos-i-vannet-dode/s/80-95-153707",
-      "pubDate": "2026-10-12T19:51:03+00:00",
-      "image": ""
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254922/nettav/2026/10/12/14/NTB_KIgDVYxPBE8.jpg"
     },
     {
       "source": "NRK",
@@ -399,7 +415,7 @@
       "title": "Ny Enga-smell da KFUM snudde byderbyet: – Brutalt!",
       "link": "https://www.nettavisen.no/sport/ny-enga-smell-da-kfum-snudde-byderbyet-brutalt/s/80-95-153566",
       "pubDate": "2026-10-12T18:55:53+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559847/nettav/2026/10/12/18/cueres_scp-mangler_navn_t7gIqbD2jeU.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254922/nettav/2026/10/12/18/cueres_scp-mangler_navn_t7gIqbD2jeU.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -447,7 +463,7 @@
       "title": "Silje Opseth med gladmelding: – Legene sa det var «nå eller aldri»",
       "link": "https://www.nettavisen.no/sport/silje-opseth-27-med-gladmelding-legene-sa-det-var-na-eller-aldri/s/80-95-153596",
       "pubDate": "2026-10-12T18:34:16+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559847/nettav/2026/10/12/18/5_95_1711595+NTB_H6iB5gvSd8g.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254923/nettav/2026/10/12/18/5_95_1711595+NTB_H6iB5gvSd8g.jpg"
     },
     {
       "source": "TV 2",
@@ -535,7 +551,7 @@
       "title": "Nekter å svare på gårdsspørsmål: – Vi er ferdig",
       "link": "https://www.nettavisen.no/sport/nekter-a-svare-pa-gardssporsmal-vi-er-ferdig/s/80-95-140318",
       "pubDate": "2026-10-12T17:42:47+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559847/nettav/2026/10/9/7/UTHjLUGgsXo.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254923/nettav/2026/10/9/7/UTHjLUGgsXo.jpg"
     },
     {
       "source": "E24",
@@ -583,7 +599,7 @@
       "title": "Keeperstrid i Bayern før Viking-møte: – En dum feil",
       "link": "https://www.nettavisen.no/sport/keeperstrid-i-bayern-for-viking-mote-en-dum-feil/s/80-95-153545",
       "pubDate": "2026-10-12T16:49:16+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559848/nettav/2026/10/12/16/+NTB_1.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254923/nettav/2026/10/12/16/+NTB_1.bin"
     },
     {
       "source": "NRK",
@@ -639,7 +655,7 @@
       "title": "Kong Haakon trekker seg fra VM-komité",
       "link": "https://www.nettavisen.no/sport/kong-haakon-trer-ut-av-hovedkomiteen-til-alpin-vm-i-narvik/s/80-95-153392",
       "pubDate": "2026-10-12T16:02:13+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559848/nettav/2026/10/12/16/Kong+Haakon+p+utverhotellet+med+Henrik+Kristoffersen+under+vinter-OL+i+Milano+og+Cortina+i+2026.+F"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254924/nettav/2026/10/12/16/Kong+Haakon+p+utverhotellet+med+Henrik+Kristoffersen+under+vinter-OL+i+Milano+og+Cortina+i+2026.+F"
     },
     {
       "source": "TV 2",
@@ -655,7 +671,7 @@
       "title": "Hangeland i ny bok om VM: – En skandale",
       "link": "https://www.nettavisen.no/sport/ny-bok-om-fotball-vm-en-skandale/s/80-95-153320",
       "pubDate": "2026-10-12T15:55:03+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559848/nettav/2026/10/12/15/BB260927VG190.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254924/nettav/2026/10/12/15/BB260927VG190.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -671,7 +687,7 @@
       "title": "Trues av konkurs: Styreleder og sportslig leder trekker seg",
       "link": "https://www.nettavisen.no/sport/konkurstruede-raufoss-styreleder-og-sportslig-leder-trekker-seg/s/80-95-153323",
       "pubDate": "2026-10-12T15:34:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559848/nettav/2026/10/12/15/+NTB.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254924/nettav/2026/10/12/15/+NTB.bin"
     },
     {
       "source": "TV 2",
@@ -687,7 +703,7 @@
       "title": "Carragher med City-bekymring: – Holdt for narr",
       "link": "https://www.nettavisen.no/sport/jamie-carragher-kom-med-en-klar-manchester-city-beskjed-de-kan-ikke-fa-lov/s/80-95-150827",
       "pubDate": "2026-10-12T15:18:51+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559848/nettav/2026/10/12/11/Haaland+Anfield.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254924/nettav/2026/10/12/11/Haaland+Anfield.jpg"
     },
     {
       "source": "NRK",
@@ -743,7 +759,7 @@
       "title": "Molde dropper protest etter dommertirade",
       "link": "https://www.nettavisen.no/sport/molde-dropper-protest-etter-dommertirade/s/80-95-153065",
       "pubDate": "2026-10-12T13:44:56+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791860559849/nettav/2026/10/12/13/Dommer+Espen+Esks+avgjorde+at+ballen+ikke+over+mlstreken+op+stillingen+2-2+mellom+Lillestrm+og+Mo.bin"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1791862254924/nettav/2026/10/12/13/Dommer+Espen+Esks+avgjorde+at+ballen+ikke+over+mlstreken+op+stillingen+2-2+mellom+Lillestrm+og+Mo.bin"
     },
     {
       "source": "TV 2 Sport",
@@ -770,14 +786,6 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19315959&panoy=5.83&panoh=71.67&panow=100&panox=0&width=480"
     },
     {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Slottet: Dronning Sonja fjernet fra Kongehuset",
-      "link": "https://www.nrk.no/nyheter/slottet_-dronning-sonja-fjernet-fra-kongehuset-1.18052755",
-      "pubDate": "2026-10-12T13:38:56+00:00",
-      "image": ""
-    },
-    {
       "source": "TV 2 Sport",
       "cat": "sport",
       "title": "Raste mot dommerne – nå dropper de protest",
@@ -792,14 +800,6 @@
       "link": "https://e24.no/boers-og-finans/i/Jrvgam/blandet-aapning-paa-wall-street?utm_medium=rss",
       "pubDate": "2026-10-12T13:31:10+00:00",
       "image": "https://akamai.vgc.no/v2/images/7374ec01-90b9-3a2b-ac6e-d5d97e201ce8?format=auto&w=1000&s=f7225fe4ae73be3c05f4e89acffd6b4faf30c727"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Sjekk din kommune eller bydel: Her stiger boligprisene mest og minst",
-      "link": "https://e24.no/norsk-oekonomi/i/kvmeEA/sjekk-din-kommune-eller-bydel-her-stiger-boligprisene-mest-og-minst?utm_medium=rss",
-      "pubDate": "2026-10-12T12:39:08+00:00",
-      "image": "https://akamai.vgc.no/v2/images/5f41903e-fa66-30ed-8f44-15f489313536?format=auto&w=1000&s=4e922fa9e38c8c77ab8514b542e82655c64e1109"
     }
   ],
   "sources": {
