@@ -1,13 +1,573 @@
 {
-  "updated_at": "2026-11-20T13:20:21.010128+00:00",
+  "updated_at": "2026-11-20T21:22:06.975091+00:00",
   "items": [
     {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Gjorde unntak: Viser fram kjæresten",
-      "link": "https://www.dagbladet.no/sport/gjorde-unntak-viser-fram-kjaeresten/85443169",
-      "pubDate": "2026-11-20T12:58:54+00:00",
-      "image": "https://www.dagbladet.no/images/85443209.webp?imageId=85443209&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+      "title": "Nå skal hun røykes ut",
+      "link": "https://www.dagbladet.no/meninger/hoyre-skjerper-greiene/85446184",
+      "pubDate": "2026-11-20T21:03:07+00:00",
+      "image": "https://www.dagbladet.no/images/85344776.webp?imageId=85344776&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "GTA-lansering: – Mange henvendelser fra foreldre",
+      "link": "https://www.nettavisen.no/nyheter/gta-lansering-mange-henvendelser-fra-foreldre/v/80-95-261620",
+      "pubDate": "2026-11-20T20:50:52+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672139/nettav/2026/11/18/14/GTA.jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Nytt brev sattfart på ryktene:– Ikke utenkelig",
+      "link": "https://www.tv2.no/a/19446956",
+      "pubDate": "2026-11-20T20:49:08+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=18368638&width=480"
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "Har solgt frokost i over 30 år på Wall Street: – Økonomien er dårlig",
+      "link": "https://e24.no/boers-og-finans/i/Wmb2Xd/har-solgt-frokost-i-over-30-aar-paa-wall-street-oekonomien-er-daarlig?utm_medium=rss",
+      "pubDate": "2026-11-20T20:41:51+00:00",
+      "image": "https://akamai.vgc.no/v2/images/040b181b-a3ea-3b70-b128-5e4e80bd41b6?format=auto&w=1000&s=719368f4c88650134792261162091b4ead313bf4"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Svindelnettverk rulles opp i Rogaland – over 20 siktet",
+      "link": "https://www.nettavisen.no/nyheter/svindelnettverk-rulles-opp-i-rogaland-over-20-siktet/s/80-95-269558",
+      "pubDate": "2026-11-20T20:36:01+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672140/nettav/2026/11/20/20/Politiinspektr+Lars+Ole+Berge+i+Srvest+sier+etterforskningen+av+svindelnettverket+har+pgtt+i+run.bin"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Matte-verden i sjokk: – Helt uvirkelig",
+      "link": "https://www.tv2.no/a/19454029",
+      "pubDate": "2026-11-20T20:23:13+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19454245&panow=99.86&panoy=12.81&panox=0&panoh=63.55&heighty=0&heightx=21.15&heightw=46.67&heighth=100&width=480"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Sensasjonelt comeback",
+      "link": "https://www.dagbladet.no/kjendis/sensasjonelt-comeback-na-er-det-bekreftet/85452253",
+      "pubDate": "2026-11-20T20:16:22+00:00",
+      "image": "https://www.dagbladet.no/images/85452270.webp?imageId=85452270&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "– Bekymret for å bli dolket i ryggen",
+      "link": "https://www.tv2.no/a/19453618",
+      "pubDate": "2026-11-20T20:15:59+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453733&panoy=0&panow=93.81&panoh=100&panox=0&heighty=0&heightx=0&heightw=93.81&heighth=100&width=480"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Sønnen knust etter brev: - Overtramp",
+      "link": "https://www.dagbladet.no/sport/matheo-er-kjempelei-seg/85420172",
+      "pubDate": "2026-11-20T20:04:23+00:00",
+      "image": "https://www.dagbladet.no/images/85446259.webp?imageId=85446259&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Voldtektstiltalt forfatter kontaktet politiet",
+      "link": "https://www.dagbladet.no/nyheter/voldtektstiltalt-forfatter-kontaktet-politiet/85450019",
+      "pubDate": "2026-11-20T20:03:46+00:00",
+      "image": "https://www.dagbladet.no/images/85451202.webp?imageId=85451202&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=37.13&heighty=0.00&heightw=35.24&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Ulykksalig debut i Eliteserien da Glimt slo Molde i målfest",
+      "link": "https://www.nettavisen.no/sport/marerittdebut-da-glimt-knuste-molde/s/80-95-269441",
+      "pubDate": "2026-11-20T20:02:19+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579528/nettav/2026/11/20/19/NTB_O6FTE5NIKWU.jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Herjet: - Gave­pakke",
+      "link": "https://www.dagbladet.no/sport/glimt-herjet-med-molde-gavepakke/85451824",
+      "pubDate": "2026-11-20T20:02:19+00:00",
+      "image": "https://www.dagbladet.no/images/85452077.webp?imageId=85452077&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Trump raser mot journalist: – Du er en veldig uhøflig person",
+      "link": "https://www.nettavisen.no/nyheter/donald-trump-raser-mot-nbc-journalist-pa-pressekonferanse/v/80-95-269468",
+      "pubDate": "2026-11-20T19:58:14+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672140/nettav/2026/11/20/19/h%C3%B8yde+trump+kjefter.jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Tar oppgjør etter brutal opplevelse",
+      "link": "https://www.tv2.no/a/19453451",
+      "pubDate": "2026-11-20T19:54:03+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453701&panow=100&panoh=71.67&panoy=10.83&panox=0&width=480"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Norsk skihopper bekrefter: Nytt par",
+      "link": "https://www.dagbladet.no/sport/norsk-skihopper-bekrefter-nytt-par/85452073",
+      "pubDate": "2026-11-20T19:52:15+00:00",
+      "image": "https://www.dagbladet.no/images/85452575.webp?imageId=85452575&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Derfor har Russland denne militære eksklaven midt i Nato-land",
+      "link": "https://www.nettavisen.no/nyheter/hvorfor-tilhorer-kaliningrad-russland-historien-om-ost-preussen/s/80-95-269015",
+      "pubDate": "2026-11-20T19:51:27+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672140/nettav/2026/11/20/18/Old_cathedral_of_Kaliningrad_in_Russia.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Nytt «marerittaktig» funn oppdaget i havet",
+      "link": "https://www.nettavisen.no/nyheter/forskere-forbloffet-over-ukjente-spagettiormer/s/80-95-267329",
+      "pubDate": "2026-11-20T19:45:33+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/20/12/094F258B-408F-4FF3-B02C-01E86F7E31AA_1_201_a.jpeg"
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "GTA 6 har solgt for 37 milliarder kroner",
+      "link": "https://e24.no/boers-og-finans/i/M5R2mK/gta-6-har-solgt-for-37-milliarder-kroner-opplyser-spillets-utgiver?utm_medium=rss",
+      "pubDate": "2026-11-20T19:28:44+00:00",
+      "image": "https://akamai.vgc.no/v2/images/5db002e4-1fa8-33d2-ba36-fdf8d0f1a370?format=auto&w=1000&s=4d7eb15ec6dde110a2495107955df4ad017defd4"
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "Nvidia-aksjen stupte etter rykter om etterforskning",
+      "link": "https://e24.no/boers-og-finans/i/7P0Myw/reuters-usas-finanstilsyn-gransker-nvidias-regnskapspaksis?utm_medium=rss",
+      "pubDate": "2026-11-20T19:25:58+00:00",
+      "image": "https://akamai.vgc.no/v2/images/1da3880a-6a19-31dd-a00a-c787209d62ae?format=auto&w=1000&s=1621775589a011e3c86cd13ba8e00b93526d8b31"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Støre slakter Listhaug",
+      "link": "https://www.nettavisen.no/nyheter/jonas-gahr-store-slakter-sylvi-listhaug/v/80-95-268793",
+      "pubDate": "2026-11-20T19:22:27+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/20/15/st%C3%B8re+2.jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "FT: Har satt fredsfrist",
+      "link": "https://www.dagbladet.no/nyheter/putin-vil-ha-slutt-pa-krigen/85452198",
+      "pubDate": "2026-11-20T19:17:21+00:00",
+      "image": "https://www.dagbladet.no/images/85452285.webp?imageId=85452285&x=0.00&y=2.50&cropw=100.00&croph=71.67&heightx=29.94&heighty=0.00&heightw=41.43&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "19-åring omkom: Siktet erkjenner ikke straffskyld",
+      "link": "https://www.nettavisen.no/nyheter/19-aring-omkom-erkjenner-ikke-straffskyld/s/80-95-269432",
+      "pubDate": "2026-11-20T19:07:42+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/20/19/En+ung+kvinne+mistet+livet+da+hun+ble+pkjrt+i+Stavanger+fredag+ettermiddag.+Foto%3A+Marie+Von+Krogh"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Ny Halfvarsson-tabbe: – Det er faen ikke sant",
+      "link": "https://www.nettavisen.no/sport/calle-halfvarsson-hanes-av-petter-northug-surrebukk/s/80-95-268694",
+      "pubDate": "2026-11-20T19:03:02+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579528/nettav/2026/11/20/15/BB260206MT005.jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Magnus Carlsen lagde bølger igjen – droppet langsjakk og vant i armageddon",
+      "link": "https://www.nettavisen.no/sport/carlsen-vant-i-armageddon/s/80-95-269351",
+      "pubDate": "2026-11-20T18:48:31+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579528/nettav/2026/11/20/18/+NTB.bin"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Frisk Askers arena tømt rett før storkamp",
+      "link": "https://www.nettavisen.no/sport/frisk-askers-arena-tomt-rett-for-storkamp/s/80-95-269339",
+      "pubDate": "2026-11-20T18:46:28+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579529/nettav/2026/11/20/18/Frisk+Askers+hjemmearena+ble+tmt+for+publikum+etter+at+det+ble+tent+bluss+fr+kampen+mot+Storhamar.bin"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Traff Polen: - Trodde det var krig",
+      "link": "https://www.dagbladet.no/nyheter/trodde-det-var-krig/85451117",
+      "pubDate": "2026-11-20T18:41:15+00:00",
+      "image": "https://www.dagbladet.no/images/85451760.webp?imageId=85451760&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Franske stjerner etterforskes for voldtekt",
+      "link": "https://www.dagbladet.no/nyheter/franske-stjerner-etterforskes-for-voldtekt/85451917",
+      "pubDate": "2026-11-20T18:40:56+00:00",
+      "image": "https://www.dagbladet.no/images/85451972.webp?imageId=85451972&x=34.54&y=8.04&cropw=65.46&croph=69.96&heightx=34.54&heighty=8.04&heightw=65.46&heighth=69.96&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "Råd til småsparere: – Har vært veldig dyrt å sitte på utsiden",
+      "link": "https://e24.no/boers-og-finans/i/EbWqqG/raad-til-smaasparere-har-vaert-veldig-dyrt-aa-sitte-paa-utsiden?utm_medium=rss",
+      "pubDate": "2026-11-20T18:37:12+00:00",
+      "image": "https://akamai.vgc.no/v2/images/227ff790-ff96-333e-9608-193ce2506178?format=auto&w=1000&s=13d99239e542123d024878ba8599e564854bde58"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Ras i tunnel på riksvei 15 i Stad kommune",
+      "link": "https://www.nettavisen.no/nyheter/ras-i-tunnel-pa-riksvei-15-i-stad-kommune/s/80-95-269297",
+      "pubDate": "2026-11-20T18:23:32+00:00",
+      "image": ""
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Trump vil straffe teknologigigantene",
+      "link": "https://www.nettavisen.no/nyheter/trump-truer-med-enorm-skatt-pa-datasentre-utenfor-usa/s/80-95-269216",
+      "pubDate": "2026-11-20T18:22:43+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/20/17/cueres_scp-mangler_navn_VROV-y6UQHA.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Støre om russisk attentatforsøk: – Meget alvorlig",
+      "link": "https://www.nettavisen.no/nyheter/store-om-russisk-attentatforsok-meget-alvorlig/s/80-95-269237",
+      "pubDate": "2026-11-20T18:17:58+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/20/18/NTB_xBUlJRTNaHo.jpg"
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "NYT: Huang ydmyket ansatte for å få dem til å jobbe mer",
+      "link": "https://e24.no/boers-og-finans/i/LoAQJ4/nyt-huang-ydmyket-ansatte-for-aa-faa-dem-til-aa-jobbe-mer?utm_medium=rss",
+      "pubDate": "2026-11-20T18:17:39+00:00",
+      "image": "https://akamai.vgc.no/v2/images/a1f7b28f-f1ba-3500-bbfd-805dc8aa0083?format=auto&w=1000&s=f60422a93f8b1ba7d0803e2a8a6c3181b02f48b6"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Ble solgt kosttilskudd – så slo fastlegen alarm",
+      "link": "https://www.tv2.no/a/19418189",
+      "pubDate": "2026-11-20T18:14:00+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19433480&panox=0&panow=100&panoh=100&panoy=0&heighty=0&heightx=0&heightw=100&heighth=100&width=480"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Bilmekaniker ble påkjørt av kunde – kunde dømt til 18 måneders fengsel",
+      "link": "https://www.nettavisen.no/nyheter/bilmekaniker-ble-pakjort-av-kunde-kunde-domt-til-18-maneders-fengsel/s/80-95-269207",
+      "pubDate": "2026-11-20T18:06:59+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672141/nettav/2026/11/4/9/+NTB.bin"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "– Hvis valget ikke var rigget, ville krigen i Ukraina aldri skjedd",
+      "link": "https://www.nettavisen.no/nyheter/trump-etter-putin-mote-skylder-ukraina-krigen-pa-2020-valget/s/80-95-269060",
+      "pubDate": "2026-11-20T18:03:46+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672142/nettav/2026/11/20/16/cueres_scp-mangler_navn_QNum0N1stck.jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Conte om United-vrakingen: – Hvis noen er redd for mine metoder, da er de redd for å vinne",
+      "link": "https://www.nettavisen.no/sport/conte-reagerer-pa-ryktene-om-united/s/80-95-269189",
+      "pubDate": "2026-11-20T18:02:22+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579529/nettav/2026/11/20/18/NTB_TptUR169ijA.jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Fordømmer Norge",
+      "link": "https://www.dagbladet.no/sport/russland-fordommer-norge-skammelig/85451953",
+      "pubDate": "2026-11-20T17:56:47+00:00",
+      "image": "https://www.dagbladet.no/images/85451962.webp?imageId=85451962&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Russland hamrer løs mot Danmark",
+      "link": "https://www.nettavisen.no/nyheter/russland-varsler-svar-mot-danmark-ifolge-maria-zakharova/s/80-95-269177",
+      "pubDate": "2026-11-20T17:46:57+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672142/nettav/2026/11/20/6/NTB_DAx8QlfXxhc.jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "19-åring døde i bussulykke: – Sjåføren avhøres nå",
+      "link": "https://www.nettavisen.no/nyheter/19-aring-dode-i-bussulykke-i-stavanger-bussjaforen-avhores-na/s/80-95-269120",
+      "pubDate": "2026-11-20T17:39:45+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672142/nettav/2026/11/20/17/482b5022-2e92-4ff2-b308-7e28ce13719f.jpg"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Nytt forslag: - Maks to",
+      "link": "https://dinside.dagbladet.no/reise/krever-endring-du-far-maks-to/85428693",
+      "pubDate": "2026-11-20T17:35:31+00:00",
+      "image": "https://www.dagbladet.no/images/85428850.webp?imageId=85428850&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen",
+      "cat": "news",
+      "title": "Advarer etter attentatplaner: Viser russisk risikovillighet",
+      "link": "https://www.nettavisen.no/nyheter/frederiksen-om-attentatplaner-viser-russisk-risikovillighet/s/80-95-269150",
+      "pubDate": "2026-11-20T17:35:26+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209672142/nettav/2026/11/20/17/.bin"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Jaget vekk sønnen",
+      "link": "https://www.dagbladet.no/sport/avbryter-intervju-sender-sonnen-vekk/85451184",
+      "pubDate": "2026-11-20T17:34:02+00:00",
+      "image": "https://www.dagbladet.no/images/85451475.webp?imageId=85451475&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Eksperten om Berg-tallene: – Litt uvirkelig",
+      "link": "https://www.nettavisen.no/sport/eksperten-undrer-seg-over-berg-tallene-litt-uvirkelig/s/80-95-268055",
+      "pubDate": "2026-11-20T17:16:18+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579529/nettav/2026/11/20/15/Patrick_Berg.jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Kan bli jojo-prisar på bussen: – Skapar usikkerheit",
+      "link": "https://www.tv2.no/a/19419545",
+      "pubDate": "2026-11-20T17:12:55+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19419866&panow=100&panoh=84.51&panoy=7.75&panox=0&heighty=7.75&heightx=0&heightw=100&heighth=84.51&width=480"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "NSM: Equinor-angrep var rettet mot Microsoft-tjeneste",
+      "link": "https://www.nrk.no/nyheter/nsm_-equinor-angrep-var-rettet-mot-microsoft-tjeneste-1.18086099",
+      "pubDate": "2026-11-20T17:03:22+00:00",
+      "image": ""
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Heggem straffes med vraking etter intervjuer",
+      "link": "https://www.tv2.no/a/19453855",
+      "pubDate": "2026-11-20T17:02:28+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453869&panox=9.25&panow=68&panoh=48.68&panoy=12.42&heightx=22.43&heighty=9.5&heightw=29.43&heighth=71.09&width=480"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Dansk etterretning: Russland sto bak attentatplaner – utviser diplomat",
+      "link": "https://www.tv2.no/a/19453787",
+      "pubDate": "2026-11-20T16:48:18+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19454011&panox=0&panow=100&panoh=99.06&panoy=0.47&heighty=0.47&heightx=0&heightw=100&heighth=99.06&width=480"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Nådeløs dom over eget lag: – Vi ikke er i nærheten",
+      "link": "https://www.tv2.no/a/19453609",
+      "pubDate": "2026-11-20T16:45:04+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19454507&panow=56&panoy=26.28&panox=16.33&panoh=40.19&heightx=30.75&heightw=33.43&heighth=80.69&heighty=18.73&width=480"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Heggem vrakes fra troppen etter uttalelser på Norge-oppdrag",
+      "link": "https://www.nettavisen.no/sport/heggem-vrakes-fra-troppen-etter-ferskt-intervju/s/80-95-268991",
+      "pubDate": "2026-11-20T16:38:05+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579529/nettav/2026/11/20/16/NTB_kmT3lHwoFDE.jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Advarer nettshoppere: – Ikke vent",
+      "link": "https://www.tv2.no/a/19450776",
+      "pubDate": "2026-11-20T16:35:03+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=16694687&panoy=0&panox=0&panow=99.39&panoh=100&heightx=0&heightw=99.39&heighth=100&heighty=0&width=480"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Norges hoppere innledet verdenscupen med utklassingsseier: – Uvant, men lett å venne seg til",
+      "link": "https://www.nettavisen.no/sport/klar-norsk-ledelse-halvveis-i-blandet-lagkonkurranse/s/80-95-268946",
+      "pubDate": "2026-11-20T16:04:26+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579530/nettav/2026/11/20/16/Marius+Lindvik+i+svevet+i+blandet+lagkonkurranse+i+verdenscuppningen+hopp+i+Lillehammer.+Foto%3A+Geir"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Kilder til Dagbladet: Budsjett-seier",
+      "link": "https://www.dagbladet.no/nyheter/det-ma-mye-mer-penger-pa-bordet/85450185",
+      "pubDate": "2026-11-20T15:58:59+00:00",
+      "image": "https://www.dagbladet.no/images/85452097.webp?imageId=85452097&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Kongen inviterer til takkekonsert etter kong Haralds gravferd",
+      "link": "https://www.nrk.no/nyheter/kongen-inviterer-til-takkekonsert-etter-kong-haralds-gravferd-1.18086069",
+      "pubDate": "2026-11-20T15:49:37+00:00",
+      "image": ""
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Største fall på 18 år",
+      "link": "https://borsen.dagbladet.no/nyheter/investorene-vil-komme-tilbake/85450507",
+      "pubDate": "2026-11-20T15:32:06+00:00",
+      "image": "https://www.dagbladet.no/images/85452680.webp?imageId=85452680&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Brann-stjernen: Sov ikke på tre døgn",
+      "link": "https://www.tv2.no/a/19452996",
+      "pubDate": "2026-11-20T15:21:08+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453232&panox=4.2&panoy=1.17&panow=88&panoh=62.93&heightw=37.43&heighth=90.09&heighty=1.51&heightx=25.51&width=480"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Reagerer kraftig: – Ble sjokkert, opprørt og lei meg",
+      "link": "https://www.nettavisen.no/sport/jorunn-sundgot-borgen-tar-kraftig-oppgjor-tore-ovrebo-ble-sjokkert/s/80-95-267485",
+      "pubDate": "2026-11-20T15:07:12+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579530/nettav/2026/11/20/11/NTB_iSh1jwgiGRY.jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Nytt drama for Carlsen – droppet langsjakk igjen",
+      "link": "https://www.tv2.no/a/19453379",
+      "pubDate": "2026-11-20T15:00:00+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453386&panoh=100&panoy=0&panox=0&panow=99.39&heighty=0&heightx=0&heightw=99.39&heighth=100&width=480"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Klimatoppmøtet på overtid",
+      "link": "https://www.nrk.no/nyheter/klimatoppmotet-pa-overtid-1.18086029",
+      "pubDate": "2026-11-20T14:49:30+00:00",
+      "image": "https://gfx.nrk.no/O70WiGYJkDz2-kRlOT4sFQ531t3XthxoUQGvLEK8Jg_g.jpg"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Anthropic stuper dagen etter børsnotering",
+      "link": "https://www.nrk.no/nyheter/anthropic-stuper-dagen-etter-borsnotering-1.18086018",
+      "pubDate": "2026-11-20T14:45:50+00:00",
+      "image": "https://gfx.nrk.no/_FG0hJkUHaljNNmpaMsYMAghL2hTKY8ohfeBjWaVdEKw.jpg"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "– Lærer gutter hvordan de skal behandle kjæresten",
+      "link": "https://www.tv2.no/a/19450754",
+      "pubDate": "2026-11-20T14:33:01+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19443089&panow=100&panoh=67.19&panox=0&panoy=4.69&heighty=0&heightx=25.93&heightw=43.81&heighth=100&width=480"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Advarer om gullkampen: – Det blir respektløst",
+      "link": "https://www.tv2.no/a/19439357",
+      "pubDate": "2026-11-20T14:29:35+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19379720&width=480"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Pochettino møtte pressen: – Vi har det svært travelt",
+      "link": "https://www.tv2.no/a/19453066",
+      "pubDate": "2026-11-20T14:18:07+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19453134&panoh=56.09&panoy=6.87&panox=19.2&panow=80&heightw=34.38&heighth=81.01&heighty=0&heightx=55.36&width=480"
+    },
+    {
+      "source": "NRK",
+      "cat": "news",
+      "title": "Kreml inviterer europeiske land til Ukraina-samtaler",
+      "link": "https://www.nrk.no/nyheter/kreml-inviterer-europeiske-land-til-ukraina-samtaler-1.18085960",
+      "pubDate": "2026-11-20T14:17:51+00:00",
+      "image": ""
+    },
+    {
+      "source": "E24",
+      "cat": "money",
+      "title": "Nye milliarder til Norgespris: – Stor usikkerhet",
+      "link": "https://e24.no/energi-og-klima/i/r8A4Gw/nye-milliarder-til-norgespris-stor-usikkerhet?utm_medium=rss",
+      "pubDate": "2026-11-20T14:15:16+00:00",
+      "image": "https://akamai.vgc.no/v2/images/9066ffea-1855-3835-97b7-8c99572095c5?format=auto&w=1000&s=ba3856e52b7085c075eca583c25fe10e4156cc87"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Henrettelsen varte i over en time: – Ikke la meg lide",
+      "link": "https://www.tv2.no/a/19452363",
+      "pubDate": "2026-11-20T14:07:15+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19452486&panoy=0&panow=100&panoh=100&panox=0&heightx=0&heightw=100&heighth=100&heighty=0&width=480"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Ung kvinne døde etter påkjørsel – bussen kjørte videre",
+      "link": "https://www.tv2.no/a/19452217",
+      "pubDate": "2026-11-20T14:06:21+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19452438&panow=100&panoh=100&panoy=0&panox=0&heighty=0&heightx=0&heightw=100&heighth=100&width=480"
+    },
+    {
+      "source": "Dagbladet",
+      "cat": "news",
+      "title": "Nekter straffskyld etter dødsulykke: - Kan ikke forstå det",
+      "link": "https://www.dagbladet.no/nyheter/kvinne-dode-etter-pakjorsel-i-stavanger/85449766",
+      "pubDate": "2026-11-20T14:06:11+00:00",
+      "image": "https://www.dagbladet.no/images/85450158.webp?imageId=85450158&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Løwstrøm Nyenget vant sesongåpningen etter sekundstrid",
+      "link": "https://www.nettavisen.no/sport/martin-lowstrom-nyenget-vant-sesongapningen-i-beitostolen/s/80-95-268415",
+      "pubDate": "2026-11-20T13:58:01+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579530/nettav/2026/11/20/13/cueres_scp-mangler_navn_A8bfT4XchJU.jpg"
+    },
+    {
+      "source": "Nettavisen Sport",
+      "cat": "sport",
+      "title": "Planlegger å stenge T-banen under Norge–England",
+      "link": "https://www.nettavisen.no/sport/planlegger-a-stenge-t-banen-under-norge-england/s/80-95-268418",
+      "pubDate": "2026-11-20T13:56:44+00:00",
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579530/nettav/2026/11/20/13/NTB_i3-tMuv7iXY.jpg"
+    },
+    {
+      "source": "TV 2 Sport",
+      "cat": "sport",
+      "title": "Beito-sjokk: – Kan ikke tro hva som har skjedd",
+      "link": "https://www.tv2.no/a/19452969",
+      "pubDate": "2026-11-20T13:55:47+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19452966&panow=80&panoh=57.33&panoy=20.61&panox=8.5&heightw=100&heighth=84.51&heighty=7.75&heightx=0&width=480"
+    },
+    {
+      "source": "TV 2",
+      "cat": "news",
+      "title": "Dette er nihilistisk ekstremisme: – Dypt tap av tilhørighet",
+      "link": "https://www.tv2.no/a/19448038",
+      "pubDate": "2026-11-20T13:27:01+00:00",
+      "image": "https://www.cdn.tv2.no/images/?imageId=19448668&panoh=71.67&panow=100&panox=0&panoy=13.06&heightw=41.43&heighty=0&heightx=0&heighth=100&width=480"
     },
     {
       "source": "Nettavisen Sport",
@@ -15,31 +575,7 @@
       "title": "Kaster Klæbo under bussen: – Helt sikker",
       "link": "https://www.nettavisen.no/sport/lagkompisene-kaster-johannes-hosflot-klabo-under-bussen-helt-sikker/v/80-95-267992",
       "pubDate": "2026-11-20T12:50:39+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802139/nettav/2026/11/20/12/Iversen+bredde.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Full panikk: Vil stanse Musk",
-      "link": "https://borsen.dagbladet.no/nyheter/full-panikk-vil-stanse-musk/85448337",
-      "pubDate": "2026-11-20T12:50:13+00:00",
-      "image": "https://www.dagbladet.no/images/85448835.webp?imageId=85448835&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Norsk tenåring dømt i England – jobber for å få ham hjem",
-      "link": "https://www.nettavisen.no/nyheter/domt-til-20-ars-fengsel-i-england-jobber-med-a-fa-ham-hjem/s/80-95-267890",
-      "pubDate": "2026-11-20T12:43:14+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/10/16/9/Pikselert+portrett+i+n%C3%B8ytrale+toner.png"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Kompisene har tatt fri: –⁠ Det er helt sykt",
-      "link": "https://www.nettavisen.no/nyheter/kompisene-har-tatt-fri-det-er-helt-sykt/v/80-95-265751",
-      "pubDate": "2026-11-20T12:38:51+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/11/19/18/A.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579530/nettav/2026/11/20/12/Iversen+bredde.jpg"
     },
     {
       "source": "Nettavisen Sport",
@@ -47,31 +583,15 @@
       "title": "Solbakken om England-trekningen: – Alt er mulig",
       "link": "https://www.nettavisen.no/sport/stale-solbakken-reagerer-pa-england-trekning-alt-er-mulig/s/80-95-267950",
       "pubDate": "2026-11-20T12:28:30+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802139/nettav/2026/11/20/12/TQ2QeO36Drs.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Dagbladets reiseekspert advarer",
-      "link": "https://dinside.dagbladet.no/reise/kan-bli-veldig-dyrt/85448984",
-      "pubDate": "2026-11-20T12:09:15+00:00",
-      "image": "https://www.dagbladet.no/images/85448058.webp?imageId=85448058&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Saudi-Arabia og houthiene varsler nye angrep",
-      "link": "https://www.nettavisen.no/nyheter/saudi-arabia-og-houthiene-varsler-nye-angrep/s/80-95-267875",
-      "pubDate": "2026-11-20T11:59:16+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/11/20/11/Guttene+pner+esker+med+humanitr+hjelp+i+en+elir+for+fordrevne+i+utkanten+av+Aden+i+Jemen.+Bildetr"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579531/nettav/2026/11/20/12/TQ2QeO36Drs.jpg"
     },
     {
       "source": "Nettavisen Sport",
       "cat": "sport",
-      "title": "Tror Norge kan ryste England: – Hundre prosent",
+      "title": "Tror Norge kan ryste England på påskeaften: – Hundre prosent",
       "link": "https://www.nettavisen.no/sport/ekspertene-reagerer-pa-norge-england-i-nations-league-kvartfinale-maksimalt-kult/s/80-95-267857",
       "pubDate": "2026-11-20T11:57:40+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/11/NTB_bpWZ1KDd5Dc.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579531/nettav/2026/11/20/11/NTB_bpWZ1KDd5Dc.jpg"
     },
     {
       "source": "NRK",
@@ -95,7 +615,7 @@
       "title": "England reagerer på Norge-møte",
       "link": "https://www.nettavisen.no/sport/england-reagerer-pa-norge-mote/s/80-95-267770",
       "pubDate": "2026-11-20T11:53:37+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/11/NTB_XHT5AFIPtzo.jpg"
+      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795209579531/nettav/2026/11/20/11/NTB_XHT5AFIPtzo.jpg"
     },
     {
       "source": "TV 2 Sport",
@@ -106,14 +626,6 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19452166&panow=99.39&panoh=100&panoy=0&panox=0&heightw=99.39&heighth=100&heighty=0&heightx=0&width=480"
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Danmarks eldste: Mørk fortid avslørt",
-      "link": "https://www.nettavisen.no/nyheter/danmarks-eldste-kvinne-hadde-lederstilling-i-nazistpartiet/s/80-95-267143",
-      "pubDate": "2026-11-20T11:52:39+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/11/20/9/cueres_scp-mangler_navn_LvpNor1wfZQ.jpg"
-    },
-    {
       "source": "TV 2",
       "cat": "news",
       "title": "Polen: Russiske raketter og drone krenket luftrommet",
@@ -122,52 +634,12 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19452145&panox=0&panow=99.39&panoh=100&panoy=0&heighty=0&heightx=0&heightw=99.39&heighth=100&width=480"
     },
     {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Satt ut på direkten: – Hva skjedde nå?",
-      "link": "https://www.nettavisen.no/sport/satt-ut-pa-direkten-under-nations-league-trekning-hva-skjedde-na/v/80-95-267806",
-      "pubDate": "2026-11-20T11:47:55+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/11/Satt+ut+bredde.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Holder singeltreff på øde øy",
-      "link": "https://www.dagbladet.no/kjendis/alltid-vaert-en-kirsten-giftekniv/85438840",
-      "pubDate": "2026-11-20T11:47:23+00:00",
-      "image": "https://www.dagbladet.no/images/85439828.webp?imageId=85439828&x=0.00&y=20.97&cropw=100.00&croph=35.83&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
       "source": "NRK",
       "cat": "news",
-      "title": "Barn påkjørt i Stavanger",
-      "link": "https://www.nrk.no/nyheter/barn-pakjort-i-stavanger-1.18085816",
+      "title": "Ung kvinne omkom i busspåkjørsel i Stavanger",
+      "link": "https://www.nrk.no/nyheter/ung-kvinne-omkom-i-busspakjorsel-i-stavanger-1.18085816",
       "pubDate": "2026-11-20T11:43:21+00:00",
-      "image": "https://gfx.nrk.no/ipq1jy3L0zQ2BN2-C-VGZQdkdNjs7y-aMAHHqqWNT4RA.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Tusk anklager Russland for bevisst provokasjon",
-      "link": "https://www.nettavisen.no/nyheter/tusk-anklager-russland-for-bevisst-provokasjon/s/80-95-267752",
-      "pubDate": "2026-11-20T11:40:34+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/9/10/18/cueres_scp-mangler_navn_AjfWT_pELww.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Telenor-svikt i nødnettet: Regjeringen vil gi ansvaret til flere selskaper",
-      "link": "https://www.nettavisen.no/nyheter/telenor-svikt-i-nodnettet-regjeringen-vil-gi-ansvaret-til-flere-selskaper/s/80-95-267713",
-      "pubDate": "2026-11-20T11:35:21+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/11/20/11/De+siste+rene+har+utfall+i+mobilnettene+flere+ganger+frt+til+at+folk+ikke+har+ftt+kontakt+med+nd.bin"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Norge møter England i Nations League-kvartfinalen",
-      "link": "https://www.nettavisen.no/sport/norge-moter-england-i-kvartfinalen-i-nations-league/s/80-95-267341",
-      "pubDate": "2026-11-20T11:33:35+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/9/uGvVbAN0NY4.jpg"
+      "image": "https://gfx.nrk.no/ZadN2mG2BDwHcj-UXuw9dQS9OJexnxmnATQIP_XtUdtA.jpg"
     },
     {
       "source": "NRK",
@@ -186,36 +658,12 @@
       "image": "https://www.cdn.tv2.no/images/?imageId=19451773&panoh=84.51&panoy=7.75&panox=0&panow=100&heightx=0&heightw=100&heighth=84.51&heighty=7.75&width=480"
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Medietilsynet understreker: Ikke la barn spille GTA 6",
-      "link": "https://www.nettavisen.no/nyheter/medietilsynet-understreker-ikke-la-barn-spille-gta-6/s/80-95-267659",
-      "pubDate": "2026-11-20T11:29:14+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579416/nettav/2026/11/20/11/cueres_scp-mangler_navn_69Ym3qbcpyo.jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Første likestillingsmelding for menn på 20 år",
-      "link": "https://www.nettavisen.no/nyheter/gutter-og-menn-far-sin-forste-likestillingsmelding-pa-20-ar/s/80-95-267680",
-      "pubDate": "2026-11-20T11:29:10+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/11/Kultur-+og+likestillingsminister+Lubna+Jaffery+%28Ap%29+sier+at+vi+trenger+en+likestillingspolitikk+som.bin"
-    },
-    {
       "source": "TV 2 Sport",
       "cat": "sport",
       "title": "Møter England i ny kvartfinale: – Alt kan skje på Wembley",
       "link": "https://www.tv2.no/a/19450904",
       "pubDate": "2026-11-20T11:26:51+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19452015&width=480"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Reaksjoner i England: - Da får han sparken",
-      "link": "https://www.dagbladet.no/sport/motstanderen-er-klar/85448016",
-      "pubDate": "2026-11-20T11:26:51+00:00",
-      "image": "https://www.dagbladet.no/images/85450205.webp?imageId=85450205&width=1058&height=478&format=jpg"
     },
     {
       "source": "NRK",
@@ -226,60 +674,12 @@
       "image": ""
     },
     {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Ringte fra flyet: - Putin er lei",
-      "link": "https://www.dagbladet.no/nyheter/ringte-europeerne-etter-putin-mote/85448524",
-      "pubDate": "2026-11-20T11:19:02+00:00",
-      "image": "https://www.dagbladet.no/images/85449558.webp?imageId=85449558&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "SE NÅ! Trekningen av Nations League",
-      "link": "https://www.nettavisen.no/sport/se-na-trekningen-av-nations-league/v/80-95-267617",
-      "pubDate": "2026-11-20T11:16:31+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/11/Norge_Danmark_Haaland.jpg"
-    },
-    {
       "source": "E24",
       "cat": "money",
       "title": "Normal fortsetter veksten",
       "link": "https://e24.no/naeringsliv/i/qOLeBo/normal-fortsetter-veksten?utm_medium=rss",
       "pubDate": "2026-11-20T11:15:34+00:00",
       "image": "https://akamai.vgc.no/v2/images/1a0a1290-cd7d-3a12-9e97-6eb2981d7609?format=auto&w=1000&s=8a3ea4f7f5460772978ba0ec9a2630d82c6ec0a4"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Weng herjet på Beitostølen",
-      "link": "https://www.nettavisen.no/sport/heidi-weng-herjet-pa-beitostolen/s/80-95-267581",
-      "pubDate": "2026-11-20T11:14:28+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/11/NTB_qYPe3F11diY.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "- Tidenes ulv i fåreklær",
-      "link": "https://www.dagbladet.no/sport/vant-etter-thriller/85448765",
-      "pubDate": "2026-11-20T11:12:58+00:00",
-      "image": "https://www.dagbladet.no/images/85449800.webp?imageId=85449800&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Herman Kristoffersen er død",
-      "link": "https://www.nettavisen.no/nyheter/herman-kristoffersen-er-dod/s/80-95-267623",
-      "pubDate": "2026-11-20T11:12:32+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/11/Herman+Kristoffersen+gir+ut+roman%3A+-++Det+er+vanskelig%2C+det+der.++finne+seg+selv"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Anklager Russland for å bruke ulovlig våpen",
-      "link": "https://www.nettavisen.no/nyheter/zelenskyj-anklager-russland-for-bruk-av-klasevapen-i-nattens-massive-angrep/s/80-95-267596",
-      "pubDate": "2026-11-20T11:11:37+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/11/En+ukrainsk+kvinne+har+nettopp+opplevd+at+pizzarestauranten+der+hun+jobbet%2C+er+blitt+delagt+i+et+ru.bin"
     },
     {
       "source": "NRK",
@@ -298,14 +698,6 @@
       "image": ""
     },
     {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Kostet 279 millioner",
-      "link": "https://www.dagbladet.no/kjendis/dette-ble-prislappen/85449305",
-      "pubDate": "2026-11-20T10:54:39+00:00",
-      "image": "https://www.dagbladet.no/images/85449350.webp?imageId=85449350&width=1058&height=478&format=jpg"
-    },
-    {
       "source": "NRK",
       "cat": "news",
       "title": "Zelenskyj: Ett av de største angrepene til nå",
@@ -319,7 +711,7 @@
       "title": "Prislappen for kong Haralds gravferd: 279 millioner",
       "link": "https://e24.no/norsk-oekonomi/i/7P01nV/prislappen-for-kong-haralds-gravferd-279-millioner?utm_medium=rss",
       "pubDate": "2026-11-20T10:52:42+00:00",
-      "image": "https://akamai.vgc.no/v2/images/50bcb6c1-cdd0-344a-869e-497d8b1d9941?format=auto&w=1000&s=7e53fb6801af27e7d8bf1808c0a6d321b65f1818"
+      "image": "https://akamai.vgc.no/v2/images/09f291cf-b5c3-3c50-8b3d-4a1405dfa02f?format=auto&w=1000&s=6729c7c1be393a54339f211761e8c8ba101a9dc7"
     },
     {
       "source": "TV 2",
@@ -328,14 +720,6 @@
       "link": "https://www.tv2.no/a/19451802",
       "pubDate": "2026-11-20T10:52:10+00:00",
       "image": "https://www.cdn.tv2.no/images/?imageId=19451809&panow=100&panoy=7.75&panoh=84.51&panox=0&heighty=7.75&heightx=0&heightw=100&heighth=84.51&width=480"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "DIREKTE: Norge møter England",
-      "link": "https://www.nettavisen.no/sport/direkte-trekning-av-nations-league-kvartfinalene/s/80-95-267425",
-      "pubDate": "2026-11-20T10:47:25+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/10/cueres_scp-mangler_navn_80sBtZbQfqI.jpg"
     },
     {
       "source": "NRK",
@@ -354,52 +738,12 @@
       "image": ""
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "London-grana er felt",
-      "link": "https://www.nettavisen.no/nyheter/london-grana-er-felt/s/80-95-267554",
-      "pubDate": "2026-11-20T10:41:14+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/10/+NTB_3.bin"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Skal vise Putins missil",
-      "link": "https://www.nettavisen.no/nyheter/skal-vise-vladimir-putins-missil/v/80-95-267545",
-      "pubDate": "2026-11-20T10:40:42+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/10/Missil+bredde.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Jokkmokk-sjefens hemmelige pornoliv",
-      "link": "https://www.dagbladet.no/nyheter/slik-ble-det-ville-dobbeltlivet-avslort/85448531",
-      "pubDate": "2026-11-20T10:39:52+00:00",
-      "image": "https://www.dagbladet.no/images/85448663.webp?imageId=85448663&x=0.00&y=0.00&cropw=100.00&croph=44.64&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Unngår flystreiken - inngår ny avtale",
-      "link": "https://www.nettavisen.no/nyheter/enighet-i-sas-link-oppgjoret-ingen-flystreik/s/80-95-267536",
-      "pubDate": "2026-11-20T10:37:14+00:00",
-      "image": ""
-    },
-    {
       "source": "NRK",
       "cat": "news",
       "title": "Enighet i SAS Link-oppgjøret – ingen flystreik",
       "link": "https://www.nrk.no/nyheter/enighet-i-sas-link-oppgjoret-_-ingen-flystreik-1.18085744",
       "pubDate": "2026-11-20T10:36:23+00:00",
       "image": ""
-    },
-    {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Over halvparten av oljejobbene kan forsvinne innen 2050",
-      "link": "https://www.nettavisen.no/nyheter/over-halvparten-av-oljejobbene-kan-forsvinne-innen-2050/s/80-95-267527",
-      "pubDate": "2026-11-20T10:35:41+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180579417/nettav/2026/11/20/10/Over+halvparten+av+jobbene+innen+olje+og+gass+kan+forsvinne+innen+2050+dersom+bransjen+ikke+omstille.bin"
     },
     {
       "source": "E24",
@@ -410,20 +754,12 @@
       "image": "https://akamai.vgc.no/v2/images/52cee3d6-9728-3050-ba01-47fba41a2c4e?format=auto&w=1000&s=41b226615c7ef4c971a66808a152a84a3cd5eb42"
     },
     {
-      "source": "Nettavisen",
-      "cat": "news",
-      "title": "Ulv felt i Sør-Varanger",
-      "link": "https://www.nettavisen.no/nyheter/ulv-felt-i-sor-varanger/s/80-95-267521",
-      "pubDate": "2026-11-20T10:32:34+00:00",
-      "image": ""
-    },
-    {
       "source": "Dagbladet",
       "cat": "news",
-      "title": "Dansker tatt: - Rapper skulle drepes for Russland",
+      "title": "Raser mot Russland: - Dere er avslørt",
       "link": "https://www.dagbladet.no/nyheter/skulle-drepe-rapper-for-russisk-etterretning/85449164",
       "pubDate": "2026-11-20T10:29:50+00:00",
-      "image": "https://www.dagbladet.no/images/85449200.webp?imageId=85449200&x=0.00&y=0.00&cropw=100.00&croph=100.00&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
+      "image": "https://www.dagbladet.no/images/85451787.webp?imageId=85451787&width=1058&height=478&format=jpg"
     },
     {
       "source": "TV 2",
@@ -450,14 +786,6 @@
       "image": ""
     },
     {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Missil i Polen: - Russisk provokasjon",
-      "link": "https://www.dagbladet.no/nyheter/full-alarm-etter-mystiske-observasjoner-i-polen/85448872",
-      "pubDate": "2026-11-20T10:04:49+00:00",
-      "image": "https://www.dagbladet.no/images/85449430.webp?imageId=85449430&width=1058&height=478&format=jpg"
-    },
-    {
       "source": "NRK",
       "cat": "news",
       "title": "Polen: Russisk missil falt ned på polsk jord",
@@ -472,334 +800,6 @@
       "link": "https://e24.no/boers-og-finans/i/KL3XmX/ukens-investtech-disse-aksjene-boer-du-eie-i-desember?utm_medium=rss",
       "pubDate": "2026-11-20T10:01:11+00:00",
       "image": "https://akamai.vgc.no/v2/images/04786732-29aa-32a6-80b5-de97140a10ad?format=auto&w=650&s=e22bb16645a5b3cd21daa1de2f586c9f1d5f21eb"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Frp reagerer etter TV 2-sak: – Kun én ting å si",
-      "link": "https://www.tv2.no/a/19442526",
-      "pubDate": "2026-11-20T09:56:54+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19439863&panow=100&panoh=100&panox=0&panoy=0&heightw=100&heighth=100&heighty=0&heightx=0&width=480"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Fantasy Premier League: Nye skader, nye managere og nye dilemmaer",
-      "link": "https://www.nettavisen.no/sport/fantasy-premier-league-nye-skader-nye-managere-og-nye-dilemmaer/s/80-95-260459",
-      "pubDate": "2026-11-20T09:53:35+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/8/NTB_XGjPCIZZPL8.jpg"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Bolsjunov anket FIS-avslag",
-      "link": "https://www.nettavisen.no/sport/adressa-bolsjunov-anket-fis-avslag/s/80-95-267395",
-      "pubDate": "2026-11-20T09:53:21+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802140/nettav/2026/11/20/9/BB220227ZS006+%2824%29.jpg"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Legger seg flat etter United-lekkasjen",
-      "link": "https://www.nettavisen.no/sport/legger-seg-flat-etter-united-lekkasjen/s/80-95-267269",
-      "pubDate": "2026-11-20T09:48:00+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802141/nettav/2026/11/20/9/NTB_7ILaiwKehbk.jpg"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Anthropic faller 6 prosent i førhandelen",
-      "link": "https://e24.no/boers-og-finans/i/KL3X96/anthropic-faller-6-prosent-i-foerhandelen-etter-historisk-boersdebut?utm_medium=rss",
-      "pubDate": "2026-11-20T09:22:55+00:00",
-      "image": "https://akamai.vgc.no/v2/images/4c31c740-0a21-3a81-9d0c-68ee54d63bc3?format=auto&w=1000&s=904749231d6f53514a5c71cf08f465f8f5c4bf8c"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Enorme investeringer: Må rydde opp",
-      "link": "https://www.dagbladet.no/meninger/mens-laksen-dor-som-fluer-i-elvene/85437486",
-      "pubDate": "2026-11-20T09:22:38+00:00",
-      "image": "https://www.dagbladet.no/images/85440027.webp?imageId=85440027&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "– Måtte lære meg å begrense sarkasmen",
-      "link": "https://e24.no/karriere-og-ledelse/i/pM60mV/maatte-laere-meg-aa-begrense-sarkasmen?utm_medium=rss",
-      "pubDate": "2026-11-20T09:13:48+00:00",
-      "image": "https://akamai.vgc.no/v2/images/03c2e23a-67ed-34fb-8f16-5960815a8a45?format=auto&w=1000&s=f120cca219e1421043b360110e66da4a9761fb70"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Riksantikvaren godtar bybane- og sykkeltrasé ved Bryggen",
-      "link": "https://www.nrk.no/nyheter/riksantikvaren-godtar-bybane--og-sykkeltrase-ved-bryggen-1.18085567",
-      "pubDate": "2026-11-20T09:05:15+00:00",
-      "image": ""
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "- Har ikke noe med meg å gjøre",
-      "link": "https://www.dagbladet.no/kjendis/har-ikke-noe-med-meg-a-gjore/85445083",
-      "pubDate": "2026-11-20T09:04:00+00:00",
-      "image": "https://www.dagbladet.no/images/85445097.webp?imageId=85445097&x=9.34&y=4.06&cropw=88.00&croph=59.72&heightx=43.00&heighty=0.00&heightw=43.33&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Nammo nekter: Finland sier noe annet",
-      "link": "https://borsen.dagbladet.no/nyheter/nammo-nekter-finland-bekrefter-landmine-diskusjon/85431674",
-      "pubDate": "2026-11-20T09:01:19+00:00",
-      "image": "https://www.dagbladet.no/images/85432434.webp?imageId=85432434&x=0.00&y=0.00&cropw=100.00&croph=71.67&heightx=29.62&heighty=0.00&heightw=41.20&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Vaksine-råd droppes: – Skuffende",
-      "link": "https://www.tv2.no/a/19440633",
-      "pubDate": "2026-11-20T08:47:51+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19093243&width=480"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Setter «kjøp» på børsvinner",
-      "link": "https://e24.no/boers-og-finans/i/Pv9X0R/setter-kjoep-paa-boersvinner?utm_medium=rss",
-      "pubDate": "2026-11-20T08:46:33+00:00",
-      "image": "https://akamai.vgc.no/v2/images/2b44f0e3-4fae-398d-a264-6d545a711d6f?format=auto&w=1000&s=0766d2de927a5ea3059d7e94649554e7ffcdbb66"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Enige om mobilitetsordning for unge",
-      "link": "https://www.nrk.no/nyheter/enige-om-mobilitetsordning-for-unge-1.18085610",
-      "pubDate": "2026-11-20T08:43:54+00:00",
-      "image": ""
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Bekreftet: Petter Northug dukker opp",
-      "link": "https://www.nettavisen.no/sport/bekreftet-petter-northug-gar-pa-beito/s/80-95-266963",
-      "pubDate": "2026-11-20T08:37:45+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802141/nettav/2026/11/20/8/NTB_rxJ3sqPEQ8Y.jpg"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Har satt fyr på USA",
-      "link": "https://www.dagbladet.no/meninger/brodre-sluntrer-unna/85444808",
-      "pubDate": "2026-11-20T08:32:38+00:00",
-      "image": "https://www.dagbladet.no/images/85448410.webp?imageId=85448410&x=0.00&y=0.00&cropw=100.00&croph=83.77&heightx=0.00&heighty=0.00&heightw=100.00&heighth=100.00&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Equinor har stanset cyberangrep",
-      "link": "https://e24.no/boers-og-finans/i/0vnqbG/equinor-har-stanset-cyberangrep-etter-flere-dager-har-meldt-hendelsen-til-politiet?utm_medium=rss",
-      "pubDate": "2026-11-20T08:26:16+00:00",
-      "image": "https://akamai.vgc.no/v2/images/c957d27d-26a1-3cf7-ba6a-7adbe4c959bc?format=auto&w=1000&s=f9545655a058d2e44a048b4b75d85a5e09c2a7f1"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "– Mareritt for leietakere",
-      "link": "https://www.tv2.no/a/19448567",
-      "pubDate": "2026-11-20T08:24:22+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19448980&panow=99.39&panoh=100&panoy=0&panox=0&heighty=0&heightx=0&heightw=99.39&heighth=100&width=480"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Cyberangrepet mot Equinor er stanset",
-      "link": "https://www.nrk.no/nyheter/cyberangrepet-mot-equinor-er-stanset-1.18085592",
-      "pubDate": "2026-11-20T08:18:15+00:00",
-      "image": ""
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Wiklund med utklassingsseier i Japan",
-      "link": "https://www.nettavisen.no/sport/wiklund-med-utklassingsseier-i-japan/s/80-95-266894",
-      "pubDate": "2026-11-20T08:16:54+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802141/nettav/2026/11/20/8/+NTB.bin"
-    },
-    {
-      "source": "Nettavisen Sport",
-      "cat": "sport",
-      "title": "Trump benåder avdød skandaleprofil",
-      "link": "https://www.nettavisen.no/sport/donald-trump-benader-den-avdode-baseballegenden-pete-rose/s/80-95-266303",
-      "pubDate": "2026-11-20T08:10:25+00:00",
-      "image": "http://g.api.no/obscura/API/image/r1/cue/tr_1920x1332_l_f/1795180802141/nettav/2026/11/19/22/Donald+Trump+USA.jpg"
-    },
-    {
-      "source": "Gamereactor",
-      "cat": "games",
-      "title": "Deep Rock Galactic Season 7 «Contingency Protocol» avduket, spillbart nå",
-      "link": "https://www.gamereactor.no/deep-rock-galactic-season-7-contingency-protocol-avduket-spillbart-na/",
-      "pubDate": "2026-11-20T08:00:32+00:00",
-      "image": ""
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Nedgang på Oslo Børs",
-      "link": "https://e24.no/boers-og-finans/i/ez8RGy/nedgang-paa-oslo-boers?utm_medium=rss",
-      "pubDate": "2026-11-20T08:00:25+00:00",
-      "image": "https://akamai.vgc.no/v2/images/891cd784-8003-3814-811e-53664c9a5c14?format=auto&w=1000&s=7ec3e36a04b291d689850058894063f775ccc119"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Myanmar om folkemord-dom: Urettferdig",
-      "link": "https://www.nrk.no/nyheter/myanmar-om-folkemord-dom_-urettferdig-1.18085585",
-      "pubDate": "2026-11-20T07:58:08+00:00",
-      "image": ""
-    },
-    {
-      "source": "TV 2 Sport",
-      "cat": "sport",
-      "title": "Ble filmet med drone: – Ydmykende",
-      "link": "https://www.tv2.no/a/19450672",
-      "pubDate": "2026-11-20T07:56:10+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19450782&panox=0&panoy=0&panow=100&panoh=100&heightw=100&heighty=0&heightx=0&heighth=100&width=480"
-    },
-    {
-      "source": "TV 2 Sport",
-      "cat": "sport",
-      "title": "Beskjeden fra Knutsen endret livet",
-      "link": "https://www.tv2.no/a/19444402",
-      "pubDate": "2026-11-20T07:46:57+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19448062&panow=61.12&panoh=43.88&panoy=22&panox=7.29&heightx=20.69&heighty=14.99&heightw=27.2&heighth=65.52&width=480"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "TV 2: Høiby får nok en forsvarer",
-      "link": "https://www.nrk.no/nyheter/tv-2_-hoiby-far-nok-en-forsvarer-1.18085579",
-      "pubDate": "2026-11-20T07:45:25+00:00",
-      "image": ""
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Marius Borg Høiby får ny forsvarsadvokat",
-      "link": "https://www.tv2.no/a/19449947",
-      "pubDate": "2026-11-20T07:40:30+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19450700&panow=100&panoh=31.85&panox=0&panoy=12.35&width=480"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Lave innvandringstall i siste kvartal",
-      "link": "https://www.nrk.no/nyheter/lave-innvandringstall-i-siste-kvartal-1.18085546",
-      "pubDate": "2026-11-20T07:32:31+00:00",
-      "image": ""
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Russland forbereder besøk fra EU",
-      "link": "https://www.nrk.no/nyheter/russland-forbereder-besok-fra-eu-1.18085562",
-      "pubDate": "2026-11-20T06:58:29+00:00",
-      "image": ""
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Ukjent «skatteliste-topp» har kjøpt villa til 26,5 millioner kroner",
-      "link": "https://e24.no/boers-og-finans/i/0vnqnB/ukjent-skatteliste-topp-har-kjoept-villa-til-26-5-millioner-kroner?utm_medium=rss",
-      "pubDate": "2026-11-20T06:40:16+00:00",
-      "image": "https://akamai.vgc.no/v2/images/6d34ba67-4a37-370e-b60c-9068a7df7a28?format=auto&w=1000&s=bde77ccef03aa5e09a7a3051f4d2fc898bed6b9a"
-    },
-    {
-      "source": "NRK",
-      "cat": "news",
-      "title": "Polens luftrom krenket av ukjent objekt",
-      "link": "https://www.nrk.no/nyheter/polens-luftrom-krenket-av-ukjent-objekt-1.18085561",
-      "pubDate": "2026-11-20T06:38:34+00:00",
-      "image": ""
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Frontline knuste forventningene – venter beste år noensinne",
-      "link": "https://e24.no/boers-og-finans/i/bk5d35/tankkjempen-frontline-knuste-forventningene-tjente-642-millioner-dollar-i-tredje-kvartal?utm_medium=rss",
-      "pubDate": "2026-11-20T06:31:26+00:00",
-      "image": "https://akamai.vgc.no/v2/images/af8357dd-4609-3af2-958b-94400024687a?format=auto&w=1000&s=04af81fbfe5129e3a7a5cbe311e9e0a50e79a128"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Spytter det ut igjen: – Burde vært anmeldt",
-      "link": "https://www.tv2.no/a/19395989",
-      "pubDate": "2026-11-20T06:31:08+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19448886&panow=100&panoh=100&panoy=0&panox=0&heightx=0&heightw=100&heighth=100&heighty=0&width=480"
-    },
-    {
-      "source": "Dagbladet",
-      "cat": "news",
-      "title": "Johaug: - Å, helsike!",
-      "link": "https://www.dagbladet.no/sport/jeg-hadde-fatt-hets/85446940",
-      "pubDate": "2026-11-20T05:41:25+00:00",
-      "image": "https://www.dagbladet.no/images/85447821.webp?imageId=85447821&width=1058&height=478&format=jpg"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Nei, volatilitet er ikke risiko",
-      "link": "https://e24.no/boers-og-finans/i/dJOrb1/nei-volatilitet-er-ikke-risiko?utm_medium=rss",
-      "pubDate": "2026-11-20T05:23:55+00:00",
-      "image": "https://akamai.vgc.no/v2/images/469abc97-8ea7-3efe-b801-33490771dc7d?format=auto&w=1000&s=5b2eb03090f9ae7b71bb60a803118ae2eb2841f7"
-    },
-    {
-      "source": "TV 2 Sport",
-      "cat": "sport",
-      "title": "– Det er skandaløst",
-      "link": "https://www.tv2.no/a/19444583",
-      "pubDate": "2026-11-20T05:00:00+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19446192&panox=27.44&panow=52&panoh=37.28&panoy=8.69&heighty=8.58&heightx=45.09&heightw=21.43&heighth=51.73&width=480"
-    },
-    {
-      "source": "E24",
-      "cat": "money",
-      "title": "Olav (86) satser på Anthropic: – Handler som om jeg skal leve 20 år til",
-      "link": "https://e24.no/boers-og-finans/i/Vxbkg1/olav-86-satser-paa-anthropic-handler-som-om-jeg-skal-leve-20-aar-til?utm_medium=rss",
-      "pubDate": "2026-11-20T04:00:00+00:00",
-      "image": "https://akamai.vgc.no/v2/images/3f08a8a1-1ca1-3f8b-8bb7-546ec75dc25b?format=auto&w=1000&s=b28b66cd62af526205219effaba70e4171381a4c"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "USAs cybersjef får sparken",
-      "link": "https://www.tv2.no/a/19450470",
-      "pubDate": "2026-11-20T03:46:29+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19450480&panoy=0&panow=96.59&panoh=100&panox=0&heightx=0&heightw=96.59&heighth=100&heighty=0&width=480"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Thomas Markle får gjennomføre rettssak",
-      "link": "https://www.tv2.no/a/19450438",
-      "pubDate": "2026-11-20T03:10:38+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19450452&panow=100&panoh=59.25&panoy=24.35&panox=0&heighty=24.35&heightx=0&heightw=100&heighth=59.25&width=480"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Presidentvalget i Frankrike kan fremskyndes",
-      "link": "https://www.tv2.no/a/19450395",
-      "pubDate": "2026-11-20T02:16:59+00:00",
-      "image": "https://www.cdn.tv2.no/images/?imageId=19450408&panoy=7.75&panow=100&panoh=84.51&panox=0&heightx=0&heightw=100&heighth=84.51&heighty=7.75&width=480"
-    },
-    {
-      "source": "TV 2",
-      "cat": "news",
-      "title": "Sprenger fem tonn sprengstoff: – Kan eksplodere av seg selv",
-      "link": "https://www.tv2.no/a/19449283",
-      "pubDate": "2026-11-19T23:41:04+00:00",
-      "image": ""
     }
   ],
   "sources": {
